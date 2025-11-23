@@ -9,7 +9,8 @@ import argparse
 from pathlib import Path
 from typing import List, Dict, Any, Tuple
 from concurrent.futures import ThreadPoolExecutor, as_completed
-
+import tqdm
+from tqdm import tqdm
 import torch
 from PIL import Image
 from transformers import AutoModelForCausalLM, AutoProcessor
@@ -443,7 +444,7 @@ def parse_pdf_to_elements(
     # Write JSONL: one record per page
     out_json = out_dir / f"mineru_elements.json"
     out_json.write_text(
-        json.dumps({"elements": all_elements}, ensure_ascii=False, indent=2),
+        json.dumps(all_elements, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
 
@@ -480,9 +481,9 @@ def main():
 
     # Load the model once
     model, processor = load_model_and_processor(args.model_path)
-    pdfs = pdfs[:1]
+    pdfs = pdfs
 
-    for pdf_path in pdfs:
+    for pdf_path in tqdm(pdfs, total=len(pdfs)):
         pdf_out_dir = Path(args.out_dir) / Path(pdf_path).stem
         parse_pdf_to_elements(
             pdf_path=pdf_path,
