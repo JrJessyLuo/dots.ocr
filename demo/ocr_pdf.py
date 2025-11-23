@@ -222,7 +222,7 @@ def run_layout_json_on_image(
         return_tensors="pt",
     )
 
-    device = "cuda" if torch.cuda.is_available() else "cpu"
+    device = "cuda"
     inputs = {k: (v.to(device) if torch.is_tensor(v) else v) for k, v in inputs.items()}
 
     t0 = time.time()
@@ -231,6 +231,8 @@ def run_layout_json_on_image(
         trimmed = [out_ids[len(in_ids):] for in_ids, out_ids in zip(inputs["input_ids"], gen_ids)]
         texts = processor.batch_decode(trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False)
     elapsed = time.time() - t0
+
+    print('----', texts)
 
     text = texts[0] if texts else ""
     data = safe_json_from_text(text)
