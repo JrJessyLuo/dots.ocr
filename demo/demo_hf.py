@@ -64,7 +64,8 @@ if __name__ == "__main__":
     )
     processor = AutoProcessor.from_pretrained(model_path,  trust_remote_code=True)
 
-    image_path = "demo/demo_image1.jpg"
+    # image_path = "demo/demo_image1.jpg"
+    image_path = "../output_res/dots_ocr/docstructbench_llm-raw-scihub-o.O-hup.908.pdf_5/images/docstructbench_llm-raw-scihub-o.O-hup.908.pdf_5.pdf_0.jpg"
     for prompt_mode, prompt in dict_promptmode_to_prompt.items():
         print(f"prompt: {prompt}")
         inference(image_path, prompt, model, processor)
