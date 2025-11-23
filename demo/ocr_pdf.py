@@ -20,74 +20,74 @@ from dots_ocr.utils import dict_promptmode_to_prompt  # optional; not strictly u
 
 # --------------------------- Prompt & naming ---------------------------
 
-def build_layout_prompt(page_idx: int) -> str:
-    """
-    JSON-only instruction for layout extraction (tables/figures + captions).
-    """
-    return f"""
-You are a document layout extractor for research PDFs.
+# def build_layout_prompt(page_idx: int) -> str:
+#     """
+#     JSON-only instruction for layout extraction (tables/figures + captions).
+#     """
+#     return f"""
+# You are a document layout extractor for research PDFs.
 
-For THIS page image, find ALL:
-  - tables
-  - table captions
-  - figures
-  - figure captions
+# For THIS page image, find ALL:
+#   - tables
+#   - table captions
+#   - figures
+#   - figure captions
 
-For EACH region you detect, output an object with:
-  - "page_idx": integer page index (0-based). For this page, ALWAYS use {page_idx}.
-  - "category_type": one of ["table", "table_caption", "figure", "figure_caption"].
-  - "bbox_norm": [x0, y0, x1, y1] in NORMALIZED coordinates (top-left, bottom-right), each in [0, 1].
-        If you truly cannot estimate, use null.
-  - "text": plain text content.
-        * For captions: the full caption text (e.g., "Figure 1: ...").
-        * For tables: leave "" or a very short summary if needed.
-        * For figures: usually "".
-  - "html": for tables ONLY, reconstruct the table BODY as HTML:
-        <table> with <thead>/<tbody>/<tr>/<th>/<td>.
-        Do NOT include caption text in this HTML.
-        For non-table elements, set "html": "".
+# For EACH region you detect, output an object with:
+#   - "page_idx": integer page index (0-based). For this page, ALWAYS use {page_idx}.
+#   - "category_type": one of ["table", "table_caption", "figure", "figure_caption"].
+#   - "bbox_norm": [x0, y0, x1, y1] in NORMALIZED coordinates (top-left, bottom-right), each in [0, 1].
+#         If you truly cannot estimate, use null.
+#   - "text": plain text content.
+#         * For captions: the full caption text (e.g., "Figure 1: ...").
+#         * For tables: leave "" or a very short summary if needed.
+#         * For figures: usually "".
+#   - "html": for tables ONLY, reconstruct the table BODY as HTML:
+#         <table> with <thead>/<tbody>/<tr>/<th>/<td>.
+#         Do NOT include caption text in this HTML.
+#         For non-table elements, set "html": "".
 
-Return ONLY a JSON object with the following structure:
+# Return ONLY a JSON object with the following structure:
 
-{{
-  "elements": [
-     {{
-       "page_idx": {page_idx},
-       "category_type": "table",
-       "bbox_norm": [0.1, 0.2, 0.9, 0.5],
-       "text": "",
-       "html": "<table>...</table>"
-     }},
-     {{
-       "page_idx": {page_idx},
-       "category_type": "table_caption",
-       "bbox_norm": [0.1, 0.15, 0.9, 0.2],
-       "text": "Table 1: Example caption.",
-       "html": ""
-     }},
-     {{
-       "page_idx": {page_idx},
-       "category_type": "figure",
-       "bbox_norm": [0.1, 0.55, 0.9, 0.9],
-       "text": "",
-       "html": ""
-     }},
-     {{
-       "page_idx": {page_idx},
-       "category_type": "figure_caption",
-       "bbox_norm": [0.1, 0.9, 0.9, 0.95],
-       "text": "Figure 1: Example caption.",
-       "html": ""
-     }}
-  ]
-}}
+# {{
+#   "elements": [
+#      {{
+#        "page_idx": {page_idx},
+#        "category_type": "table",
+#        "bbox_norm": [0.1, 0.2, 0.9, 0.5],
+#        "text": "",
+#        "html": "<table>...</table>"
+#      }},
+#      {{
+#        "page_idx": {page_idx},
+#        "category_type": "table_caption",
+#        "bbox_norm": [0.1, 0.15, 0.9, 0.2],
+#        "text": "Table 1: Example caption.",
+#        "html": ""
+#      }},
+#      {{
+#        "page_idx": {page_idx},
+#        "category_type": "figure",
+#        "bbox_norm": [0.1, 0.55, 0.9, 0.9],
+#        "text": "",
+#        "html": ""
+#      }},
+#      {{
+#        "page_idx": {page_idx},
+#        "category_type": "figure_caption",
+#        "bbox_norm": [0.1, 0.9, 0.9, 0.95],
+#        "text": "Figure 1: Example caption.",
+#        "html": ""
+#      }}
+#   ]
+# }}
 
-If there are NO such elements, return {{"elements": []}}.
+# If there are NO such elements, return {{"elements": []}}.
 
-IMPORTANT:
-  - Do NOT include any extra keys or commentary.
-  - The top-level object MUST have exactly one key "elements" with a list of objects.
-""".strip()
+# IMPORTANT:
+#   - Do NOT include any extra keys or commentary.
+#   - The top-level object MUST have exactly one key "elements" with a list of objects.
+# """.strip()
 
 
 def omni_image_path(pdf_stem: str, page_idx: int) -> str:
@@ -189,6 +189,87 @@ def load_model_and_processor(model_path: str):
     return model, processor
 
 
+import re
+import json
+from typing import List, Dict, Any, Tuple
+from PIL import Image
+import torch, time
+
+def _strip_code_fences(s: str) -> str:
+    s = s.strip()
+    s = re.sub(r'^```(?:json)?\s*', '', s, flags=re.IGNORECASE)
+    s = re.sub(r'\s*```$', '', s)
+    return s.strip()
+
+def _parse_output_text_to_list(text: str) -> List[Dict[str, Any]]:
+    """
+    Accepts model text like:
+      '[{"bbox":[...],"category":"Text","text":".."}, ...]'
+    Possibly wrapped in code fences or with stray text.
+    Returns a list of dicts; empty list on failure.
+    """
+    if not text:
+        return []
+    s = _strip_code_fences(text)
+
+    # Try direct list parse
+    try:
+        obj = json.loads(s)
+        if isinstance(obj, list):
+            return obj
+        # Sometimes it's a dict with a list under a key
+        if isinstance(obj, dict):
+            for v in obj.values():
+                if isinstance(v, list) and v and isinstance(v[0], dict):
+                    return v
+    except Exception:
+        pass
+
+    # Fallback: extract the largest [...] block
+    m = re.search(r'\[.*\]', s, flags=re.DOTALL)
+    if m:
+        try:
+            obj = json.loads(m.group(0))
+            if isinstance(obj, list):
+                return obj
+        except Exception:
+            return []
+    return []
+
+def _norm_bbox(bbox, w: int, h: int):
+    """
+    bbox: [x0,y0,x1,y1] in pixels → [nx0,ny0,nx1,ny1] in [0,1]
+    Returns None if invalid.
+    """
+    if (not isinstance(bbox, (list, tuple))) or len(bbox) != 4:
+        return None
+    try:
+        x0, y0, x1, y1 = map(float, bbox)
+        if w <= 0 or h <= 0:
+            return None
+        return [x0 / w, y0 / h, x1 / w, y1 / h]
+    except Exception:
+        return None
+
+def _category_map(cat: str, text: str) -> str:
+    """
+    Map raw detector categories to your target types.
+    """
+    c = (cat or "").strip().lower()
+    if c == "picture":
+        return "figure"
+    if c in {"text", "section-header"}:
+        t = (text or "").strip().lower()
+        if t.startswith("fig") or t.startswith("figure"):
+            return "figure_caption"
+        # add more heuristics if needed:
+        # if t.startswith("table") or t.startswith("tab"):
+        #     return "table_caption"
+        return ""  # ignore other free text
+    # If your upstream can emit table categories, add them here:
+    # if c in {"table", "table body"}: return "table"
+    return ""  # ignore unrecognized categories
+
 def run_layout_json_on_image(
     pil_img: Image.Image,
     page_idx: int,
@@ -197,9 +278,11 @@ def run_layout_json_on_image(
     max_new_tokens: int = 4096,
 ) -> Tuple[List[Dict[str, Any]], Dict[str, float]]:
     """
-    Run DotsOCR/Qwen-VL on (image, layout_prompt) and return (elements, meta).
+    Run DotsOCR/Qwen-VL on (image, layout_prompt) and convert the returned
+    JSON-like list of {bbox, category, text} into your target 'elements' schema.
     """
-    prompt = build_layout_prompt(page_idx)
+    # Use your existing prompt (JSON-only not required if upstream returns that list)
+    prompt = dict_promptmode_to_prompt['prompt_layout_all_en']
 
     messages = [{
         "role": "user",
@@ -209,11 +292,7 @@ def run_layout_json_on_image(
         ],
     }]
 
-    # Build inputs
     chat_text = processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
-
-    # NB: qwen_vl_utils.process_vision_info is not strictly required here, because
-    # processors can take raw PIL images directly; keeping I/O simple:
     inputs = processor(
         text=[chat_text],
         images=[pil_img],
@@ -222,7 +301,7 @@ def run_layout_json_on_image(
         return_tensors="pt",
     )
 
-    device = "cuda"
+    device = "cuda" if torch.cuda.is_available() else "cpu"
     inputs = {k: (v.to(device) if torch.is_tensor(v) else v) for k, v in inputs.items()}
 
     t0 = time.time()
@@ -232,20 +311,49 @@ def run_layout_json_on_image(
         texts = processor.batch_decode(trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False)
     elapsed = time.time() - t0
 
-    print('----', texts)
+    raw_text = texts[0] if texts else ""
+    items = _parse_output_text_to_list(raw_text)
 
-    text = texts[0] if texts else ""
-    data = safe_json_from_text(text)
-    elements = data.get("elements", []) if isinstance(data, dict) else []
+    W, H = pil_img.size
+    elements: List[Dict[str, Any]] = []
+
+    for rec in items:
+        bbox = rec.get("bbox")
+        cat  = rec.get("category", "")
+        txt  = rec.get("text", "")
+
+        mapped = _category_map(cat, txt)
+        if not mapped:
+            continue
+
+        bbox_norm = _norm_bbox(bbox, W, H)
+        if mapped == "figure":
+            elements.append({
+                "page_idx": page_idx,
+                "category_type": "figure",
+                "bbox_norm": bbox_norm,   # may be None if invalid
+                "text": "",
+                "html": ""
+            })
+        elif mapped == "figure_caption":
+            elements.append({
+                "page_idx": page_idx,
+                "category_type": "figure_caption",
+                "bbox_norm": bbox_norm,
+                "text": txt or "",
+                "html": ""
+            })
+        # If you add table/table_caption mapping above, handle them here similarly.
 
     meta = {
-        "input_tokens": 0.0,     # local models typically don't expose token usage
+        "input_tokens": 0.0,     # local models usually don't provide token usage
         "output_tokens": 0.0,
         "total_tokens": 0.0,
         "time_sec": float(elapsed),
-        "raw_text_len": float(len(text or "")),
+        "raw_text_len": float(len(raw_text)),
     }
     return elements, meta
+
 
 
 # --------------------------- PDF parser (multi-page) ---------------------------
