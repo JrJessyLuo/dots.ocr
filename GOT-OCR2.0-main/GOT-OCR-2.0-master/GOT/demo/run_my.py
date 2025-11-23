@@ -446,7 +446,7 @@ def main():
     out_root.mkdir(parents=True, exist_ok=True)
 
     pdfs = collect_pdfs(args.pdfs)
-    pdfs = pdfs[:10]
+    pdfs = pdfs
     if not pdfs:
         raise SystemExit(f"No PDFs found for: {args.pdfs}")
     print(f"[info] Found {len(pdfs)} PDF(s). Output root: {out_root.resolve()}")
