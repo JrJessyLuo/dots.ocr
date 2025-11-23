@@ -1,0 +1,30 @@
+[
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": [
+      0.08588235294117647,
+      0.6995454545454546,
+      0.30176470588235293,
+      0.9331818181818182
+    ],
+    "text": "",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-the-eye-o.O-Player%27s%20Options%20-%20Halflings.pdf_11",
+    "image_path": "docstructbench_llm-raw-the-eye-o.O-Player%27s%20Options%20-%20Halflings.pdf_11.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": [
+      0.5141176470588236,
+      0.5972727272727273,
+      0.9147058823529411,
+      0.9304545454545454
+    ],
+    "text": "",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-the-eye-o.O-Player%27s%20Options%20-%20Halflings.pdf_11",
+    "image_path": "docstructbench_llm-raw-the-eye-o.O-Player%27s%20Options%20-%20Halflings.pdf_11.pdf_0.jpg"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": [
+      0.1955890887986071,
+      0.3492133835586085,
+      0.4077190946024376,
+      0.4746288499889209
+    ],
+    "text": "",
+    "html": "",
+    "pdf": "scihub_jgh.13044.pdf_2",
+    "image_path": "scihub_jgh.13044.pdf_2.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": [
+      0.4242600116076611,
+      0.3492133835586085,
+      0.6372605919907138,
+      0.4746288499889209
+    ],
+    "text": "",
+    "html": "",
+    "pdf": "scihub_jgh.13044.pdf_2",
+    "image_path": "scihub_jgh.13044.pdf_2.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": [
+      0.19442832269297736,
+      0.48171947706625307,
+      0.4077190946024376,
+      0.6049191225348992
+    ],
+    "text": "",
+    "html": "",
+    "pdf": "scihub_jgh.13044.pdf_2",
+    "image_path": "scihub_jgh.13044.pdf_2.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": [
+      0.4242600116076611,
+      0.48171947706625307,
+      0.6372605919907138,
+      0.6049191225348992
+    ],
+    "text": "",
+    "html": "",
+    "pdf": "scihub_jgh.13044.pdf_2",
+    "image_path": "scihub_jgh.13044.pdf_2.pdf_0.jpg"
+  }
+]

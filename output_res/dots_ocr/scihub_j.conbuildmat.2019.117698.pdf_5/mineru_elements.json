@@ -1,0 +1,30 @@
+[
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": [
+      0.16424840394660475,
+      0.07096212451023073,
+      0.6526407428903076,
+      0.2368306486721811
+    ],
+    "text": "",
+    "html": "",
+    "pdf": "scihub_j.conbuildmat.2019.117698.pdf_5",
+    "image_path": "scihub_j.conbuildmat.2019.117698.pdf_5.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": [
+      0.4222286709228091,
+      0.4801915542011319,
+      0.777423099245502,
+      0.8008271658685242
+    ],
+    "text": "Fig. 7 (the upper subgraph) presents the micrograph of NT@RG. EDS performed at point 44 reveals that the material loaded onto the surface of RG is NT. In comparison, point 46 held almost no Ti. That is, the soaking method ensures only some parts of the surface of RG are covered by NT while some other parts are not. It is crucial because photorefraction is provided by transparent areas that should not be covered by NT. On the contrary, Fig. 7 (the lower subgraph) exhibits the micrograph of NT@RCBS and confirms that NT is loaded onto part of the surface and filled into some pores of RCBS during the preparation of the CPs. This statement contains two sections. First, some NT is loaded onto part of the surface of RCBS. It is proved by the ESEM pictures along with the EDS (see Fig. 7). Since the spectrum at both points 54 and 55 display high proportions of Ti that is not held by RCBS itself (see Table 1). In particular, during the soaking, the RCBS was fully immersed into the NT solution. That is to say, NT particles surrounded the RCBS and had the equal chance to load onto any part of RCBS because no particular part of RCBS was proved to have the capacity of selective adsorption. Furthermore, the ESEM and EDS were pictured randomly. To some degree, they at least prove that the majority of RCBS surface is covered by NT. Second, RCBS has a porous structure and extremely rough surface. Some NT particles are deposited and accumulated inside the pores as well as on the surface. This is proved by the porosity and pore size distribution analysis, with results in Fig. 8b. The porosities of RCBS and NT@RCBS are 29 and 26.5%, respectively. The reduced porosity of NT@RCBS relative to RCBS is due to the filling of NT after the soaking. The absolute reduction is only 2.5% which echoes the limited NT loading amount measured by the analytical balance below. Furthermore, referring",
+    "html": "",
+    "pdf": "scihub_j.conbuildmat.2019.117698.pdf_5",
+    "image_path": "scihub_j.conbuildmat.2019.117698.pdf_5.pdf_0.jpg"
+  }
+]
