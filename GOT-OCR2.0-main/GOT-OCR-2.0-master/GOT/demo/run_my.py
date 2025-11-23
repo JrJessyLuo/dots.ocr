@@ -2,12 +2,16 @@
 # -*- coding: utf-8 -*-
 
 """
-GOT-Qwen → MinerU-like elements extractor (tables/figures/captions) from PDFs.
+GOT-Qwen → MinerU-like elements extractor (tables/figures/captions) from PDFs,
+with per-PDF time costs.
 
 Output layout (per PDF):
   <out_root>/<pdf_stem>/
     manifest.json
     mineru_elements.json
+
+Additionally, a per-run timing file is written:
+  <out_root>/got_time_cost.json
 
 Usage:
   python got_elements_from_pdfs.py \
@@ -29,19 +33,22 @@ from typing import List, Dict, Any, Tuple
 
 import torch
 from PIL import Image
+from html import escape
 
-# --- GOT imports (your environment) ---
+# --- GOT imports (your environment must have these) ---
 from transformers import AutoTokenizer
-from GOT.utils.utils import disable_torch_init
+from GOT.utils.utils import disable_torch_init, KeywordsStoppingCriteria
 from GOT.model import GOTQwenForCausalLM
 from GOT.model.plug.blip_process import BlipImageEvalProcessor
 from GOT.utils.conversation import conv_templates, SeparatorStyle
 
-# ------------------ Small helpers ------------------
+
+# ========================= Small helpers =========================
 
 def _safe_stem(text: str) -> str:
     s = "".join(ch if ch.isalnum() or ch in "-_." else "_" for ch in text.strip())
     return s[:150] or str(uuid.uuid4())[:8]
+
 
 def load_images_from_pdf(pdf_path: str, dpi: int = 200) -> List[Image.Image]:
     """Render PDF pages to PIL images (prefer PyMuPDF; fallback pdf2image)."""
@@ -64,9 +71,13 @@ def load_images_from_pdf(pdf_path: str, dpi: int = 200) -> List[Image.Image]:
     except Exception as e:
         raise RuntimeError(f"Failed to render PDF {pdf_path}: {e}")
 
-# ------------------ Text → elements (your parser) ------------------
 
-from html import escape
+def omni_image_path(pdf_stem: str, page_idx: int) -> str:
+    """OmniDocBench-style naming for page images (if you later save them)."""
+    return f"{pdf_stem}.pdf_{page_idx}.jpg"
+
+
+# ========================= Text → elements =========================
 
 def _strip_tex(s: str) -> str:
     s = re.sub(r"\\\(|\\\)", "", s)
@@ -74,6 +85,7 @@ def _strip_tex(s: str) -> str:
     s = re.sub(r"\\[a-zA-Z]+(\{[^}]*\})?", "", s)  # \hline, \mathrm{..}, etc.
     s = s.replace("{", "").replace("}", "")
     return " ".join(s.split())
+
 
 def _tabular_to_html(tabular_body: str) -> str:
     body = re.sub(r"(?mi)^\s*\\hline\s*$", "", tabular_body)
@@ -99,18 +111,24 @@ def _tabular_to_html(tabular_body: str) -> str:
     if looks_header(html_rows[0]):
         head, body = html_rows[0], html_rows[1:]
         head_html = "<thead><tr>" + "".join(f"<th>{c}</th>" for c in head) + "</tr></thead>"
-        body_html = "<tbody>" + "".join("<tr>" + "".join(f"<td>{c}</td>" for c in row) + "</tr>" for row in body) + "</tbody>"
+        body_html = "<tbody>" + "".join(
+            "<tr>" + "".join(f"<td>{c}</td>" for c in row) + "</tr>" for row in body
+        ) + "</tbody>"
     else:
-        body_html = "<tbody>" + "".join("<tr>" + "".join(f"<td>{c}</td>" for c in row) + "</tr>" for row in html_rows) + "</tbody>"
+        body_html = "<tbody>" + "".join(
+            "<tr>" + "".join(f"<td>{c}</td>" for c in row) + "</tr>" for row in html_rows
+        ) + "</tbody>"
     return f"<table>{head_html}{body_html}</table>"
+
 
 def _markdown_table_to_html(block: str) -> str:
     lines = [ln.strip() for ln in block.strip().splitlines() if ln.strip()]
     if len(lines) < 2:
         return ""
     header = [c.strip() for c in lines[0].strip("|").split("|")]
-    # remove the separator line(s)
-    data_lines = [ln for ln in lines[1:] if not re.fullmatch(r"\s*\|?\s*:?-{3,}:?\s*(\|\s*:?-{3,}:?\s*)+\|?\s*", ln)]
+    # remove separator line(s)
+    data_lines = [ln for ln in lines[1:] if not re.fullmatch(
+        r"\s*\|?\s*:?-{3,}:?\s*(\|\s*:?-{3,}:?\s*)+\|?\s*", ln)]
     rows = [[escape(c.strip()) for c in ln.strip("|").split("|")] for ln in data_lines]
     html = "<table>"
     html += "<thead><tr>" + "".join(f"<th>{c}</th>" for c in header) + "</tr></thead>"
@@ -118,7 +136,12 @@ def _markdown_table_to_html(block: str) -> str:
     html += "</table>"
     return html
 
+
 def build_elements_from_text(text: str, page_idx: int = 0) -> Dict[str, List[Dict[str, Any]]]:
+    """
+    Parse a single page's OCR text (possibly mixing plain text + LaTeX table blobs)
+    into MinerU-like `elements`.
+    """
     elements: List[Dict[str, Any]] = []
 
     # TABLE captions (e.g., "TABLE 2 - ...")
@@ -173,7 +196,8 @@ def build_elements_from_text(text: str, page_idx: int = 0) -> Dict[str, List[Dic
 
     return {"elements": elements}
 
-# ------------------ GOT model inference ------------------
+
+# ========================= GOT model inference =========================
 
 DEFAULT_IMAGE_TOKEN = "<image>"
 DEFAULT_IMAGE_PATCH_TOKEN = "<imgpad>"
@@ -184,6 +208,7 @@ def got_prompt(image_size_tokens: int = 256, with_format: bool = False) -> str:
     """Build the same prompt pattern your GOT demo uses."""
     header = "OCR with format: " if with_format else "OCR: "
     return DEFAULT_IM_START_TOKEN + DEFAULT_IMAGE_PATCH_TOKEN * image_size_tokens + DEFAULT_IM_END_TOKEN + "\n" + header
+
 
 def load_got_model(model_name: str):
     disable_torch_init()
@@ -200,6 +225,7 @@ def load_got_model(model_name: str):
     proc_std = BlipImageEvalProcessor(image_size=1024)
     proc_hi  = BlipImageEvalProcessor(image_size=1024)
     return model, tokenizer, proc_std, proc_hi
+
 
 def run_got_on_image(
     image: Image.Image,
@@ -226,8 +252,6 @@ def run_got_on_image(
     image_tensor_h = proc_hi(image.copy()) # (3, H, W)
 
     stop_str = conv.sep if conv.sep_style != SeparatorStyle.TWO else conv.sep2
-
-    from GOT.utils.utils import KeywordsStoppingCriteria
     stopping_criteria = KeywordsStoppingCriteria([stop_str], tokenizer, input_ids)
 
     with torch.autocast("cuda", dtype=torch.bfloat16):
@@ -247,10 +271,8 @@ def run_got_on_image(
         out = out[:-len(stop_str)]
     return out.strip()
 
-# ------------------ Per-PDF pipeline ------------------
 
-def omni_image_path(pdf_stem: str, page_idx: int) -> str:
-    return f"{pdf_stem}.pdf_{page_idx}.jpg"
+# ========================= Per-PDF pipeline =========================
 
 def process_pdf(
     pdf_path: Path,
@@ -261,7 +283,13 @@ def process_pdf(
     proc_hi,
     dpi: int,
     threads: int,
-) -> Tuple[Path, int]:
+) -> Tuple[Path, int, float]:
+    """
+    Process a single PDF into mineru_elements.json and manifest.json.
+    Returns (mineru_path, total_pages, elapsed_sec).
+    """
+    t_pdf0 = time.time()
+
     pdf_stem = pdf_path.stem
     pdf_out = out_root / pdf_stem
     pdf_out.mkdir(parents=True, exist_ok=True)
@@ -291,7 +319,8 @@ def process_pdf(
     page_results: List[Tuple[int, List[Dict[str, Any]], float, str]] = []
 
     if threads > 1:
-        with ThreadPoolExecutor(max_workers=min(threads, total_pages)) as ex:
+        from math import inf
+        with ThreadPoolExecutor(max_workers=min(threads, max(1, total_pages))) as ex:
             futs = [ex.submit(_worker, t) for t in tasks]
             for f in as_completed(futs):
                 page_results.append(f.result())
@@ -301,28 +330,38 @@ def process_pdf(
 
     page_results.sort(key=lambda x: x[0])
 
-    # flatten elements
+    # flatten elements + collect per-page time
     all_elements: List[Dict[str, Any]] = []
-    for _, els, _, _ in page_results:
+    per_page_time = []
+    per_page_status = []
+    for idx, els, dt, st in page_results:
         all_elements.extend(els)
+        per_page_time.append({"page_idx": idx, "time_sec": dt})
+        per_page_status.append({"page_idx": idx, "status": st})
 
     # save mineru_elements.json
     mineru_path = pdf_out / "mineru_elements.json"
     mineru_path.write_text(json.dumps(all_elements, ensure_ascii=False, indent=2), encoding="utf-8")
 
-    # minimal manifest (no raster copies)
+    # minimal manifest (add per-page timing/status for convenience)
     manifest = {
         "pdf": pdf_stem,
-        "tables": [e for e in []],  # keep empty; elements already carry html if table
+        "tables": [],     # elements already carry table HTML if any
         "images": [],
+        "metrics": {
+            "per_page_time_sec": per_page_time,
+            "per_page_status": per_page_status,
+        },
     }
     manifest_path = pdf_out / "manifest.json"
     manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
 
-    print(f"[ok]  {pdf_path.name} → {mineru_path}")
-    return mineru_path, total_pages
+    elapsed = time.time() - t_pdf0
+    print(f"[ok]  {pdf_path.name} → {mineru_path}  (time: {elapsed:.2f}s)")
+    return mineru_path, total_pages, elapsed
 
-# ------------------ CLI ------------------
+
+# ========================= CLI =========================
 
 def collect_pdfs(spec: str) -> List[Path]:
     p = Path(spec)
@@ -333,8 +372,9 @@ def collect_pdfs(spec: str) -> List[Path]:
     # glob pattern
     return sorted(Path().glob(spec))
 
+
 def main():
-    ap = argparse.ArgumentParser(description="GOT-Qwen → MinerU-like elements for PDFs")
+    ap = argparse.ArgumentParser(description="GOT-Qwen → MinerU-like elements for PDFs (with time costs)")
     ap.add_argument("--model-name", required=True, help="Path or hub id of GOT-Qwen model")
     ap.add_argument("--pdfs", required=True, help="PDF file, dir, or glob (e.g., '/data/*.pdf')")
     ap.add_argument("--out-dir", default="got_mineru_output", help="Output root")
@@ -346,6 +386,7 @@ def main():
     out_root.mkdir(parents=True, exist_ok=True)
 
     pdfs = collect_pdfs(args.pdfs)
+    pdfs = pdfs[:1]
     if not pdfs:
         raise SystemExit(f"No PDFs found for: {args.pdfs}")
     print(f"[info] Found {len(pdfs)} PDF(s). Output root: {out_root.resolve()}")
@@ -354,14 +395,30 @@ def main():
     model, tokenizer, proc_std, proc_hi = load_got_model(args.model_name)
 
     successes, failures = [], []
+    time_costs: Dict[str, float] = {}
+
     for pdf in pdfs:
         try:
-            process_pdf(pdf, out_root, model, tokenizer, proc_std, proc_hi, dpi=args.dpi, threads=args.threads)
+            _, _, elapsed = process_pdf(
+                pdf, out_root, model, tokenizer, proc_std, proc_hi,
+                dpi=args.dpi, threads=args.threads
+            )
+            time_costs[pdf.name] = elapsed
             successes.append(pdf.name)
         except Exception as e:
             print(f"[err] {pdf.name}: {e}")
+            time_costs[pdf.name] = 0.0
             failures.append(pdf.name)
 
+    # Save per-PDF time costs
+    time_cost_path = out_root / "got_time_cost.json"
+    time_cost_path.write_text(
+        json.dumps(time_costs, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+    print(f"\n[got-mineru] Saved per-PDF time costs to {time_cost_path}")
+
+    # Summary
     print("\nSummary")
     print(f"  Success: {len(successes)}")
     print(f"  Failed : {len(failures)}")
@@ -369,12 +426,6 @@ def main():
         for f in failures:
             print(f"    - {f}")
 
+
 if __name__ == "__main__":
-    # Hint: ensure CUDA is available and the right modules/env are loaded on your cluster.
-    # Example:
-    #   python got_elements_from_pdfs.py \
-    #     --model-name /scratch/user/uqfluo/models/GOTQwen \
-    #     --pdfs "/path/to/pdfs/*.pdf" \
-    #     --out-dir got_mineru_output \
-    #     --dpi 200 --threads 2
     main()
