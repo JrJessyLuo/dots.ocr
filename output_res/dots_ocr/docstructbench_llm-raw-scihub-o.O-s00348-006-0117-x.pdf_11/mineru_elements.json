@@ -1,0 +1,16 @@
+[
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": [
+      0.5084643288996372,
+      0.056370302474793764,
+      0.9153567110036276,
+      0.5077910174152154
+    ],
+    "text": "",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s00348-006-0117-x.pdf_11",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s00348-006-0117-x.pdf_11.pdf_0.jpg"
+  }
+]

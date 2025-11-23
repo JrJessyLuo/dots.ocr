@@ -1,0 +1,44 @@
+[
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": [
+      0.06533575317604355,
+      0.08386219401631913,
+      0.4633998790078645,
+      0.2642792384406165
+    ],
+    "text": "",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.chroma.2005.11.024.pdf_7",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.chroma.2005.11.024.pdf_7.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": [
+      0.05323653962492438,
+      0.457388939256573,
+      0.4785238959467635,
+      0.6219401631912964
+    ],
+    "text": "Fig. 9 illustrates migration of rhodamine B on three separate TLC plates. For these experiments the migration rate of rhodamine B was determined to be 0.29 cm/min ($R^2$ = 0.9996, n = 6). There are three data points for the first plate and they were taken by performing PPEC for a specified time, lowering the press enough to mark solute migration, reapply pressure then voltage, and repeating. Repeatedly releasing and applying pressure caused extensive zone broadening from solvent perturbations. Subsequent experiments were checked for solute migration less often or only at the end of experimentation, significantly reducing zone dispersion.",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.chroma.2005.11.024.pdf_7",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.chroma.2005.11.024.pdf_7.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": [
+      0.06715063520871144,
+      0.7252946509519492,
+      0.4615849969751966,
+      0.8658204895738894
+    ],
+    "text": "",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.chroma.2005.11.024.pdf_7",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.chroma.2005.11.024.pdf_7.pdf_0.jpg"
+  }
+]

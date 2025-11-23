@@ -1,0 +1,30 @@
+[
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": [
+      0.07376058041112454,
+      0.06802721088435375,
+      0.4540507859733978,
+      0.28480725623582764
+    ],
+    "text": "",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.mseb.2009.12.004.pdf_2",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.mseb.2009.12.004.pdf_2.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": [
+      0.5483675937122128,
+      0.06893424036281179,
+      0.8827085852478839,
+      0.7768707482993197
+    ],
+    "text": "",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.mseb.2009.12.004.pdf_2",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.mseb.2009.12.004.pdf_2.pdf_0.jpg"
+  }
+]

@@ -1,0 +1,100 @@
+[
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": [
+      0.08121212121212121,
+      0.06373223292067859,
+      0.5006060606060606,
+      0.2787712058688675
+    ],
+    "text": "",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-bf00326833.pdf_3",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-bf00326833.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": [
+      0.08121212121212121,
+      0.2815222375057313,
+      0.5006060606060606,
+      0.5080238422741862
+    ],
+    "text": "",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-bf00326833.pdf_3",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-bf00326833.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": [
+      0.07939393939393939,
+      0.5116918844566712,
+      0.49575757575757573,
+      0.7381934892251261
+    ],
+    "text": "",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-bf00326833.pdf_3",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-bf00326833.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": [
+      0.07515151515151515,
+      0.7514901421366346,
+      0.48545454545454547,
+      0.9183860614397066
+    ],
+    "text": "",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-bf00326833.pdf_3",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-bf00326833.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": [
+      0.5109090909090909,
+      0.062356717102246675,
+      0.9296969696969697,
+      0.2764786795048143
+    ],
+    "text": "",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-bf00326833.pdf_3",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-bf00326833.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": [
+      0.5109090909090909,
+      0.2792297111416781,
+      0.9296969696969697,
+      0.5038972948188905
+    ],
+    "text": "",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-bf00326833.pdf_3",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-bf00326833.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": [
+      0.5175757575757576,
+      0.6552040348464008,
+      0.9187878787878788,
+      0.8358551123337918
+    ],
+    "text": "",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-bf00326833.pdf_3",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-bf00326833.pdf_3.pdf_0.jpg"
+  }
+]

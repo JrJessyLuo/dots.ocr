@@ -1,0 +1,16 @@
+[
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": [
+      0.2517301038062284,
+      0.20769700671960903,
+      0.7413494809688581,
+      0.5284056200366524
+    ],
+    "text": "",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-chin.200427104.pdf_1",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-chin.200427104.pdf_1.pdf_0.jpg"
+  }
+]

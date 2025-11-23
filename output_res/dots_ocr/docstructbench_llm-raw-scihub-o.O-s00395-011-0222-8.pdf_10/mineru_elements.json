@@ -1,0 +1,30 @@
+[
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": [
+      0.1616366802089379,
+      0.0618173875054609,
+      0.4138131166569936,
+      0.6391437308868502
+    ],
+    "text": "",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s00395-011-0222-8.pdf_10",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s00395-011-0222-8.pdf_10.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": [
+      0.4338363319791062,
+      0.0618173875054609,
+      0.6825304701102728,
+      0.6391437308868502
+    ],
+    "text": "",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s00395-011-0222-8.pdf_10",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s00395-011-0222-8.pdf_10.pdf_0.jpg"
+  }
+]
