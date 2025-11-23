@@ -271,6 +271,64 @@ def run_got_on_image(
         out = out[:-len(stop_str)]
     return out.strip()
 
+def filter_empty_elements(all_elements):
+    # 1) record which pages have figure captions (so we can keep a placeholder figure if needed)
+    caps_by_page = set()
+    for el in all_elements:
+        if el.get("category_type") == "figure_caption":
+            caps_by_page.add(el.get("page_idx"))
+
+    def keep(el):
+        c = el.get("category_type")
+        # Always keep non-figure types
+        if c not in ("figure", "table"):
+            return True
+
+        # For tables: keep if we at least have HTML (or a bbox/text if you ever provide them)
+        if c == "table":
+            return bool(el.get("html")) or el.get("bbox_norm") is not None or bool(el.get("text"))
+
+        # For figures: keep if there is *something* useful…
+        has_payload = (el.get("bbox_norm") is not None) or bool(el.get("html")) or bool(el.get("text"))
+        if has_payload:
+            return True
+
+        # …otherwise only keep a placeholder figure if a caption exists on the same page
+        page_has_cap = el.get("page_idx") in caps_by_page
+        return page_has_cap
+
+    return [el for el in all_elements if keep(el)]
+
+
+def filter_empty_elements(all_elements):
+    # 1) record which pages have figure captions (so we can keep a placeholder figure if needed)
+    caps_by_page = set()
+    for el in all_elements:
+        if el.get("category_type") == "figure_caption":
+            caps_by_page.add(el.get("page_idx"))
+
+    def keep(el):
+        c = el.get("category_type")
+        # Always keep non-figure types
+        if c not in ("figure", "table"):
+            return True
+
+        # For tables: keep if we at least have HTML (or a bbox/text if you ever provide them)
+        if c == "table":
+            return bool(el.get("html")) or el.get("bbox_norm") is not None or bool(el.get("text"))
+
+        # For figures: keep if there is *something* useful…
+        has_payload = (el.get("bbox_norm") is not None) or bool(el.get("html")) or bool(el.get("text"))
+        if has_payload:
+            return True
+
+        # …otherwise only keep a placeholder figure if a caption exists on the same page
+        page_has_cap = el.get("page_idx") in caps_by_page
+        return page_has_cap
+
+    return [el for el in all_elements if keep(el)]
+
+
 
 # ========================= Per-PDF pipeline =========================
 
@@ -339,6 +397,8 @@ def process_pdf(
         per_page_time.append({"page_idx": idx, "time_sec": dt})
         per_page_status.append({"page_idx": idx, "status": st})
 
+    all_elements = filter_empty_elements(all_elements)
+
     # save mineru_elements.json
     mineru_path = pdf_out / "mineru_elements.json"
     mineru_path.write_text(json.dumps(all_elements, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -386,7 +446,7 @@ def main():
     out_root.mkdir(parents=True, exist_ok=True)
 
     pdfs = collect_pdfs(args.pdfs)
-    pdfs = pdfs[:1]
+    pdfs = pdfs[:10]
     if not pdfs:
         raise SystemExit(f"No PDFs found for: {args.pdfs}")
     print(f"[info] Found {len(pdfs)} PDF(s). Output root: {out_root.resolve()}")
@@ -416,6 +476,9 @@ def main():
         json.dumps(time_costs, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
+
+    
+
     print(f"\n[got-mineru] Saved per-PDF time costs to {time_cost_path}")
 
     # Summary
