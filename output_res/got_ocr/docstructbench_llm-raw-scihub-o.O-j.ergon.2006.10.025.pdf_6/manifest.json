@@ -1,12 +1,12 @@
 {
-  "pdf": "docstructbench_llm-raw-scihub-o.O-chem.200700133.pdf_6",
+  "pdf": "docstructbench_llm-raw-scihub-o.O-j.ergon.2006.10.025.pdf_6",
   "tables": [],
   "images": [],
   "metrics": {
     "per_page_time_sec": [
       {
         "page_idx": 0,
-        "time_sec": 25.805121421813965
+        "time_sec": 26.74974036216736
       }
     ],
     "per_page_status": [

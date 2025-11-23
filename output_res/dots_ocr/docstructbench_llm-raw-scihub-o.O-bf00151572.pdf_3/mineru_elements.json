@@ -1,0 +1,20 @@
+[
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-bf00151572.pdf_3",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-bf00151572.pdf_3.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-bf00151572.pdf_3",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-bf00151572.pdf_3.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Fig. 1. Reactor set-up for the culture filtration experiments.",
+    "html": ""
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.1365-2818.2003.01210.x.pdf_7",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.1365-2818.2003.01210.x.pdf_7.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Fig. 5. Summary statistics (continuous curves) with envelopes (dotted) for rotenone 1 . given in the same order as in Fig. 3 for untreated1.",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.1365-2818.2003.01210.x.pdf_7",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.1365-2818.2003.01210.x.pdf_7.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.1365-2818.2003.01210.x.pdf_7",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.1365-2818.2003.01210.x.pdf_7.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Fig. 11. Figure 12 shows that the assumption of a linear relation between numerator and denominator in the reduced sample estimator _ is realistic. The EM algorithm yielded overall mean and variances from the ratio estimators. Figure 13 also shows the overall sample mean with confidence bands estimated from the sample variance.",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.1365-2818.2003.01210.x.pdf_7",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.1365-2818.2003.01210.x.pdf_7.pdf_0.jpg"
+  }
+]

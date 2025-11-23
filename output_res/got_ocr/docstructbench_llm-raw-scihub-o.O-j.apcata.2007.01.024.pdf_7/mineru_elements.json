@@ -1,0 +1,38 @@
+[
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.apcata.2007.01.024.pdf_7",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.apcata.2007.01.024.pdf_7.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Fig. 10. It is clear that the catalytic activities of three _4 catalysts supported on binary oxide _2-_2 (2.6-3.7 mmol/ 5 ) are remarkably higher than those of _4 catalysts supported on single oxide, 20 _4 / _2 and 20 _4 / _2. This can be explained if the number of acid sites of _2-_2",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.apcata.2007.01.024.pdf_7",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.apcata.2007.01.024.pdf_7.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.apcata.2007.01.024.pdf_7",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.apcata.2007.01.024.pdf_7.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Fig. 1. It is known that for ethylene dimerization the variations in catalytic activities are closely correlated to the acidity values of catalyst [3,. The acidity values of several samples after evacuation at 400 are listed in Table 2 together with their surface areas. Table 2 shows that the catalytic activities substantially run parallel to the acidity values. The catalytic activities of 2 _4 / _2, 2 _4 / _2 and, _4 / _2- _2 were examined; the results are shown as a function of acidity in Fig. 11, where catalysts were evacuated at 500 for 1 before reaction. It is confirmed that the catalytic activity gives a maximum at 20 _4 / 50 _2 _2-_2. This seems to be correlated to the specific surface area and to the acidity of the catalysts. The acidity of catalysts calcined at 500 was determined by the amount of _3 irreversibly adsorbed at 230 [3,4,6,9,. As shown in Fig. 11, the higher the acidity, the higher the catalytic activity. In this way it is demonstrated that the catalytic activity of supported _4 catalysts essentially runs parallel to the acidity. Good correlations have been found in many cases between the acidity and the catalytic activities of solid acids. It has been reported that the catalytic activity values of nickel-containing catalysts in ethylene dimerization as well as in butene isomerization are closely correlated with the acidity of the catalysts [3,4,6,. Up to now, a correlation between catalytic activity for ethylene dimerization and acidity has been studied using supported _4 [9,35,, where only one kind of support material such as _2 _3, _2-_2, and _2 _3-_2 was used. However, in this work we used different supports: _2, _2 and three kinds of _2-_2. In this case of _4 supported on different materials, there was also a correlation between catalytic activity for ethylene dimerization and acidity, regardless of the kind of support (_2, _2. and ._2-_2).",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.apcata.2007.01.024.pdf_7",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.apcata.2007.01.024.pdf_7.pdf_0.jpg"
+  }
+]

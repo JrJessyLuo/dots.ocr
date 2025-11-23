@@ -1,0 +1,56 @@
+[
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th></th><th>* Controls</th><th>|c| Hodgkin lymphoma</th><th>|c| Non-Hodgkin lymphoma</th></tr></thead><tbody><tr><td></td><td></td><td>Cases</td><td>OR</td><td>95 \\%</td><td>Cases</td><td>OR</td><td>95 \\%</td></tr><tr><td>Never Exposed (reference group)</td><td>2,273</td><td>315</td><td>1.00</td><td>-</td><td>1,823</td><td>1.00</td><td>-</td></tr><tr><td>l Ever Exposed</td></tr><tr><td>Duration of exposure</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-ijc.22994.pdf_3",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-ijc.22994.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>p-value of test for linear trend</th></tr></thead><tbody><tr><td>Weighted duration of exposure</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-ijc.22994.pdf_3",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-ijc.22994.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>p-value of test for linear trend</th></tr></thead><tbody><tr><td>Intervention of exposure</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-ijc.22994.pdf_3",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-ijc.22994.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th></th><th>|c| Beef meat</th><th>|c| Chicken meat</th><th>|c| Pork meat</th></tr></thead><tbody><tr><td></td><td>Cases</td><td>Controls</td><td>OR</td><td>95 \\%</td><td>Cases</td><td>Controls</td></tr><tr><td>Never Exposed (Ref group)</td><td>1,823</td><td>2,273</td><td>1.00</td><td>1,823</td><td>2,273</td></tr><tr><td>[t]2* Ever Exposed</td><td>117</td><td>108</td><td>1.22</td><td>0.90-1.67</td><td>1.36</td><td>129</td></tr><tr><td>Duration of exposure</td><td>40</td><td>37</td><td>1.45</td><td>0.92-2.31</td><td>30</td><td>40</td></tr><tr><td>6-15 years</td><td>29</td><td>43</td><td>0.79</td><td>0.47-1.31</td><td>42</td><td>41</td></tr><tr><td>16 years</td><td>48</td><td>28</td><td>1.63</td><td>0.93-2.88</td><td>64</td><td>1.36</td></tr><tr><td>value of test for linear</td><td></td><td></td><td>0.23</td><td></td><td>0.11</td><td></td></tr><tr><td>l p-value of test for</td></tr><tr><td>Intensity (with ref cut)</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-ijc.22994.pdf_3",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-ijc.22994.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Low-</th></tr></thead><tbody><tr><td>Medium</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-ijc.22994.pdf_3",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-ijc.22994.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th></th><th>|c| Minton meat</th><th>|c| Other meat</th><th>|c| Other meat</th></tr></thead><tbody><tr><td></td><td>Cases</td><td>Controls</td><td>OR</td><td>95 \\%</td><td>Cases</td><td>Controls</td><td>OR</td></tr><tr><td>Never Exposed (Ref Group)</td><td>1,823</td><td>2,273</td><td>1.</td><td></td><td></td><td></td></tr><tr><td>Ever Exposed</td><td>63</td><td>71</td><td>0.99</td><td>0.66-1.47</td><td>52</td><td>47</td><td>1.07-6.71</td></tr><tr><td>Duration of exposure</td><td>21</td><td>20</td><td>1.35</td><td>0.71-2.56</td><td>13</td><td>15</td><td>0.92</td></tr><tr><td>6-15 years</td><td>21</td><td>27</td><td>0.87</td><td>0.46-1.62</td><td>13</td><td>10</td><td>1.16 -2.81</td></tr><tr><td>16 years</td><td>21</td><td>24</td><td>0.80</td><td>0.41-1.57</td><td>26</td><td>21</td><td>1.19 -2.28</td></tr><tr><td>value of test for linear</td><td></td><td></td><td>0,60</td><td></td><td></td><td>0,58</td><td></td></tr><tr><td>l p-value of test for linear</td></tr><tr><td>trend (with ref cut)</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-ijc.22994.pdf_3",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-ijc.22994.pdf_3.pdf_0.jpg"
+  }
+]

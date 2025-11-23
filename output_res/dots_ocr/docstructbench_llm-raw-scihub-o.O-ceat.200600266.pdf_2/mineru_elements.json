@@ -1,0 +1,38 @@
+[
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-ceat.200600266.pdf_2",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-ceat.200600266.pdf_2.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-ceat.200600266.pdf_2",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-ceat.200600266.pdf_2.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "**Figure 1.** Schematic of the new style membrane bioreactor after applying the appending direct pulse current field.",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-ceat.200600266.pdf_2",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-ceat.200600266.pdf_2.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "**Table 1.** Water quality in the experiments.",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-ceat.200600266.pdf_2",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-ceat.200600266.pdf_2.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>COD<sub>cr</sub><br>(mg/L)</th><th>pH</th><th>Turbidity<br>(NTU)</th><th>SS<br>(mg/L)</th><th>ζ-potential<br>(mV)</th><th>Water<br>Temperature<br>(°C)</th></tr></thead><tbody><tr><td>310–740</td><td>5–8</td><td>100–500</td><td>400–800</td><td>-18.4–-22.6</td><td>15–25</td></tr></tbody></table>"
+  }
+]

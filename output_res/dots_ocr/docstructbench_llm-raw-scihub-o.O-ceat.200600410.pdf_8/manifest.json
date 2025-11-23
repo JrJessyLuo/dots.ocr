@@ -1,0 +1,33 @@
+{
+  "pdf": "docstructbench_llm-raw-scihub-o.O-ceat.200600410.pdf_8",
+  "tables": [
+    {
+      "page_idx": 0,
+      "bbox": null,
+      "bbox_norm": null,
+      "html": "output_res/dots_ocr/docstructbench_llm-raw-scihub-o.O-ceat.200600410.pdf_8/tables/p000_t0.html",
+      "csv": null,
+      "caption": "",
+      "footnote": ""
+    },
+    {
+      "page_idx": 0,
+      "bbox": null,
+      "bbox_norm": null,
+      "html": "output_res/dots_ocr/docstructbench_llm-raw-scihub-o.O-ceat.200600410.pdf_8/tables/p000_t1.html",
+      "csv": null,
+      "caption": "",
+      "footnote": ""
+    }
+  ],
+  "images": [
+    {
+      "page_idx": 0,
+      "bbox": null,
+      "bbox_norm": null,
+      "path": null,
+      "caption": null,
+      "footnote": ""
+    }
+  ]
+}

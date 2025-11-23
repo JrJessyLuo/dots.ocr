@@ -1,0 +1,14 @@
+{
+  "pdf": "docstructbench_llm-raw-scihub-o.O-bf00151572.pdf_3",
+  "tables": [],
+  "images": [
+    {
+      "page_idx": 0,
+      "bbox": null,
+      "bbox_norm": null,
+      "path": null,
+      "caption": null,
+      "footnote": ""
+    }
+  ]
+}

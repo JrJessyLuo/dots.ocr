@@ -1,0 +1,38 @@
+[
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th></th><th>[b]2* Control</th><th>[b]2*1</th><th>|c| Diet group</th><th>[b]2*3</th><th>[b]2*4</th><th>[b]2*5</th></tr></thead><tbody><tr><td></td><td></td><td></td><td>2</td><td></td><td></td><td></td><td></td></tr><tr><td>Initial bodyweight (g)</td><td>3.9 0.39</td><td>3.9 0.38</td><td>3.9 0.35</td><td>3.9 0.36</td><td>3.9 0.37</td><td>3.9 0.37</td><td>3.9+0.37</td></tr><tr><td>l (Fain , n=30)</td></tr><tr><td>(Fain , n=30)</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.1444-2906.2002.00466.x.pdf_4",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.1444-2906.2002.00466.x.pdf_4.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "Table 2 Growth performance of carp fed the experimental diets for 12 weeks",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.1444-2906.2002.00466.x.pdf_4",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.1444-2906.2002.00466.x.pdf_4.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Percent bodyweight gain</th></tr></thead><tbody><tr><td>Daily feed consumption (\\%)</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.1444-2906.2002.00466.x.pdf_4",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.1444-2906.2002.00466.x.pdf_4.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Protein efficiency ratio</th></tr></thead><tbody><tr><td>Net protein utilization rate</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.1444-2906.2002.00466.x.pdf_4",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.1444-2906.2002.00466.x.pdf_4.pdf_0.jpg"
+  }
+]

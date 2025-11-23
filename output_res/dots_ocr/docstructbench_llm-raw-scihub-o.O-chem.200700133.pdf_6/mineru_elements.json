@@ -1,0 +1,20 @@
+[
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-chem.200700133.pdf_6",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-chem.200700133.pdf_6.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-chem.200700133.pdf_6",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-chem.200700133.pdf_6.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Figure 5. a) 1D chain structure and b) schematic drawing of the 1D chain of complex 4, in which the three-connecting TPBA-2 ligand and two-connected $SCN^-$ are represented by three (light gray) and two (dark black) spokes radiation from a solid point, respectively, and the $Cd^{II}$ by solid black ball. The $ClO_4^-$ and $SCN^-$ that bridged $Cd1$ atoms were omitted. c) Schematic drawing of the 2D network of 4, in which the three-connecting ligand and two-connected thiocyanate anions are represented by three (light gray) and two (dark black) spokes radiation from a solid point, respectively, the $Cd^{II}$ by solid black ball, and the $SCN^-$ that bridged $Cd1$ atoms by two (dark black) spokes radiation from an open point.",
+    "html": ""
+  }
+]

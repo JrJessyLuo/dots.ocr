@@ -1,0 +1,74 @@
+[
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-chem.200700285.pdf_4",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-chem.200700285.pdf_4.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Figure 1. Chemical shifts in proton signals.",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-chem.200700285.pdf_4",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-chem.200700285.pdf_4.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-chem.200700285.pdf_4",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-chem.200700285.pdf_4.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Figure 2. ORTEP illustrations of the asymmetric units observed for (top) and (bottom); ellipsoids are drawn at the 50 \\% probability level.",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-chem.200700285.pdf_4",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-chem.200700285.pdf_4.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-chem.200700285.pdf_4",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-chem.200700285.pdf_4.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Figure 2). They both display similar packing modes (Figure 3), exhibiting double layers, with the individual cations packed in head-to-head arrangements, although in the long alkyl chains interdigitate while the cyclic alkyl groups in 1 do not. The head-to-head orientations generate hydrophobic regions created by the aliphatic tail groups",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-chem.200700285.pdf_4",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-chem.200700285.pdf_4.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-chem.200700285.pdf_4",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-chem.200700285.pdf_4.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Figure 3. Packing diagrams for (left) and (right) viewed down a) the a axis, b) the b axis, and c) the a b diagonal.",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-chem.200700285.pdf_4",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-chem.200700285.pdf_4.pdf_0.jpg"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th></th><th>|c| Non-user</th><th>|c| Ecstasy &#x27;only&#x27; user</th><th>|c| Ecstasy/cannabis user</th></tr></thead><tbody><tr><td></td><td>Mean</td><td>SD</td><td>Mean</td><td>SD</td><td>Mean</td><td>SD</td></tr><tr><td>|l| Processing speed</td></tr><tr><td>l Ecstasy, total number of tablets consumed</td></tr><tr><td>Age</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-hup.777.pdf_7",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-hup.777.pdf_7.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "Table 2. Background variables for each of the analyses",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-hup.777.pdf_7",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-hup.777.pdf_7.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Years of education</th></tr></thead><tbody><tr><td>Ravens set D (maximum 12)</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-hup.777.pdf_7",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-hup.777.pdf_7.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Ecstasy, total number af the tablets consumed</th></tr></thead><tbody><tr><td>Age</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-hup.777.pdf_7",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-hup.777.pdf_7.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Ravens set E (maximum 12)</th></tr></thead><tbody><tr><td>Computation Span</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-hup.777.pdf_7",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-hup.777.pdf_7.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Years of education</th></tr></thead><tbody><tr><td>Ravons set D (maximum 12)</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-hup.777.pdf_7",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-hup.777.pdf_7.pdf_0.jpg"
+  }
+]
