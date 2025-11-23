@@ -1,0 +1,56 @@
+[
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>[t]3* Fault Number</th><th>|c| Time consumed (s)</th></tr></thead><tbody><tr><td></td><td>|c|=8(60 \\% variance)</td><td>|c|=15(95 \\% variance)</td><td>|c|=19(99 \\% variance)</td><td>[b]2* KFDA</td></tr><tr><td></td><td>PCA</td><td>PCA + KFDA</td><td>PCA</td><td>PCA + KFDA</td><td>PCA</td><td></td><td></td></tr><tr><td>1</td><td>5.2</td><td>14.1</td><td>5.4</td><td>23.7</td><td>5.5</td><td>36.2</td><td>56.3</td></tr><tr><td>2</td><td>4.7</td><td>13.9</td><td>4.8</td><td>21.2</td><td>4.8</td><td>32.1</td><td>51.7</td></tr><tr><td>3</td><td>5.0</td><td>13.4</td><td>5.1</td><td>22.1</td><td>5.0</td><td>34.4</td><td>53.6</td></tr><tr><td>4</td><td>6.0</td><td>16.8</td><td>6.3</td><td>27.1</td><td>6.1</td><td>45.2</td><td>64.3</td></tr><tr><td>5</td><td>5.5</td><td>14.7</td><td>5.7</td><td>24.6</td><td>5.5</td><td>36.8</td><td>59.5</td></tr><tr><td>6</td><td>5.1</td><td>14.1</td><td>5.2</td><td>23.9</td><td>5.1</td><td>35.1</td><td>57.4</td></tr><tr><td>7</td><td>5.1</td><td>14.9</td><td>5.3</td><td>24.2</td><td>5.2</td><td>35.8</td><td>58.9</td></tr><tr><td>8</td><td>5.8</td><td>16.2</td><td>6.1</td><td>26.5</td><td>6.0</td><td>43.9</td><td>61.5</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-ceat.200600410.pdf_8",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-ceat.200600410.pdf_8.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "Table 3. Comparison of the time consumed for fault detection and diagnosis between PCA, KFDA and PCA + KFDA.",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-ceat.200600410.pdf_8",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-ceat.200600410.pdf_8.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>* Fault Number</th><th>|c| Detection Results</th><th></th><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td>2 - 3 7 - 8</td><td>=8(60 \\% variance)</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>PCA</td><td>PCA + KFDA</td><td>PCA</td><td></td><td></td><td></td><td></td></tr><tr><td>1</td><td>C</td><td>B</td><td>C</td><td>A</td><td>C</td><td>B</td><td>B</td></tr><tr><td>2</td><td>D</td><td>B</td><td>C</td><td>A</td><td>D</td><td>A</td><td>A</td></tr><tr><td>3</td><td>D</td><td>B</td><td>C</td><td>A</td><td>C</td><td>B</td><td>B</td></tr><tr><td>4</td><td>C</td><td>A</td><td>B</td><td>A</td><td>C</td><td>A</td><td>A</td></tr><tr><td>5</td><td>C</td><td>A</td><td>B</td><td>A</td><td>C</td><td>A</td><td>A</td></tr><tr><td>6</td><td>B</td><td>B</td><td>C</td><td>B</td><td>B</td><td>B</td><td>B</td></tr><tr><td>7</td><td>C</td><td>B</td><td>C</td><td>A</td><td>C</td><td>B</td><td>B</td></tr><tr><td>8</td><td>D</td><td>B</td><td>B</td><td>A</td><td>C</td><td>A</td><td>A</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-ceat.200600410.pdf_8",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-ceat.200600410.pdf_8.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "Table 4. Comparison of fault detection ability among PCA, KFDA and PCA + KFDA.",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-ceat.200600410.pdf_8",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-ceat.200600410.pdf_8.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-ceat.200600410.pdf_8",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-ceat.200600410.pdf_8.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Figure 12. Degree of similarity of case 1 in the historical dataset. pose is to verify the efficiency of the PCA plus kernel FDA method. The results that indicate the time consumed are shown in Tab. 3. From Tab. 3, it is seen that the proposed method is competitive with kernel FDA. The computation time is different with the different numbers of PCs reserved in PCA. The time consumed becomes longer with the increase of PCs. Although the entire time consumed with PCA plus KFDA is longer than PCA, it is much less than that for the kernel FDA method alone. The results show that if one chooses the appropriate number of PCs, then the proposed method is more preferable for real-time process monitoring and fault diagnosis.",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-ceat.200600410.pdf_8",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-ceat.200600410.pdf_8.pdf_0.jpg"
+  }
+]

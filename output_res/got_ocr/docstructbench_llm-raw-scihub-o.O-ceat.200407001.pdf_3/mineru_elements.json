@@ -1,0 +1,29 @@
+[
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>&gt;0</th><th>0 r</th><th>z=0</th><th>c =_</th></tr></thead><tbody><tr><td>_0(_-)=-_ t</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-ceat.200407001.pdf_3",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-ceat.200407001.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "Table 1. Boundary and initial conditions for models.",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-ceat.200407001.pdf_3",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-ceat.200407001.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>=_</th></tr></thead><tbody><tr><td>=(, )=_0</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-ceat.200407001.pdf_3",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-ceat.200407001.pdf_3.pdf_0.jpg"
+  }
+]

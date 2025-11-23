@@ -1,0 +1,74 @@
+[
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>__</th><th>c Turbidity SS</th><th>-potential</th><th>c Water</th></tr></thead><tbody><tr><td>Temperature</td></tr><tr><td>( )</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-ceat.200600266.pdf_2",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-ceat.200600266.pdf_2.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "Table 1. Water quality in the experiments.",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-ceat.200600266.pdf_2",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-ceat.200600266.pdf_2.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-ceat.200600266.pdf_2",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-ceat.200600266.pdf_2.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Fig. 1. The microstructure of the air was then completely was purchased from Zheda Kaihua Technical Co. Ltd. The inner and outer diameters of the membrane are 0.32 0.47 , respectively. The area of the membrane assembly was 4 . The length and height of the membrane were 24 and 22.5 , respectively.",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-ceat.200600266.pdf_2",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-ceat.200600266.pdf_2.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-ceat.200600266.pdf_2",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-ceat.200600266.pdf_2.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Figure 1. Schematic of the new style membrane bioreactor after applying the appending direct pulse current field.",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-ceat.200600266.pdf_2",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-ceat.200600266.pdf_2.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-ceat.200600266.pdf_2",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-ceat.200600266.pdf_2.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Fig. 2. It can be seen from Fig. 2 that the average membrane flux in pulsed direct current field varies between the values for membrane flux in continuous direct current field and no electrostatic field. The measured values of the MBR flux are shown in Fig. 2, curve (c) drops continuously with time during the complete operation. This could be caused by the continuous sedimentation of minute particles on the membrane surface, which clogged pores of the membrane.",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-ceat.200600266.pdf_2",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-ceat.200600266.pdf_2.pdf_0.jpg"
+  }
+]

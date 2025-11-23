@@ -1,12 +1,12 @@
 {
-  "pdf": "docstructbench_llm-raw-scihub-o.O-ajhb.10190.pdf_5",
+  "pdf": "docstructbench_llm-raw-scihub-o.O-bf00151572.pdf_3",
   "tables": [],
   "images": [],
   "metrics": {
     "per_page_time_sec": [
       {
         "page_idx": 0,
-        "time_sec": 16.61353898048401
+        "time_sec": 9.755115985870361
       }
     ],
     "per_page_status": [

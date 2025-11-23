@@ -1,0 +1,47 @@
+[
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Media</th><th>UM1</th><th>UM2</th><th>UM3</th><th>UM4</th><th>UM5</th><th>UM6</th><th>UM7</th><th>UM8</th><th>UM9</th><th>UM10</th><th>UM11</th><th>UM12</th><th>UM13</th><th>AR1</th></tr></thead><tbody><tr><td></td><td>2.71 b 6</td><td>7.05 a 5</td><td>4.80 a 0</td><td>4.89 b 0</td><td>4.30 b 0</td><td>4.30 a 6</td><td>5.83 b 2</td><td>2.31 a 6</td><td>1.86 b 6</td><td>3.38 b 6</td><td>4.54 b 6</td><td>6.64 b 8</td><td>5.29 c 2</td><td>5.97 a c</td></tr><tr><td></td><td>0.54 c 0</td><td>0.54 b 1</td><td>1.09 c 9</td><td>3.26 c 1</td><td>1.09 c 9</td><td>1.63 b 5</td><td>5.43 b 8</td><td>1.98 a 0</td><td>1.90 b 0</td><td>1.63 b 5</td><td>1.36 b 6</td><td>7.98 b 8</td><td>9.23 b 2</td><td>2.40 c</td></tr><tr><td></td><td>2.17 b 1</td><td>7.60 a 6</td><td>2.17 b 1</td><td>9.7 a 6</td><td>6.50 a 6</td><td>1.30 b 1</td><td>11.40 c 6</td><td>1.65 a 1</td><td>13.03 a 6</td><td>15.20 a 0</td><td>10.32 a 0</td><td>15.74 a 4</td><td>15.20 a 4</td><td>4.30 a 0</td></tr><tr><td></td><td>5.90 a 685</td><td>6.50 a 2</td><td>2.17 b 0</td><td>3.8 b 8 c</td><td>3.80 b 0</td><td>2.70 b 0</td><td>3.58 b 2</td><td>2.59 a 0</td><td>3.64 b 0</td><td>2.23 b 0</td><td>2.71 b 0</td><td>4.51 c 0</td><td>8.01</td><td>3.40 b 0 d 0</td></tr><tr><td></td><td>MI</td><td>0.34 a 8</td><td>0.11 a 2</td><td>0.09 b 0</td><td>0.12 c 0</td><td>0.36 a 0</td><td>0.67 a 0</td><td>0.10 c 0</td><td>0.07 c 0</td><td>0.04 b 0</td><td>0.11 c 0</td><td>0.02 c 0</td><td>0.18 b 08</td><td>0.11 a 0</td></tr><tr><td></td><td>0.13 b 0</td><td>0.02 b 1</td><td>0.06 a 0</td><td>1.05 c 0</td><td>0.39 c 0</td><td>0.42 a 0</td><td>0.93 b 0</td><td>0.59 a 0</td><td>0.73 b 0</td><td>0.32 b 0</td><td>5.90 a 1</td><td>1.67 a 0</td><td>1.53 a 0</td><td>13.03</td></tr><tr><td></td><td>0.07 c 0</td><td>0.11 a 1</td><td>0.05 c 0</td><td>0.18 b 0</td><td>0.01 b 0</td><td>0.03 c 0</td><td>1.58 c 0</td><td>0.13 b 0</td><td>1.81 a 1</td><td>1.29 a 0</td><td>1.71 b 0</td><td>1.88 a 0</td><td>1.59 a 0</td><td>0.15 a 0</td></tr><tr><td></td><td>0.18 b 0 b</td><td>0.10 b 0</td><td>0.06 a 0</td><td>0.17 b 0</td><td>0.13 b 0</td><td>0.17 b 0</td><td>0.45 b 0</td><td>0.43 a 0</td><td>0.23 c 0</td><td>0.15 c 0</td><td>0.07 b 0</td><td>0.65 a 0</td><td>0.18 b 0</td><td>0.09 a 0</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-bf03175144.pdf_4",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-bf03175144.pdf_4.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "TABLE 2 - Enzyme and specific activity of Metarhizium anisopliae isolates in the four different media on day 2",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-bf03175144.pdf_4",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-bf03175144.pdf_4.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Media</th><th>UM1</th><th>UM2</th><th>UM3</th><th>UM4</th><th>UM5</th><th>UM6</th></tr></thead><tbody><tr><td></td><td>3.66</td><td>5.97 c 3</td><td>3.26 a 6</td><td>5.43 b 0</td><td>3.80 b 0</td><td>4.57 a 6</td></tr><tr><td></td><td>1.63 b 1</td><td>1.09 c 1</td><td>1.63 a 1</td><td>3.80 c 6</td><td>2.70 c 0</td></tr><tr><td></td><td>4.34 b 0</td><td>1.81 a 0</td><td>3.26 a 1</td><td>8.14 a 0</td><td>5.61 a 1</td></tr><tr><td></td><td>6.50 a 0</td><td>7.60 a 0</td><td>2.71 a 0</td><td>3.40 a 0</td><td>3.26 b 0</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-bf03175144.pdf_4",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-bf03175144.pdf_4.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "TABLE 3 - Enzyme and specific activity of Metarhizium anisopliae isolats in the four different media on day 4",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-bf03175144.pdf_4",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-bf03175144.pdf_4.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th></th><th>0.33 a 0</th><th>10.05 c 0</th><th>0.07 a 0</th><th>1.01 c 0</th><th>0.07 a 0</th><th>0.04 c 0</th></tr></thead><tbody><tr><td></td><td>0.09 c 0</td><td>0.02 c 0</td><td>0.06 a 0</td><td>0.43 a 0</td><td>0.07 c 0</td><td>0.08 a 0</td></tr><tr><td></td><td>0.31 a 0</td><td>10.44 f 0</td><td>0.08 a 0</td><td>10.44 f 0</td><td>0.80 b 0</td></tr><tr><td></td><td>0.19 b 0</td><td>0.12 a 0</td><td>0.05 a 0</td><td>0.10 b 0</td><td>0.07 b 0</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-bf03175144.pdf_4",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-bf03175144.pdf_4.pdf_0.jpg"
+  }
+]

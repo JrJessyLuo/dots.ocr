@@ -1,0 +1,92 @@
+[
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td>Flow of wash oil to reactor riser</td></tr><tr><td>2</td><td>Flow of fresh feed to reactor riser</td></tr><tr><td>3</td><td>Flow of slurry to reactor riser</td></tr><tr><td>4</td><td>Temperature of fresh feed entering furnace</td></tr><tr><td>5</td><td>Fresh feed temperature to riser</td></tr><tr><td>6</td><td>Furnace firebox temperature</td></tr><tr><td>7</td><td>Combustion air blower inlet suction flow</td></tr><tr><td>8</td><td>Combustion air blower throughput</td></tr><tr><td>9</td><td>Combustion air flow rate</td></tr><tr><td>10</td><td>Lift air blower suction flow</td></tr><tr><td>11</td><td>Lift air blower speed</td></tr><tr><td>12</td><td>Lift air blower throughput</td></tr><tr><td>13</td><td>Riser temperature</td></tr><tr><td>14</td><td>Wet gas compressor suction pressure</td></tr><tr><td>15</td><td>Wet gas compressor inlet suction flow</td></tr><tr><td>16</td><td>Wet gas flow to vapor recovery unit</td></tr><tr><td>17</td><td>Regenerator bed temperature</td></tr><tr><td>18</td><td>Stack gas valve position</td></tr><tr><td>19</td><td>Regenerator pressure</td></tr><tr><td>20</td><td>Standpipe catalyst level</td></tr><tr><td>21</td><td>Stack gas _2 concentration</td></tr><tr><td>22</td><td>Combustion air blower discharge pressure</td></tr><tr><td>23</td><td>Wet gas composition suction valve position</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-ceat.200600410.pdf_5",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-ceat.200600410.pdf_5.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "Table 1. Considered process variables of the FCCU case study.",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-ceat.200600410.pdf_5",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-ceat.200600410.pdf_5.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Case</th><th>Disturbance</th></tr></thead><tbody><tr><td>1</td><td>10 \\% loss of combustion air blower capacity</td></tr><tr><td>2</td><td>5 \\% degradation in the flow of regenerated catalyst</td></tr><tr><td>3</td><td>5 \\% increase in the coke factor of the feed</td></tr><tr><td>4</td><td>10 \\% decrease in the heat exchanger coefficient of the furnace</td></tr><tr><td>5</td><td>10 \\% increase in fresh feed</td></tr><tr><td>6</td><td>5 \\% decrease in lift air blower speed</td></tr><tr><td>7</td><td>5 \\% increase in friction coefficient of regenerated catalyst</td></tr><tr><td>8</td><td>Negative bias of reactor pressure sensor</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-ceat.200600410.pdf_5",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-ceat.200600410.pdf_5.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "Table 2. Process disturbances for FCCU.",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-ceat.200600410.pdf_5",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-ceat.200600410.pdf_5.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-ceat.200600410.pdf_5",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-ceat.200600410.pdf_5.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Figure 2. Scatter plot in original feature space.",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-ceat.200600410.pdf_5",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-ceat.200600410.pdf_5.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-ceat.200600410.pdf_5",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-ceat.200600410.pdf_5.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Figure 3. Scatter plot in high-dimensional feature space.",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-ceat.200600410.pdf_5",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-ceat.200600410.pdf_5.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-ceat.200600410.pdf_5",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-ceat.200600410.pdf_5.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Fig. 3. It is seen from Fig. 3 that after projecting to the high-dimensional feature space through selecting the appropriate kernel function, the kernel Fisher discriminant method can easily discriminate data that belong to different classes.",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-ceat.200600410.pdf_5",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-ceat.200600410.pdf_5.pdf_0.jpg"
+  }
+]
