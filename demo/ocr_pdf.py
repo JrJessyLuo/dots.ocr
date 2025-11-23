@@ -434,14 +434,21 @@ def parse_pdf_to_elements(
 
     results.sort(key=lambda r: r["page_idx"])
 
-    # Write JSONL: one record per page
-    out_jsonl = out_dir / f"{pdf_stem}.elements.jsonl"
-    with out_jsonl.open("w", encoding="utf-8") as wf:
-        for r in results:
-            wf.write(json.dumps(r, ensure_ascii=False) + "\n")
+    all_elements: List[Dict[str, Any]] = []
+    for r in results:
+        els = r.get("elements", [])
+        if isinstance(els, list):
+            all_elements.extend(els)
 
-    print(f"[info] saved elements → {out_jsonl}")
-    return out_jsonl
+    # Write JSONL: one record per page
+    out_json = out_dir / f"mineru_elements.json"
+    out_json.write_text(
+        json.dumps({"elements": all_elements}, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+
+    print(f"[info] saved elements → {out_json}")
+    return out_json
 
 
 # --------------------------- CLI ---------------------------
