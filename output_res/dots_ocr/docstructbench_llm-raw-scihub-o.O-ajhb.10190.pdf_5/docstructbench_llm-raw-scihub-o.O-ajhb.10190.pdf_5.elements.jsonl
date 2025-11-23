@@ -1,0 +1,1 @@
+{"pdf": "docstructbench_llm-raw-scihub-o.O-ajhb.10190.pdf_5", "pdf_path": "test_pdfs/docstructbench_llm-raw-scihub-o.O-ajhb.10190.pdf_5.pdf", "page_idx": 0, "image_path": "docstructbench_llm-raw-scihub-o.O-ajhb.10190.pdf_5.pdf_0.jpg", "elements": [], "metrics": {"input_tokens": 0.0, "output_tokens": 0.0, "total_tokens": 0.0, "time_sec": 1.1815087795257568, "raw_text_len": 0.0}}
