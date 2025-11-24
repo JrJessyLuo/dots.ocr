@@ -1,0 +1,19 @@
+{
+  "pdf": "scihub_ie102256j.pdf_4",
+  "tables": [],
+  "images": [],
+  "metrics": {
+    "per_page_time_sec": [
+      {
+        "page_idx": 0,
+        "time_sec": 29.182591676712036
+      }
+    ],
+    "per_page_status": [
+      {
+        "page_idx": 0,
+        "status": "ok"
+      }
+    ]
+  }
+}

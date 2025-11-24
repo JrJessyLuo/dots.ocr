@@ -1,0 +1,38 @@
+[
+  {
+    "pdf": "scihub_j.cbpb.2019.110324.pdf_6",
+    "image_path": "scihub_j.cbpb.2019.110324.pdf_6.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": ""
+  },
+  {
+    "pdf": "scihub_j.cbpb.2019.110324.pdf_6",
+    "image_path": "scihub_j.cbpb.2019.110324.pdf_6.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "**Fig. 5.** The expression profiles of ATF/CREBs in XX and XY gonads based on transcriptome data from gonads of tilapia at 5, 30, 90 and 180 dah. Four pairs of RNA preparations from gonads of XX and XY tilapia at 5, 30, 90 and 180 dah were sequenced using Illumina 2000 HiSeq technology in our previous study. A normalized measure of RPKM (reads per kb per million reads) was used to normalize the expression profiles of ATF/CREBs.",
+    "html": ""
+  },
+  {
+    "pdf": "scihub_j.cbpb.2019.110324.pdf_6",
+    "image_path": "scihub_j.cbpb.2019.110324.pdf_6.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "**Table 2**\n\nStatistics of ATF/CREB gene expression in tilapia gonads at four developmental stages.",
+    "html": ""
+  },
+  {
+    "pdf": "scihub_j.cbpb.2019.110324.pdf_6",
+    "image_path": "scihub_j.cbpb.2019.110324.pdf_6.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th rowspan=\"2\"></th><th colspan=\"2\">5 dah</th><th colspan=\"2\">30 dah</th><th colspan=\"2\">90 dah</th><th colspan=\"2\">180 dah</th></tr><tr><th>XX</th><th>XY</th><th>XX</th><th>XY</th><th>XX</th><th>XY</th><th>XX</th><th>XY</th></tr></thead><tbody><tr><th>Total</th><td>132</td><td>197</td><td>770</td><td>1116</td><td>1247</td><td>1269</td><td>1171</td><td>1313</td></tr><tr><th>Average</th><td>6.9</td><td>10.4</td><td>40.5</td><td>58.8</td><td>65.6</td><td>66.8</td><td>61.6</td><td>69.1</td></tr><tr><th>Most diff</th><td>atf5a</td><td></td><td>atf4b</td><td></td><td>creb1b</td><td></td><td>creb1b</td><td></td></tr></tbody></table>"
+  }
+]

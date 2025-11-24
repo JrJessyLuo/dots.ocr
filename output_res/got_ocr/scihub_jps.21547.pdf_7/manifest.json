@@ -1,0 +1,19 @@
+{
+  "pdf": "scihub_jps.21547.pdf_7",
+  "tables": [],
+  "images": [],
+  "metrics": {
+    "per_page_time_sec": [
+      {
+        "page_idx": 0,
+        "time_sec": 17.411641836166382
+      }
+    ],
+    "per_page_status": [
+      {
+        "page_idx": 0,
+        "status": "ok"
+      }
+    ]
+  }
+}

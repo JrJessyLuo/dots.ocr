@@ -1,0 +1,38 @@
+[
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s10555-005-1578-8.pdf_5",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s10555-005-1578-8.pdf_5.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "Table 2. (Continued)",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s10555-005-1578-8.pdf_5",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s10555-005-1578-8.pdf_5.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th rowspan=\"2\">Cell line</th><th colspan=\"10\">PKC isoform</th><th rowspan=\"2\">Detection *</th><th rowspan=\"2\">Reference</th></tr><tr><th>α</th><th>βI/βII</th><th>γ</th><th>δ</th><th>ε</th><th>η</th><th>θ</th><th>ζ</th><th>λ/ι</th></tr></thead><tbody><tr><td>WM115 (primary)</td><td>+</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>W</td><td>[36]</td></tr><tr><td>WM1205Lu (metastatic)</td><td>+</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>W</td><td>[36]</td></tr><tr><td>SK-Mel 28 (metastatic)</td><td>+</td><td>—</td><td>—</td><td>+</td><td>+</td><td>ND</td><td>+</td><td>+</td><td>ND</td><td>W, R</td><td>[29]</td></tr><tr><td>A375 (primary)</td><td>+</td><td>—</td><td>—</td><td>+</td><td>+</td><td>ND</td><td>+</td><td>+</td><td>ND</td><td>W, R</td><td>[29]</td></tr><tr><td>Murine</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>B16 (metastatic)</td><td>+</td><td>—</td><td>+</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>N</td><td>[37]</td></tr><tr><td>B16-F1 (metastatic)</td><td>+</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>W</td><td>[38]</td></tr><tr><td>B16 (metastatic)</td><td>+</td><td>—</td><td>—</td><td>+</td><td>+</td><td>ND</td><td>ND</td><td>+</td><td>ND</td><td>N</td><td>[39]</td></tr><tr><td>B16 (metastatic)</td><td>+</td><td>—</td><td>—</td><td>—</td><td>—</td><td>ND</td><td>ND</td><td>+</td><td>ND</td><td>W</td><td>[30]</td></tr><tr><td>B16 (metastatic)</td><td>+</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>W</td><td>[40]</td></tr><tr><td>B16 (metastatic)</td><td>+</td><td>—</td><td>—</td><td>—</td><td>+</td><td>+</td><td>+</td><td>ND</td><td>+</td><td>W</td><td>[41]</td></tr><tr><td>B16 (metastatic)</td><td>+</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>W</td><td>[42]</td></tr><tr><td>B16 (metastatic)</td><td>+</td><td>+</td><td>+</td><td>+</td><td>+</td><td>+</td><td>+</td><td>ND</td><td>ND</td><td>W</td><td>[43]</td></tr><tr><td>B16 (metastatic)</td><td>+</td><td>—</td><td>—</td><td>+</td><td>+</td><td>—</td><td>ND</td><td>+</td><td>ND</td><td>W</td><td>[44]</td></tr><tr><td>B16-BL6 (metastatic)</td><td>+</td><td>ND</td><td>ND</td><td>ND</td><td>+</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>W</td><td>[45]</td></tr><tr><td>B16-BL6 (metastatic)</td><td>ND</td><td>ND</td><td>ND</td><td>—</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>W</td><td>[46]</td></tr></tbody></table>"
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s10555-005-1578-8.pdf_5",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s10555-005-1578-8.pdf_5.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "Table 3. The expression of PKC isoforms in human melanoma cells in vivo",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s10555-005-1578-8.pdf_5",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s10555-005-1578-8.pdf_5.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th rowspan=\"2\">Origin</th><th rowspan=\"2\">Clinical type*</th><th colspan=\"10\">PKC isoform</th><th rowspan=\"2\">Detection**</th><th rowspan=\"2\">Reference</th></tr><tr><th>α</th><th>βI/βII</th><th>γ</th><th>δ</th><th>ε</th><th>η</th><th>θ</th><th>ζ</th><th>λ/ι</th></tr></thead><tbody><tr><td>Primary</td><td>ALM</td><td>+</td><td>—</td><td>—</td><td>+</td><td>+</td><td>ND***</td><td>ND</td><td>+</td><td>ND</td><td>W</td><td>[25]</td></tr><tr><td>Metastatic</td><td>Unknown</td><td>+</td><td>—</td><td>—</td><td>+</td><td>+</td><td>ND</td><td>ND</td><td>+</td><td>ND</td><td>W</td><td>[25]</td></tr><tr><td>Metastatic</td><td>NS (5 cases)</td><td>ND</td><td>+</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>I</td><td>[27]</td></tr><tr><td>Metastatic</td><td>NS (5 cases)</td><td>ND</td><td>—</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>I</td><td>[27]</td></tr><tr><td>Metastatic</td><td>SSM</td><td>+</td><td>+</td><td>—</td><td>+</td><td>+</td><td>+</td><td>—</td><td>+</td><td>+</td><td>W</td><td>[28]</td></tr><tr><td>Metastatic</td><td>NS (5 cases)</td><td>+</td><td>+</td><td>—</td><td>+</td><td>+</td><td>+</td><td>—</td><td>+</td><td>+</td><td>W</td><td>[28]</td></tr><tr><td>Metastatic</td><td>ALM (2 cases)</td><td>+</td><td>+</td><td>—</td><td>+</td><td>+</td><td>+</td><td>—</td><td>+</td><td>+</td><td>W</td><td>[28]</td></tr><tr><td>Primary</td><td>ALM</td><td>—</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>I</td><td>[36]</td></tr><tr><td>Primary</td><td>ALM (11 cases)</td><td>+</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>I</td><td>[36]</td></tr><tr><td>Primary</td><td>SSM (7 cases)</td><td>+</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>I</td><td>[36]</td></tr><tr><td>Metastatic</td><td>ALM (2 cases)</td><td>+</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>I</td><td>[36]</td></tr><tr><td>Metastatic</td><td>SSM (2 cases)</td><td>+</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td><td>I</td><td>[36]</td></tr></tbody></table>"
+  }
+]

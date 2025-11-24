@@ -1,0 +1,38 @@
+[
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Application method</th><th>l_2 emission</th><th></th><th></th><th></th></tr></thead><tbody><tr><td>2 - 3 5 - 6</td><td>( )</td><td></td><td></td><td></td><td>(\\% of applied )</td></tr><tr><td>2 - 3 5 - 6 5 - 6</td><td>_4 _3</td><td></td><td>Liquid pig manure</td><td></td><td>_4 _3</td></tr><tr><td>Homogeneously mixed into soil</td><td>2.7</td><td></td><td>7.9</td><td></td><td>2.1</td></tr><tr><td>Surface applied</td><td>1.5</td><td></td><td>5.5</td><td></td><td>0.9</td></tr><tr><td>Placed at 5 depth</td><td>3.7</td><td></td><td>7.5</td><td></td><td>3.1</td></tr><tr><td>Placed at 10 depth</td><td>4.6</td><td></td><td>4.0</td><td></td><td>4.0</td></tr><tr><td>Placed in a row at 5 depth</td><td>4.9</td><td></td><td>12.9</td><td></td><td>4.3</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s00374-003-0589-2.pdf_6",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s00374-003-0589-2.pdf_6.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "Table 4 Total",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s00374-003-0589-2.pdf_6",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s00374-003-0589-2.pdf_6.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s00374-003-0589-2.pdf_6",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s00374-003-0589-2.pdf_6.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Fig. 2) days after application",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s00374-003-0589-2.pdf_6",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s00374-003-0589-2.pdf_6.pdf_0.jpg"
+  }
+]

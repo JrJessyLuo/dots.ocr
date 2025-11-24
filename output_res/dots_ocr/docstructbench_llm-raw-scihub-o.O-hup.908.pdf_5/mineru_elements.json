@@ -1,0 +1,20 @@
+[
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-hup.908.pdf_5",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-hup.908.pdf_5.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "Table 3. Major frustrations reported by BPD patients",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-hup.908.pdf_5",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-hup.908.pdf_5.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Characteristic</th><th>n (%)</th></tr></thead><tbody><tr><td><em>Illness-related factors</em></td><td></td></tr><tr><td>Mood swings</td><td>281 (66.4)</td></tr><tr><td>Depressions</td><td>238 (56.3)</td></tr><tr><td>Others' perceptions/stigma</td><td>184 (43.5)</td></tr><tr><td>Problems with trust/relationships/social interactions</td><td>171 (40.4)</td></tr><tr><td>Holding down a job</td><td>152 (35.9)</td></tr><tr><td>Hospitalization</td><td>118 (27.9)</td></tr><tr><td>Highs of mood</td><td>115 (27.2)</td></tr><tr><td>Lack of information</td><td>26 (6.15)</td></tr><tr><td><em>Treatment-related factors</em></td><td></td></tr><tr><td>Taking medication every day</td><td>216 (51.1)</td></tr><tr><td>Medication side-effects</td><td>170 (40.2)</td></tr><tr><td>Cost of treatment</td><td>3 (0.71)</td></tr><tr><td><em>Miscellaneous factors</em></td><td></td></tr><tr><td>Other</td><td>34 (8.04)</td></tr></tbody></table>"
+  }
+]

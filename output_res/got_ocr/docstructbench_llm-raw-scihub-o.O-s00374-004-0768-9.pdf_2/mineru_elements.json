@@ -1,0 +1,83 @@
+[
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Soil depth Soil Soil _4</th><th>c No _3</th></tr></thead><tbody><tr><td>()</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s00374-004-0768-9.pdf_2",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s00374-004-0768-9.pdf_2.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "Table 1 Main attributes of soil profiles under a coniferous forest and its adjacent orchard, and cumulative methane uptake rates of the different soil layers. Values are the means and S-ESs (in parentheses) of three replicates. Within each column for each land use, means followed by different letters are significantly different at",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s00374-004-0768-9.pdf_2",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s00374-004-0768-9.pdf_2.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>(</th></tr></thead><tbody><tr><td>()</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s00374-004-0768-9.pdf_2",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s00374-004-0768-9.pdf_2.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "Table 1 Main attributes of soil profiles under a coniferous forest and its adjacent orchard, and cumulative methane uptake rates of the different soil layers. Values are the means and S-ESs (in parentheses) of three replicates. Within each column for each land use, means followed by different letters are significantly different at",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s00374-004-0768-9.pdf_2",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s00374-004-0768-9.pdf_2.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>(</th></tr></thead><tbody><tr><td>()</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s00374-004-0768-9.pdf_2",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s00374-004-0768-9.pdf_2.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "Table 1 Main attributes of soil profiles under a coniferous forest and its adjacent orchard, and cumulative methane uptake rates of the different soil layers. Values are the means and S-ESs (in parentheses) of three replicates. Within each column for each land use, means followed by different letters are significantly different at",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s00374-004-0768-9.pdf_2",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s00374-004-0768-9.pdf_2.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>( soil)</th></tr></thead><tbody></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s00374-004-0768-9.pdf_2",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s00374-004-0768-9.pdf_2.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><tbody><tr><td>1</td><td>0-26</td><td>38.7</td><td>L</td><td>5.70</td><td>2.6</td></tr><tr><td>26-51</td><td>43.9</td><td>LiC</td><td>6.07</td><td>1.9</td><td>10.6</td></tr><tr><td>III 51-75</td><td>48.2</td><td>LiC</td><td>6.15</td><td>0.9</td><td>8.5</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s00374-004-0768-9.pdf_2",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s00374-004-0768-9.pdf_2.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><tbody><tr><td>1</td><td>0-9</td><td>37.5</td><td>L</td><td>6.22</td><td>3.5</td></tr><tr><td>II</td><td>9-23</td><td>28.9</td><td>SL</td><td>6.40</td><td>0.8</td></tr><tr><td>III</td><td>23-51</td><td>47.5</td><td>CL</td><td>6.47</td><td>2.6</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s00374-004-0768-9.pdf_2",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s00374-004-0768-9.pdf_2.pdf_0.jpg"
+  }
+]

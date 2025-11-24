@@ -1,0 +1,38 @@
+[
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><tbody><tr><td></td><td>5</td><td></td><td>30</td><td></td><td>90</td><td></td><td>180</td></tr><tr><td>Total</td><td>132</td><td>197</td><td>770</td><td>1116</td><td>1247</td><td>1269</td><td>1171</td><td>1313</td></tr><tr><td>Average</td><td>6.9</td><td>10.4</td><td>40.5</td><td>58.8</td><td>65.6</td><td>66.8</td><td>61.6</td><td>69.1</td></tr><tr><td>Most diff</td><td>of 5</td><td></td><td>of 4</td><td></td><td>rebb1</td><td></td><td>rebb1b</td></tr></tbody></table>",
+    "pdf": "scihub_j.cbpb.2019.110324.pdf_6",
+    "image_path": "scihub_j.cbpb.2019.110324.pdf_6.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "Table 2",
+    "html": "",
+    "pdf": "scihub_j.cbpb.2019.110324.pdf_6",
+    "image_path": "scihub_j.cbpb.2019.110324.pdf_6.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": "",
+    "pdf": "scihub_j.cbpb.2019.110324.pdf_6",
+    "image_path": "scihub_j.cbpb.2019.110324.pdf_6.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Fig. 5. The expression profiles of ATF/CREBs in XX and XY gonads based on transcriptome data from gonads of ellapia at 5, 30, 90 and 180 dah. Four pairs of RNA preparations from gonads of XX and XY tilapia at 5, 30, 90 and 180 dah were sequenced using Illumina 2000 HiSeq technology in our previous study. A normalized measure of RPMK (reads per kb per million reads) was used to normalize the expression profiles of ATF/CREBs.",
+    "html": "",
+    "pdf": "scihub_j.cbpb.2019.110324.pdf_6",
+    "image_path": "scihub_j.cbpb.2019.110324.pdf_6.pdf_0.jpg"
+  }
+]

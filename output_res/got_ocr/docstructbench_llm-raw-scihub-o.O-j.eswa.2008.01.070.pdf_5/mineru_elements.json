@@ -1,0 +1,83 @@
+[
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>[b]2*l RAW MATERIAL</th></tr></thead><tbody><tr><td>FAMILY</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.eswa.2008.01.070.pdf_5",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.eswa.2008.01.070.pdf_5.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>NUMBER</th></tr></thead><tbody><tr><td>OF TINTS</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.eswa.2008.01.070.pdf_5",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.eswa.2008.01.070.pdf_5.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>OUTPUT</th></tr></thead><tbody><tr><td>MACHINE</td></tr><tr><td>TOOLS</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.eswa.2008.01.070.pdf_5",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.eswa.2008.01.070.pdf_5.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>FINISHING</th></tr></thead><tbody><tr><td>TYPE</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.eswa.2008.01.070.pdf_5",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.eswa.2008.01.070.pdf_5.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>NUMBER OF</th></tr></thead><tbody><tr><td>TOOLS</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.eswa.2008.01.070.pdf_5",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.eswa.2008.01.070.pdf_5.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Input stream</th><th></th><th></th><th></th><th></th><th>Raw material family</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td></tr><tr><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td></tr><tr><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td></tr><tr><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td></tr><tr><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>1</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.eswa.2008.01.070.pdf_5",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.eswa.2008.01.070.pdf_5.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "Table 1",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.eswa.2008.01.070.pdf_5",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.eswa.2008.01.070.pdf_5.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.eswa.2008.01.070.pdf_5",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.eswa.2008.01.070.pdf_5.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Fig. 5). Therefore, the FANN has six processing units in the input layer, which are in charge of dealing exclusively with the raw material family. The totality of discrete values contained in the input and output sets were",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.eswa.2008.01.070.pdf_5",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.eswa.2008.01.070.pdf_5.pdf_0.jpg"
+  }
+]

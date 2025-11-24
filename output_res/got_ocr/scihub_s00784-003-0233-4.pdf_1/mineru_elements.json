@@ -1,0 +1,29 @@
+[
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Case</th><th>Diagnosis</th><th>Case</th><th>Sex</th><th>Age</th><th>Site</th><th>Treatment</th><th>Rec</th><th>Met</th><th>Follow-up</th><th>Status</th></tr></thead><tbody><tr><td>no.</td><td>l Osteosarcoma</td></tr><tr><td>1</td></tr></tbody></table>",
+    "pdf": "scihub_s00784-003-0233-4.pdf_1",
+    "image_path": "scihub_s00784-003-0233-4.pdf_1.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "Table 1 Clinical data (",
+    "html": "",
+    "pdf": "scihub_s00784-003-0233-4.pdf_1",
+    "image_path": "scihub_s00784-003-0233-4.pdf_1.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><tbody></tbody></table>",
+    "pdf": "scihub_s00784-003-0233-4.pdf_1",
+    "image_path": "scihub_s00784-003-0233-4.pdf_1.pdf_0.jpg"
+  }
+]

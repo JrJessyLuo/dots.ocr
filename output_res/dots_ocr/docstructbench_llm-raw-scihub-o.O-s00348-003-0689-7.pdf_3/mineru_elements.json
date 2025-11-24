@@ -1,0 +1,74 @@
+[
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s00348-003-0689-7.pdf_3",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s00348-003-0689-7.pdf_3.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s00348-003-0689-7.pdf_3",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s00348-003-0689-7.pdf_3.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Fig. 2. Diagram of trigger system for rotor-laser synchronization",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s00348-003-0689-7.pdf_3",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s00348-003-0689-7.pdf_3.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "**Table 1.** Example solution for rotor-laser synchronization",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s00348-003-0689-7.pdf_3",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s00348-003-0689-7.pdf_3.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><td>Rotor</td><td>Laser flash lamps</td><td>Rotor frequency/flash lamp rate</td><td>Camera and q-switch</td></tr></thead><tbody><tr><td>1,041 RPM~17.35 Hz</td><td>9.914 Hz</td><td>m/n=7/4</td><td>2.479 Hz</td></tr></tbody></table>"
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s00348-003-0689-7.pdf_3",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s00348-003-0689-7.pdf_3.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s00348-003-0689-7.pdf_3",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s00348-003-0689-7.pdf_3.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Fig. 3. The distribution of seed particles in the settling chamber and in the test section",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s00348-003-0689-7.pdf_3",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s00348-003-0689-7.pdf_3.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s00348-003-0689-7.pdf_3",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s00348-003-0689-7.pdf_3.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Fig. 4. PIV cameras and viewing direction (flow from above)",
+    "html": ""
+  }
+]

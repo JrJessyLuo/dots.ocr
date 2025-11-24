@@ -1,0 +1,11 @@
+[
+  {
+    "pdf": "docstructbench_llm-raw-the-eye-o.O-1995_2418.pdf_1",
+    "image_path": "docstructbench_llm-raw-the-eye-o.O-1995_2418.pdf_1.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><td>Trade date</td><td>Settlement cycle</td><td>Settlement date</td></tr></thead><tbody><tr><td>June 2 Friday</td><td>5 Day</td><td>June 9 Friday.</td></tr><tr><td>June 5 Monday</td><td>4 Day</td><td>June 9 Friday.</td></tr><tr><td>June 6 Tuesday</td><td>4 Day</td><td>June 12 Monday.</td></tr><tr><td>June 7 Wednesday</td><td>3 Day</td><td>June 12 Monday.</td></tr></tbody></table>"
+  }
+]

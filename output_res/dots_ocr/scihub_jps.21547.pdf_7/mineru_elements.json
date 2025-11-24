@@ -1,0 +1,38 @@
+[
+  {
+    "pdf": "scihub_jps.21547.pdf_7",
+    "image_path": "scihub_jps.21547.pdf_7.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "**Table 3.** Formulation Compositions of Solid Microemulsion Preconcentrate (SM) and Solid Dispersion (SD)",
+    "html": ""
+  },
+  {
+    "pdf": "scihub_jps.21547.pdf_7",
+    "image_path": "scihub_jps.21547.pdf_7.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Component</th><th>Solid Microemulsion<br>Preconcentrate</th><th>PEG-Surfactant-based<br>Solid Dispersion</th></tr></thead><tbody><tr><td>Compound 1 (%, w/w)</td><td>4</td><td>8</td></tr><tr><td>Capmul PG8 (%, w/w)</td><td>28.8</td><td>27.6</td></tr><tr><td>Cremophor EL (%, w/w)</td><td>28.8</td><td>27.6</td></tr><tr><td>Polysorbate 80 (%, w/w)</td><td>—</td><td>24</td></tr><tr><td>PEG 3350 (%, w/w)</td><td>38.4</td><td>36.8</td></tr></tbody></table>"
+  },
+  {
+    "pdf": "scihub_jps.21547.pdf_7",
+    "image_path": "scihub_jps.21547.pdf_7.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": ""
+  },
+  {
+    "pdf": "scihub_jps.21547.pdf_7",
+    "image_path": "scihub_jps.21547.pdf_7.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "**Figure 7.** Reference Raman spectra obtained from pure substances. These spectra were employed as basis for the deconvolution of the hyperspectral data cubes using classical least squares. From top to bottom: drug I (red), PEG3350 (green), Capmul PG8 (blue), Cremophor EL (black), Polysorbate 80 (orange).",
+    "html": ""
+  }
+]

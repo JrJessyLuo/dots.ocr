@@ -1,0 +1,137 @@
+[
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>l Dataset</th></tr></thead><tbody><tr><td>size</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s0167-8655%2801%2900019-8.pdf_10",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s0167-8655%2801%2900019-8.pdf_10.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "Table 1",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s0167-8655%2801%2900019-8.pdf_10",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s0167-8655%2801%2900019-8.pdf_10.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Total</th></tr></thead><tbody><tr><td>time</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s0167-8655%2801%2900019-8.pdf_10",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s0167-8655%2801%2900019-8.pdf_10.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "Table 1",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s0167-8655%2801%2900019-8.pdf_10",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s0167-8655%2801%2900019-8.pdf_10.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Training</th></tr></thead><tbody><tr><td>items</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s0167-8655%2801%2900019-8.pdf_10",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s0167-8655%2801%2900019-8.pdf_10.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "Table 1",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s0167-8655%2801%2900019-8.pdf_10",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s0167-8655%2801%2900019-8.pdf_10.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Testing</th></tr></thead><tbody><tr><td>items</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s0167-8655%2801%2900019-8.pdf_10",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s0167-8655%2801%2900019-8.pdf_10.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "Table 1",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s0167-8655%2801%2900019-8.pdf_10",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s0167-8655%2801%2900019-8.pdf_10.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Continuous</th></tr></thead><tbody><tr><td>attributes</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s0167-8655%2801%2900019-8.pdf_10",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s0167-8655%2801%2900019-8.pdf_10.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "Table 1",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s0167-8655%2801%2900019-8.pdf_10",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s0167-8655%2801%2900019-8.pdf_10.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Nominal</th></tr></thead><tbody><tr><td>attributes</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s0167-8655%2801%2900019-8.pdf_10",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s0167-8655%2801%2900019-8.pdf_10.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "Table 1",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s0167-8655%2801%2900019-8.pdf_10",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s0167-8655%2801%2900019-8.pdf_10.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Total</th></tr></thead><tbody><tr><td>attributes</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s0167-8655%2801%2900019-8.pdf_10",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s0167-8655%2801%2900019-8.pdf_10.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "Table 1",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s0167-8655%2801%2900019-8.pdf_10",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s0167-8655%2801%2900019-8.pdf_10.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Reduced attributes</th></tr></thead><tbody><tr><td>IFN</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s0167-8655%2801%2900019-8.pdf_10",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s0167-8655%2801%2900019-8.pdf_10.pdf_0.jpg"
+  }
+]

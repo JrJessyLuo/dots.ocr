@@ -1,0 +1,14 @@
+{
+  "pdf": "docstructbench_llm-raw-scihub-o.O-j.jcp.2010.12.006.pdf_14",
+  "tables": [],
+  "images": [
+    {
+      "page_idx": 0,
+      "bbox": null,
+      "bbox_norm": null,
+      "path": null,
+      "caption": null,
+      "footnote": ""
+    }
+  ]
+}

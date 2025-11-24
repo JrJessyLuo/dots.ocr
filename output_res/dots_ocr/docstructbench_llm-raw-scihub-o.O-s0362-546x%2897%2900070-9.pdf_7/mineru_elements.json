@@ -1,0 +1,56 @@
+[
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s0362-546x%2897%2900070-9.pdf_7",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s0362-546x%2897%2900070-9.pdf_7.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "**Table 6.** Areas of triangle made of three active sites of trypsin in the models, a, b and c.",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s0362-546x%2897%2900070-9.pdf_7",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s0362-546x%2897%2900070-9.pdf_7.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th rowspan=\"2\">Model protein</th><th colspan=\"3\">Distance (cm) between</th><th rowspan=\"2\">Area (cm²)</th></tr><tr><th>H and D</th><th>H and S</th><th>D and S</th></tr></thead><tbody><tr><td>a</td><td>4.0</td><td>3.4</td><td>3.3</td><td>5.4</td></tr><tr><td>b</td><td>3.5</td><td>3.0</td><td>3.0</td><td>4.3</td></tr><tr><td>c</td><td>3.6</td><td>3.9</td><td>3.4</td><td>5.2</td></tr></tbody></table>"
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s0362-546x%2897%2900070-9.pdf_7",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s0362-546x%2897%2900070-9.pdf_7.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "**Table 7.** Intramolecular interaction of the model d (GGHCYNTGNNDGGSGGGGGC).",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s0362-546x%2897%2900070-9.pdf_7",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s0362-546x%2897%2900070-9.pdf_7.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Site-B</th><th>Site-E</th><th>DEV</th><th>DD</th><th>Model</th></tr></thead><tbody><tr><td>3-HCY</td><td>11-DGG</td><td>1.49</td><td>66.5</td><td></td></tr><tr><td>3-HCY</td><td>12-GGS</td><td>1.49</td><td>66.5</td><td></td></tr><tr><td>4-CNY</td><td>1-GGH</td><td>1.29</td><td>74.8</td><td>d-1</td></tr><tr><td>4-CNY</td><td>11-DGG</td><td>1.29</td><td>74.8</td><td></td></tr><tr><td>4-CNY</td><td>12-GGS</td><td>1.29</td><td>74.8</td><td></td></tr><tr><td>5-YN T</td><td>1-GGH</td><td>1.39</td><td>70.3</td><td>d-2</td></tr><tr><td>5-YN T</td><td>11-DGG</td><td>1.39</td><td>70.3</td><td></td></tr><tr><td>5-YN T</td><td>12-GGS</td><td>1.39</td><td>70.3</td><td></td></tr><tr><td>5-YN T</td><td>18-GGC</td><td>1.39</td><td>76.6</td><td></td></tr><tr><td>9-NN D</td><td>1-GGH</td><td>1.85</td><td>69.2</td><td>d-3</td></tr><tr><td>9-NN D</td><td>12-GGS</td><td>1.85</td><td>69.2</td><td></td></tr><tr><td>9-NN D</td><td>18-GGC</td><td>1.85</td><td>73.9</td><td></td></tr></tbody></table>"
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s0362-546x%2897%2900070-9.pdf_7",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s0362-546x%2897%2900070-9.pdf_7.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "**Table 8.** Areas of triangle made of three active sites of trypsin in the model d. ($w=1, r=100$ are used.)",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s0362-546x%2897%2900070-9.pdf_7",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s0362-546x%2897%2900070-9.pdf_7.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th rowspan=\"2\">Model protein</th><th colspan=\"3\">Distance (cm) between</th><th rowspan=\"2\">Area (cm²)</th></tr><tr><th>H and D</th><th>H and S</th><th>D and S</th></tr></thead><tbody><tr><td>d-1</td><td>3.2</td><td>1.6</td><td>3.0</td><td>4.6</td></tr><tr><td>d-2</td><td>3.2</td><td>2.0</td><td>3.0</td><td>4.5</td></tr><tr><td>d-3-1</td><td>2.5</td><td>3.5</td><td>3.0</td><td>3.2</td></tr><tr><td>d-3-2</td><td>2.8</td><td>2.3</td><td>3.0</td><td>4.1</td></tr></tbody></table>"
+  }
+]

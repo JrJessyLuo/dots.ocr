@@ -1,0 +1,29 @@
+[
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th></th><th>Native</th><th>c derivative</th><th>c derivative</th><th>c Pt derivative</th></tr></thead><tbody><tr><td>Resolution range ()</td><td>20-19(1.97-1.9)</td><td>30-2.0(2.07-2.0)</td><td>50-2.80(2.9-2.9)</td><td>30-3.1(3.24-3.1)</td></tr><tr><td>Unique reflections</td><td>42,743</td><td>37,784</td><td>12,595</td><td>10,230</td></tr><tr><td>Redundancy</td><td>3.0(1.4)</td><td>9.2(3.5)</td><td>3.4(2.1)</td><td>2.1(1.9)</td></tr><tr><td>Completeness (\\%)</td><td>93.2(58.8)</td><td>98.2(86.5)</td><td>90.1(77.0)</td><td>97.5(91.6)</td></tr><tr><td>Average 1 / (t)</td><td>28.6(2.5)</td><td>33.5(2.2)</td><td>17.5(3.8)</td><td>12.7(1.5)</td></tr><tr><td></td><td>4.4(2.21)</td><td>7.0(46.3)</td><td>6.0(20.5)</td><td>8.1(25.6)</td></tr></tbody></table>",
+    "pdf": "scihub_j.jmb.2003.10.009.pdf_4",
+    "image_path": "scihub_j.jmb.2003.10.009.pdf_4.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "Table 1. Data collection and refinement statistics",
+    "html": "",
+    "pdf": "scihub_j.jmb.2003.10.009.pdf_4",
+    "image_path": "scihub_j.jmb.2003.10.009.pdf_4.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><tbody><tr><td>R_ even</td><td>10</td><td>10</td><td>10</td><td>10</td><td>10</td></tr><tr><td>R_ even</td><td>10</td></tr></tbody></table>",
+    "pdf": "scihub_j.jmb.2003.10.009.pdf_4",
+    "image_path": "scihub_j.jmb.2003.10.009.pdf_4.pdf_0.jpg"
+  }
+]

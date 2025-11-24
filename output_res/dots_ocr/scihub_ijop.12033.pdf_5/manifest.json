@@ -1,0 +1,15 @@
+{
+  "pdf": "scihub_ijop.12033.pdf_5",
+  "tables": [
+    {
+      "page_idx": 0,
+      "bbox": null,
+      "bbox_norm": null,
+      "html": "output_res/dots_ocr/scihub_ijop.12033.pdf_5/tables/p000_t0.html",
+      "csv": null,
+      "caption": "",
+      "footnote": ""
+    }
+  ],
+  "images": []
+}

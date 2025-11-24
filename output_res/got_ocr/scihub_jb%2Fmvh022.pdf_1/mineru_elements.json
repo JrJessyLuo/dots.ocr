@@ -1,0 +1,20 @@
+[
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Strain</th><th>Relevant characteristics</th><th>Source or reference</th></tr></thead><tbody><tr><td>W3110</td><td>wild type</td><td>Laboratory stock</td></tr><tr><td>JE7951</td><td>spr-1</td><td>(7)</td></tr><tr><td>JE7934</td><td>prC : neo</td><td>(7)</td></tr><tr><td>JE7456</td><td>str xyl argG</td><td>Laboratory stock</td></tr><tr><td>CAG12072</td><td>sqj-203:Th10</td><td>(7)</td></tr><tr><td>TOP10</td><td>recA1 oraD139 (araA-leu) 7697</td><td>Invitrogen</td></tr><tr><td>Rev1</td><td>spr-1</td><td>Spontaneously from JE7951</td></tr><tr><td>Rev2</td><td>spr-1 nlp12</td><td>Spontaneously from JE7951</td></tr><tr><td>Rev3</td><td>spr-1 nlp13</td><td>Spontaneously from JE7951</td></tr><tr><td>Rev4</td><td>spr-1 nlp14</td><td>Spontaneously from JE7951</td></tr><tr><td>Rev5</td><td>spr-1 nlp15</td><td>Spontaneously from JE7951</td></tr><tr><td>Rev6</td><td>spr-1 nlp16</td><td>Spontaneously from JE7951</td></tr><tr><td>TAR1</td><td>str xyl argG2-sj-203::Tn10</td><td>CAG12072 (P1) JE7456</td></tr><tr><td>TAR2</td><td>orgG2 sj-203::Tn10</td><td>TAR1 (P1) W3110</td></tr><tr><td></td><td>1</td><td>TAR1 (P1) JE7951</td></tr><tr><td>KM354</td><td>spr-1 nlp223 gsm bet eco</td><td>1</td><td></td></tr><tr><td>MU2</td><td>1</td><td>Derived from KM354 by transformation with linearized nlp1:cm DNA</td></tr><tr><td>MU24</td><td>nlp1:cm</td><td>MU2 (P1) W3110</td></tr><tr><td>MU25</td><td>nlp1</td><td>Rev1 (P1) TAR2</td></tr><tr><td>MU26</td><td>nlp12</td><td>Rev2 (P1) TAR2</td></tr><tr><td>MU27</td><td>nlp13</td><td>Rev3 (P1) TAR2</td></tr><tr><td>MU124</td><td>spr-1 nlp1:cm</td><td>MU2 (P1) JE7951</td></tr><tr><td>MU125</td><td>spr-1 nlp1</td><td>Rev1 (P1) TAR3</td></tr><tr><td>MU126</td><td>1</td><td>Rev2 (P1) TAR3</td></tr><tr><td>MU127</td><td>-1 nlp13</td><td>Rev3 (P1) TAR3</td></tr><tr><td>PN1</td><td>pr neo nlp1:cm</td><td>MU24 (P1) JE7934</td></tr><tr><td>HSB1</td><td>b1:cm</td><td>Derived from KM354 by transformation with linearized ibpB:cm DNA</td></tr><tr><td>HSB2</td><td>b1:cm</td><td>HS81 (P1) W3110</td></tr><tr><td>HSB3</td><td>-1 nlpB:cm</td><td>HS81 (P1) JE7951</td></tr></tbody></table>",
+    "pdf": "scihub_jb%2Fmvh022.pdf_1",
+    "image_path": "scihub_jb%2Fmvh022.pdf_1.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "Table 1. Bacterial strains",
+    "html": "",
+    "pdf": "scihub_jb%2Fmvh022.pdf_1",
+    "image_path": "scihub_jb%2Fmvh022.pdf_1.pdf_0.jpg"
+  }
+]

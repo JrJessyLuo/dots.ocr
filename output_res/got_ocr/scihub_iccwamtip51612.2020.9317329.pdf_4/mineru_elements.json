@@ -1,0 +1,20 @@
+[
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Method</th><th>Data set</th><th>Subject</th><th>FI Score</th><th>Modality</th><th>Training Accuracy</th><th>Validation Accuracy</th></tr></thead><tbody><tr><td>SVM EBF</td><td>CASIA</td><td>75</td><td>0.890</td><td>RGB</td><td>0.90</td><td>0.89</td></tr><tr><td>Spoof ResNet</td><td>MSU-MFSD</td><td>35</td><td>N/A</td><td>RGB</td><td>0.978</td><td>0.944</td></tr><tr><td>MTCNN</td><td>YOUTU</td><td>3550</td><td>0.956</td><td>RGB/R</td><td>0.962</td><td>0.978</td></tr><tr><td>SqueezeNet</td><td>CASIA-SURF</td><td>1000</td><td>N/A</td><td>Color, Depth \\</td><td>IR</td><td>N/A</td><td>0.998</td></tr><tr><td>FusionNet</td><td>CASIA-SURF</td><td>300</td><td>0.998</td><td>Color, Depth \\</td><td>IR</td><td>N/A</td><td>0.97</td></tr></tbody></table>",
+    "pdf": "scihub_iccwamtip51612.2020.9317329.pdf_4",
+    "image_path": "scihub_iccwamtip51612.2020.9317329.pdf_4.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "Table 4 Comparison review with existing work's methods and accuracy scores.",
+    "html": "",
+    "pdf": "scihub_iccwamtip51612.2020.9317329.pdf_4",
+    "image_path": "scihub_iccwamtip51612.2020.9317329.pdf_4.pdf_0.jpg"
+  }
+]

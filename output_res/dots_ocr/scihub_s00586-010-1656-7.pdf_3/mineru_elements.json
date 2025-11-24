@@ -1,0 +1,38 @@
+[
+  {
+    "pdf": "scihub_s00586-010-1656-7.pdf_3",
+    "image_path": "scihub_s00586-010-1656-7.pdf_3.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "**Table 4** Low back and leg pain scores 24 months after surgery",
+    "html": ""
+  },
+  {
+    "pdf": "scihub_s00586-010-1656-7.pdf_3",
+    "image_path": "scihub_s00586-010-1656-7.pdf_3.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Pain score after surgery</th><th>Local bone graft</th><th>ICBG</th><th>Statistical analysis</th></tr></thead><tbody><tr><td>Low back pain</td><td></td><td></td><td></td></tr><tr><td>Visual analog scale (VAS)</td><td>1.8 ± 0.6</td><td>2.2 ± 0.7</td><td>N.S.</td></tr><tr><td>Japanese orthopedic association score (JOAS)</td><td>2.4 ± 0.8</td><td>2.5 ± 0.7</td><td>N.S.</td></tr><tr><td>Oswestry Disability Index (ODI)</td><td>22 ± 5</td><td>25 ± 4</td><td>N.S.</td></tr><tr><td>Leg pain</td><td></td><td></td><td></td></tr><tr><td>Visual analog scale (VAS)</td><td>1.5 ± 0.6</td><td>2.0 ± 0.8</td><td>N.S.</td></tr><tr><td>Japanese orthopedic association score (JOAS)</td><td>2.4 ± 0.5</td><td>2.3 ± 0.6</td><td>N.S.</td></tr></tbody></table>"
+  },
+  {
+    "pdf": "scihub_s00586-010-1656-7.pdf_3",
+    "image_path": "scihub_s00586-010-1656-7.pdf_3.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "**Table 5** Complications",
+    "html": ""
+  },
+  {
+    "pdf": "scihub_s00586-010-1656-7.pdf_3",
+    "image_path": "scihub_s00586-010-1656-7.pdf_3.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th></th><th>Local bone graft</th><th>ICBG</th><th>Statistical analysis (P)</th></tr></thead><tbody><tr><td>Deep Infection</td><td>1</td><td>0</td><td>N.S.</td></tr><tr><td>Hematoma of spinal canal</td><td>0</td><td>0</td><td>N.S.</td></tr><tr><td>Hematoma of iliac crest</td><td>0</td><td>0</td><td>N.S.</td></tr><tr><td>Sensory loss around iliac crest</td><td>0</td><td>8</td><td>0.01</td></tr><tr><td>Pain around iliac crest</td><td>0</td><td>6</td><td>0.025</td></tr></tbody></table>"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "pdf": "docstructbench_llm-raw-scihub-o.O-j.1365-2818.2003.01210.x.pdf_7",
+  "tables": [],
+  "images": [
+    {
+      "page_idx": 0,
+      "bbox": null,
+      "bbox_norm": null,
+      "path": null,
+      "caption": null,
+      "footnote": ""
+    }
+  ]
+}

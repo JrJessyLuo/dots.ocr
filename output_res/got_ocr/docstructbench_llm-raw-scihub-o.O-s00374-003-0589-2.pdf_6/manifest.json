@@ -1,0 +1,19 @@
+{
+  "pdf": "docstructbench_llm-raw-scihub-o.O-s00374-003-0589-2.pdf_6",
+  "tables": [],
+  "images": [],
+  "metrics": {
+    "per_page_time_sec": [
+      {
+        "page_idx": 0,
+        "time_sec": 17.763360261917114
+      }
+    ],
+    "per_page_status": [
+      {
+        "page_idx": 0,
+        "status": "ok"
+      }
+    ]
+  }
+}

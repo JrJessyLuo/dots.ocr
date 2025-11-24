@@ -1,0 +1,20 @@
+[
+  {
+    "pdf": "scihub_j.conbuildmat.2019.117698.pdf_5",
+    "image_path": "scihub_j.conbuildmat.2019.117698.pdf_5.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": ""
+  },
+  {
+    "pdf": "scihub_j.conbuildmat.2019.117698.pdf_5",
+    "image_path": "scihub_j.conbuildmat.2019.117698.pdf_5.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Fig. 6. Schematics of measurement geometries (not to scale): photocatalytic reactor.",
+    "html": ""
+  }
+]

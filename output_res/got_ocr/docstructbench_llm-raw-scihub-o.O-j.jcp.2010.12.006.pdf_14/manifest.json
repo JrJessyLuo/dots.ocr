@@ -1,0 +1,19 @@
+{
+  "pdf": "docstructbench_llm-raw-scihub-o.O-j.jcp.2010.12.006.pdf_14",
+  "tables": [],
+  "images": [],
+  "metrics": {
+    "per_page_time_sec": [
+      {
+        "page_idx": 0,
+        "time_sec": 10.21206784248352
+      }
+    ],
+    "per_page_status": [
+      {
+        "page_idx": 0,
+        "status": "ok"
+      }
+    ]
+  }
+}

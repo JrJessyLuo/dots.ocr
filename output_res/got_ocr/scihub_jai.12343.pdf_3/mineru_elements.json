@@ -1,0 +1,164 @@
+[
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>l Transmitter</th></tr></thead><tbody><tr><td>ID</td></tr></tbody></table>",
+    "pdf": "scihub_jai.12343.pdf_3",
+    "image_path": "scihub_jai.12343.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "Table 2",
+    "html": "",
+    "pdf": "scihub_jai.12343.pdf_3",
+    "image_path": "scihub_jai.12343.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Total</th></tr></thead><tbody><tr><td>length</td></tr><tr><td>()</td></tr></tbody></table>",
+    "pdf": "scihub_jai.12343.pdf_3",
+    "image_path": "scihub_jai.12343.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "Table 2",
+    "html": "",
+    "pdf": "scihub_jai.12343.pdf_3",
+    "image_path": "scihub_jai.12343.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Fork</th></tr></thead><tbody><tr><td>length</td></tr><tr><td>()</td></tr></tbody></table>",
+    "pdf": "scihub_jai.12343.pdf_3",
+    "image_path": "scihub_jai.12343.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Weight</th></tr></thead><tbody><tr><td>()</td></tr></tbody></table>",
+    "pdf": "scihub_jai.12343.pdf_3",
+    "image_path": "scihub_jai.12343.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Age</th></tr></thead><tbody><tr><td>(years)</td></tr></tbody></table>",
+    "pdf": "scihub_jai.12343.pdf_3",
+    "image_path": "scihub_jai.12343.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Release</th></tr></thead><tbody><tr><td>date</td></tr></tbody></table>",
+    "pdf": "scihub_jai.12343.pdf_3",
+    "image_path": "scihub_jai.12343.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Release</th></tr></thead><tbody><tr><td>site</td></tr></tbody></table>",
+    "pdf": "scihub_jai.12343.pdf_3",
+    "image_path": "scihub_jai.12343.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Travel</th></tr></thead><tbody><tr><td>distance</td></tr><tr><td>()</td></tr></tbody></table>",
+    "pdf": "scihub_jai.12343.pdf_3",
+    "image_path": "scihub_jai.12343.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Time interval from</th></tr></thead><tbody><tr><td>release to last</td></tr><tr><td>localization (h)</td></tr></tbody></table>",
+    "pdf": "scihub_jai.12343.pdf_3",
+    "image_path": "scihub_jai.12343.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><tbody><tr><td>17.7</td></tr></tbody></table>",
+    "pdf": "scihub_jai.12343.pdf_3",
+    "image_path": "scihub_jai.12343.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><tbody><tr><td>132</td></tr></tbody></table>",
+    "pdf": "scihub_jai.12343.pdf_3",
+    "image_path": "scihub_jai.12343.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><tbody><tr><td>19</td></tr></tbody></table>",
+    "pdf": "scihub_jai.12343.pdf_3",
+    "image_path": "scihub_jai.12343.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>[b]2* Region</th><th>|c| Traveling speed ( )</th><th>[b]2*N</th><th>*l Swimming depth of</th></tr></thead><tbody><tr><td>Sub-adults ()</td></tr></tbody></table>",
+    "pdf": "scihub_jai.12343.pdf_3",
+    "image_path": "scihub_jai.12343.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "Table 3",
+    "html": "",
+    "pdf": "scihub_jai.12343.pdf_3",
+    "image_path": "scihub_jai.12343.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": "",
+    "pdf": "scihub_jai.12343.pdf_3",
+    "image_path": "scihub_jai.12343.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Fig. 3. Traveling speeds of ultrasonically-tagged sub-adult Chinese sturgeons (with transmitter IDs) when passing through fires-flowing reaches of upper Yangtze River and Three Gorges Reservoir distance of the Venco acoustic system in the Yangtze River was between 300 and 900 . Water velocity, transparency, silt concentration, distance and surface attachment are all associated factors that highly affect the valid detection distance of the acoustic transmitters, passive receivers and mobile tracking hydrophones in our tests; such interferences may be the main handicaps for acoustic telemetry use in a long-term project in the fast-flowing, seasonal changing water quality of large rivers such as the Yangtze River (Wang et al., 2012). Careful design engineering tasks to improve the overall performance of the water quality of the target agent steps to achieve good results. In our experiment, only four of 28 sub-adult Chinese sturgeon tagged with acoustic transmitters were lost and we still received much telemetric information. The tracking distance of six subadults (21.4 \\%) was more than 300 , with the longest value of 877 and the most effective in the nearly two-year tracking period.",
+    "html": "",
+    "pdf": "scihub_jai.12343.pdf_3",
+    "image_path": "scihub_jai.12343.pdf_3.pdf_0.jpg"
+  }
+]

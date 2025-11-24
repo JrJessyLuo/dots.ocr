@@ -1,0 +1,24 @@
+{
+  "pdf": "scihub_s00586-010-1656-7.pdf_3",
+  "tables": [
+    {
+      "page_idx": 0,
+      "bbox": null,
+      "bbox_norm": null,
+      "html": "output_res/dots_ocr/scihub_s00586-010-1656-7.pdf_3/tables/p000_t0.html",
+      "csv": null,
+      "caption": "",
+      "footnote": ""
+    },
+    {
+      "page_idx": 0,
+      "bbox": null,
+      "bbox_norm": null,
+      "html": "output_res/dots_ocr/scihub_s00586-010-1656-7.pdf_3/tables/p000_t1.html",
+      "csv": null,
+      "caption": "",
+      "footnote": ""
+    }
+  ],
+  "images": []
+}

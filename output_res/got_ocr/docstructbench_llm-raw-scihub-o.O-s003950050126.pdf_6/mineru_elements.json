@@ -1,0 +1,227 @@
+[
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Patient</th><th>Symptoms</th><th>l bas</th></tr></thead><tbody><tr><td>endo</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "Table 3 Myocardial blood flow in subepicardial and subendocardial septum",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>bas</th></tr></thead><tbody><tr><td>epi</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "Table 3 Myocardial blood flow in subepicardial and subendocardial septum",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>dis</th></tr></thead><tbody><tr><td>endo</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "Table 3 Myocardial blood flow in subepicardial and subendocardial septum",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>dip</th></tr></thead><tbody><tr><td>epi</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "Table 3 Myocardial blood flow in subepicardial and subendocardial septum",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>dip</th></tr></thead><tbody><tr><td>endo</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "Table 3 Myocardial blood flow in subepicardial and subendocardial septum",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>post</th></tr></thead><tbody><tr><td>epi</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "Table 3 Myocardial blood flow in subepicardial and subendocardial septum",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>post</th></tr></thead><tbody><tr><td>bas</td></tr><tr><td>endo</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "Table 3 Myocardial blood flow in subepicardial and subendocardial septum",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>post</th></tr></thead><tbody><tr><td>epi</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>dis</th></tr></thead><tbody><tr><td>Endo/</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Post</th></tr></thead><tbody><tr><td>bas</td></tr><tr><td>Endo/</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Post</th></tr></thead><tbody><tr><td>dis</td></tr><tr><td>Endo/</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Pre</th></tr></thead><tbody><tr><td>Endo/</td></tr><tr><td>Epi</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Post</th></tr></thead><tbody><tr><td>dip</td></tr><tr><td>Endo/</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>cCR</th></tr></thead><tbody><tr><td>endo/</td></tr><tr><td>pre</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>CFR</th></tr></thead><tbody><tr><td>endo</td></tr><tr><td>post</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>CFR/</th></tr></thead><tbody><tr><td>epi</td></tr><tr><td>post</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>CRF</th></tr></thead><tbody><tr><td>endo</td></tr><tr><td>post</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Mean</th></tr></thead><tbody><tr><td>SD</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s003950050126.pdf_6.pdf_0.jpg"
+  }
+]

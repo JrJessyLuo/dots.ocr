@@ -1,0 +1,24 @@
+{
+  "pdf": "scihub_s11661-013-1726-7.pdf_2",
+  "tables": [
+    {
+      "page_idx": 0,
+      "bbox": null,
+      "bbox_norm": null,
+      "html": "output_res/dots_ocr/scihub_s11661-013-1726-7.pdf_2/tables/p000_t0.html",
+      "csv": null,
+      "caption": "",
+      "footnote": ""
+    }
+  ],
+  "images": [
+    {
+      "page_idx": 0,
+      "bbox": null,
+      "bbox_norm": null,
+      "path": null,
+      "caption": null,
+      "footnote": ""
+    }
+  ]
+}

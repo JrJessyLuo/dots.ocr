@@ -1,0 +1,15 @@
+{
+  "pdf": "docstructbench_llm-raw-scihub-o.O-j.chroma.2005.03.134.pdf_6",
+  "tables": [
+    {
+      "page_idx": 0,
+      "bbox": null,
+      "bbox_norm": null,
+      "html": "output_res/dots_ocr/docstructbench_llm-raw-scihub-o.O-j.chroma.2005.03.134.pdf_6/tables/p000_t0.html",
+      "csv": null,
+      "caption": "",
+      "footnote": ""
+    }
+  ],
+  "images": []
+}

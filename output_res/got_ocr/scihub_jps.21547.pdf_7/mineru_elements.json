@@ -1,0 +1,74 @@
+[
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Component</th><th>c Solid Microemulsion</th></tr></thead><tbody><tr><td>Preconcentrate</td></tr></tbody></table>",
+    "pdf": "scihub_jps.21547.pdf_7",
+    "image_path": "scihub_jps.21547.pdf_7.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "Table 3. Formulation Compositions of Solid Microemulsion Preconcentrate (SM) and Solid Dispersion (SD)",
+    "html": "",
+    "pdf": "scihub_jps.21547.pdf_7",
+    "image_path": "scihub_jps.21547.pdf_7.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>PEG-Surfactant-based</th></tr></thead><tbody><tr><td>Solid Dispersion</td></tr></tbody></table>",
+    "pdf": "scihub_jps.21547.pdf_7",
+    "image_path": "scihub_jps.21547.pdf_7.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "Table 3. Formulation Compositions of Solid Microemulsion Preconcentrate (SM) and Solid Dispersion (SD)",
+    "html": "",
+    "pdf": "scihub_jps.21547.pdf_7",
+    "image_path": "scihub_jps.21547.pdf_7.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": "",
+    "pdf": "scihub_jps.21547.pdf_7",
+    "image_path": "scihub_jps.21547.pdf_7.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Fig. 7) and used as the basis for the deconvolution of the experimental data cubes using classical least squares",
+    "html": "",
+    "pdf": "scihub_jps.21547.pdf_7",
+    "image_path": "scihub_jps.21547.pdf_7.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": "",
+    "pdf": "scihub_jps.21547.pdf_7",
+    "image_path": "scihub_jps.21547.pdf_7.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Figure 7. Reference Raman spectra obtained from pure substances. These spectra were employed as basis for the deconvolution of the hyperspectral data cubes using classical least squares. From top to bottom: drug I (red), PEG3350 (green), Capmul PG8 (blue), Cremophor EL (black), Polysorbate 80 (orange).",
+    "html": "",
+    "pdf": "scihub_jps.21547.pdf_7",
+    "image_path": "scihub_jps.21547.pdf_7.pdf_0.jpg"
+  }
+]

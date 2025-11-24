@@ -1,0 +1,65 @@
+[
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>|c| Intracellular solutions</th></tr></thead><tbody><tr><td>Solution</td><td></td><td></td><td></td><td></td><td></td><td>_3 _4</td><td>EGTA</td><td>EDTA</td><td>ATP</td></tr><tr><td>_ 1</td><td>145</td><td></td><td></td><td>0.1</td><td>4</td><td></td><td>0.5</td><td></td><td>2</td></tr><tr><td>_ 2</td><td>145</td><td></td><td></td><td></td><td>4</td><td></td><td>0.5</td><td></td><td>2</td></tr><tr><td>_ 3</td><td>145</td><td></td><td></td><td></td><td>4</td><td>135</td><td>0.5</td><td></td><td>2</td></tr><tr><td>_m 4</td><td>130</td><td></td><td></td><td></td><td>6</td><td>125</td><td>0.5</td><td></td><td>4</td></tr><tr><td>_</td><td>145</td><td></td><td></td><td></td><td></td><td></td><td>0.5</td><td></td><td>2</td></tr><tr><td>_ 2</td><td></td><td>145</td><td></td><td></td><td>4</td><td></td><td>0.5</td><td></td><td>2</td></tr><tr><td>_ 3</td><td></td><td>145</td><td></td><td></td><td>4</td><td>135</td><td>0.5</td><td></td><td>4</td></tr><tr><td>_ 4</td><td></td><td>130</td><td></td><td></td><td>6</td><td>125</td><td>0.5</td><td></td><td>4</td><td></td></tr><tr><td>_</td><td>145</td><td></td><td></td><td></td><td>4</td><td>140</td><td>0.5</td><td></td><td>2</td><td></td></tr><tr><td>_</td><td></td><td></td><td></td><td></td><td></td><td></td><td>0.5</td><td></td><td>2</td></tr></tbody></table>",
+    "pdf": "scihub_jneurosci.16-15-04625.1996.pdf_2",
+    "image_path": "scihub_jneurosci.16-15-04625.1996.pdf_2.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "Table 1. Recording solutions",
+    "html": "",
+    "pdf": "scihub_jneurosci.16-15-04625.1996.pdf_2",
+    "image_path": "scihub_jneurosci.16-15-04625.1996.pdf_2.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>|c| Extracellular solutions</th></tr></thead><tbody><tr><td>Solution</td><td></td></tr></tbody></table>",
+    "pdf": "scihub_jneurosci.16-15-04625.1996.pdf_2",
+    "image_path": "scihub_jneurosci.16-15-04625.1996.pdf_2.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>_</th></tr></thead><tbody><tr><td>_</td></tr><tr><td>_</td></tr><tr><td>_</td></tr><tr><td>145-145</td></tr></tbody></table>",
+    "pdf": "scihub_jneurosci.16-15-04625.1996.pdf_2",
+    "image_path": "scihub_jneurosci.16-15-04625.1996.pdf_2.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><tbody><tr><td>|c| Tyrode&#x27;s</td><td>5</td><td>140</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>_ 1</td><td></td><td>110</td><td>10</td><td>20</td><td></td><td>2</td><td>1</td><td>10</td></tr><tr><td>_ 1 2</td><td></td><td>140</td><td></td><td></td><td>2</td><td>1</td><td>10</td></tr><tr><td>_ 2 2</td><td>5</td><td>140</td><td></td><td></td><td>2</td><td>1</td><td>145</td><td>10</td></tr><tr><td>_ m 3</td><td>20</td><td>125</td><td></td><td></td><td>2</td><td>1</td><td>145</td><td>10</td></tr><tr><td>1 - 10</td><td>20</td><td>125</td><td></td><td></td><td>2</td><td>1</td><td>45</td><td>10</td></tr><tr><td>_ 1</td><td>145</td><td></td><td></td><td></td><td>2</td><td>1</td><td>145</td><td>10</td></tr><tr><td>_ 2</td><td>145</td><td></td><td></td><td></td><td>0.05</td><td>0.1</td><td>145</td><td>10</td></tr><tr><td>_ m 2</td><td>145</td><td></td><td></td><td></td><td>5</td><td>5</td><td>70</td><td></td></tr></tbody></table>",
+    "pdf": "scihub_jneurosci.16-15-04625.1996.pdf_2",
+    "image_path": "scihub_jneurosci.16-15-04625.1996.pdf_2.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": "",
+    "pdf": "scihub_jneurosci.16-15-04625.1996.pdf_2",
+    "image_path": "scihub_jneurosci.16-15-04625.1996.pdf_2.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Fig. 1), and thus no contamination of VNO neurons by olfactory neurons is expected. For most experiments, dissociated cells were prepared by incubating the epithelium in divalent-free solution containing trypsin and collagenase and then triturantly gentils. Dissociation using either of the two enzymes alone, or no enzyme, and the _2 and _2 are not known. Whether the enzymatic treatment altered the properties of the ion channels, some experiments were done without the use of enzymes; these experiments are explicitly stated as such. A population of cells were identified as sensory neurons by morphological criteria. These cells had an ovoid cell body with a mean diameter along the shorter axis of 11.1 1.4 (mean ; n=12 ) and a dendritic process that varied in length and could be >40 . Some short dendrites were probably the result of retraction during the dissociation process. This identification was confirmed by labeling with anti-OMP antibody (Fig. 2.4,P) and by the detection of action potentials in these cells (see next section). Two typical cells are shown in Figure 2, and , as visualized with differential interference contrast microscopy. Cells used for electrophysiology all had a similar appearance, with a clearly identifiable dendrite bearing microvilli. Mouse olfactory neurons were also dissociated for comparative experiments, and a typical cell is shown in Figure 2 at the same magnification. Note that VNO neurons are several times larger than olfactory neurons.",
+    "html": "",
+    "pdf": "scihub_jneurosci.16-15-04625.1996.pdf_2",
+    "image_path": "scihub_jneurosci.16-15-04625.1996.pdf_2.pdf_0.jpg"
+  }
+]

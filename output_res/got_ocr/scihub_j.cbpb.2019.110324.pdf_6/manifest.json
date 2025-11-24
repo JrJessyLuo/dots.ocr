@@ -1,0 +1,19 @@
+{
+  "pdf": "scihub_j.cbpb.2019.110324.pdf_6",
+  "tables": [],
+  "images": [],
+  "metrics": {
+    "per_page_time_sec": [
+      {
+        "page_idx": 0,
+        "time_sec": 37.51932168006897
+      }
+    ],
+    "per_page_status": [
+      {
+        "page_idx": 0,
+        "status": "ok"
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "pdf": "docstructbench_llm-raw-the-eye-o.O-Player%27s%20Options%20-%20Halflings.pdf_11",
+    "image_path": "docstructbench_llm-raw-the-eye-o.O-Player%27s%20Options%20-%20Halflings.pdf_11.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "TABLE 5: WEAPONS",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-the-eye-o.O-Player%27s%20Options%20-%20Halflings.pdf_11",
+    "image_path": "docstructbench_llm-raw-the-eye-o.O-Player%27s%20Options%20-%20Halflings.pdf_11.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Weapon</th><th>Cost</th><th>Dmg (S)</th><th>Dmg (M)</th><th>Critical</th><th>Range</th><th>Weight</th><th>Type</th><th>Special</th></tr></thead><tbody><tr><td>Slingshot, Halfling</td><td>15 gp</td><td>1d4</td><td>1d6</td><td>19-20/x2</td><td>75 ft.</td><td>1 lb.</td><td>B</td><td>-</td></tr><tr><td>Bullets, Slingshot (10)</td><td>1 sp</td><td>-</td><td>-</td><td>-</td><td>-</td><td>5 lbs.</td><td>-</td><td>-</td></tr><tr><td>Sling-staff, Halfling</td><td>25 gp</td><td>2d3/1d6</td><td>2d4/1d8</td><td>19-20/x2</td><td>50 ft.</td><td>2 lbs.</td><td>B/B</td><td>-</td></tr><tr><td>Bullets, Sling-staff (10)</td><td>1sp</td><td>-</td><td>-</td><td>-</td><td>-</td><td>5 lbs.</td><td>-</td><td>-</td></tr></tbody></table>"
+  },
+  {
+    "pdf": "docstructbench_llm-raw-the-eye-o.O-Player%27s%20Options%20-%20Halflings.pdf_11",
+    "image_path": "docstructbench_llm-raw-the-eye-o.O-Player%27s%20Options%20-%20Halflings.pdf_11.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "TABLE 6: MUNDANE GEAR",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-the-eye-o.O-Player%27s%20Options%20-%20Halflings.pdf_11",
+    "image_path": "docstructbench_llm-raw-the-eye-o.O-Player%27s%20Options%20-%20Halflings.pdf_11.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Item</th><th>Cost</th><th>Weight</th></tr></thead><tbody><tr><td>Halfling Blueberry Ale<br>(sold by pint bottle, 1-gallon keg, and 5-gallon keg)</td><td>7 cp/5 sp/2 gp</td><td>-</td></tr><tr><td>Halfling Cloak</td><td>25 gp (50 gp)</td><td>2 lbs. (3 lbs.)</td></tr><tr><td>Halfling Pouch Belt</td><td>10 gp (15 gp)</td><td>1 lb. (1 1/2 lbs.)</td></tr><tr><td>Halfling Tobacco</td><td>7 sp</td><td>1 lb.</td></tr><tr><td>Halfling Tri-flute</td><td>9 gp</td><td>-</td></tr></tbody></table>"
+  },
+  {
+    "pdf": "docstructbench_llm-raw-the-eye-o.O-Player%27s%20Options%20-%20Halflings.pdf_11",
+    "image_path": "docstructbench_llm-raw-the-eye-o.O-Player%27s%20Options%20-%20Halflings.pdf_11.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-the-eye-o.O-Player%27s%20Options%20-%20Halflings.pdf_11",
+    "image_path": "docstructbench_llm-raw-the-eye-o.O-Player%27s%20Options%20-%20Halflings.pdf_11.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": ""
+  }
+]

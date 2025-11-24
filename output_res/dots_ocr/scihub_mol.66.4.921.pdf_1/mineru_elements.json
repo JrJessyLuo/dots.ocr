@@ -1,0 +1,20 @@
+[
+  {
+    "pdf": "scihub_mol.66.4.921.pdf_1",
+    "image_path": "scihub_mol.66.4.921.pdf_1.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "TABLE 1\nOligonucleotides used to generate site-specific serine to alanine AC VI mutants",
+    "html": ""
+  },
+  {
+    "pdf": "scihub_mol.66.4.921.pdf_1",
+    "image_path": "scihub_mol.66.4.921.pdf_1.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Candidate Serine Residues for Mutation</th><th>Primer Name</th><th>Primer Sequence</th></tr></thead><tbody><tr><td rowspan=\"2\">603</td><td>S603A_fp</td><td>5'-TGGGTTCCTGACGTGCCTTCGCCCGGACCAAGGACTCTAAGGCA-3'</td></tr><tr><td>S603A RP</td><td>5'-TGCCTTAGAGTCCTTGGTCCGGGCGAAGGCACGGTCAGGAACCCA-3'</td></tr><tr><td rowspan=\"2\">608</td><td>S608Asek</td><td>5'-GCCCCATCTGTCGGAATGCCTTGGCGTCCTTGGTCCGGGAGAAGGC-3'</td></tr><tr><td>S608A RP</td><td>5'-GCCCCATCTGTCGGAATGCCTTGGCGTCCTTGGTCCGGGAGAAGGC-3'</td></tr><tr><td rowspan=\"2\">744</td><td>S744Asek</td><td>5'-CCCAACGCCCTGCAGCGCCTGGCCCGCAGTATCGTCCGCTCACGG-3'</td></tr><tr><td>S744A RP</td><td>5'-CCGTGAGCGGACGATACTGCGGGCCAGGCGCTGCAGGGCGTTGGG-3'</td></tr><tr><td rowspan=\"2\">746</td><td>S746Asek</td><td>5'-GCCCTGCAGCGCCTGTCCCGCGCCATCGTCCGCTCACGGGTGCAC-3'</td></tr><tr><td>S746A RP</td><td>5'-GTGCACCCGTGAGCGGACGATGGCGCGGGACAGGCGCTGCAGGGC-3'</td></tr><tr><td rowspan=\"2\">750</td><td>S750Asek</td><td>5'-CTGTCCCGCAGTATCGTCCGCGCCCGGGTGCACAGCACGGCTGTT-3'</td></tr><tr><td>S750A RP</td><td>5'-AACAGCCGTGCTGTGCACCCGGGCGCGGACGATACTGCGGGACAG-3'</td></tr><tr><td rowspan=\"2\">754</td><td>S754Asek</td><td>5'-ATCGTCCGCTCACGGGTGCACGC CACGGCTGTTGGAGTCTTCTCG-3'</td></tr><tr><td>S754A RP</td><td>5'-CGAGAAGACTCCAACAGCCGTGGCGTGCACCCGTGAGCGGACGAT-3'</td></tr><tr><td colspan=\"3\">Restriction enzyme sites</td></tr><tr><td>NheI</td><td>NheIsek</td><td>5'-CACCGGCTAGCGCAG-3'</td></tr><tr><td rowspan=\"2\">XhoI</td><td>XhoIsek</td><td>5'-AGGGAGGATCTCGAGAAGAAG-3'</td></tr><tr><td>XhoIRP</td><td>5'-CTTCTTCTCGAGATCCTCCCT-3'</td></tr><tr><td rowspan=\"2\">XbaI</td><td>XbaIRP</td><td>5'-TCT CTAGAC TAA CTG CTG GGG C CC CCA TT-3'</td></tr><tr><td>Round 1</td><td>Round 2</td></tr><tr><td>Cassette</td><td>PCR1</td><td>PCR2</td></tr><tr><td>S603A</td><td>NheIsek, S603A RP</td><td>S603Asek, NheI RP</td></tr><tr><td>S608A</td><td>NheIsek, S608A RP</td><td>S608Asek, NheI RP</td></tr><tr><td>S744A</td><td>XhoIsek, S744A RP</td><td>S744Asek, XhoI RP</td></tr><tr><td>S746A</td><td>XhoIsek, S746A RP</td><td>S746Asek, XhoI RP</td></tr><tr><td>S750A</td><td>XhoIsek, S750A RP</td><td>S750Asek, XhoI RP</td></tr><tr><td>S754A</td><td>XhoIsek, S754A RP</td><td>S854Asek, XhoI RP</td></tr></tbody></table>"
+  }
+]

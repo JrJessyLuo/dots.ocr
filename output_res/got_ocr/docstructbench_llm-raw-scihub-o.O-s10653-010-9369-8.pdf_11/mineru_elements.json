@@ -1,0 +1,38 @@
+[
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>[t]2* Variables</th><th>|c| Group 1</th><th>|c| Group 2</th></tr></thead><tbody><tr><td></td><td>VFI</td><td>VF2</td><td>VF3</td><td>VF4</td><td>VFI</td><td>VFI</td><td>VFI</td><td>VFI</td><td>VFI</td></tr><tr><td>Temp</td><td>0.49</td><td></td><td>0.09</td><td>-0.18</td><td>0.10</td><td>-0.49</td><td>0.09</td><td></td><td>-0.04</td></tr><tr><td></td><td>0.10</td><td>0.60</td><td></td><td>-0.44</td><td>-0.19</td><td>-0.66</td><td>0.40</td><td>-0.04</td><td>-0.35</td></tr><tr><td></td><td>0.23</td><td>-0.92</td><td>-1.29</td><td></td><td>0.21</td><td>0.47</td><td>-0.76</td><td>0.47</td><td>-0.09</td></tr><tr><td>TDS</td><td>0.31</td><td>-0.17</td><td>-0.33</td><td></td><td>0.38</td><td>0.45</td><td>-0.59</td><td>0.47</td><td>0.07</td></tr><tr><td>DO</td><td>0.41</td><td>0.60</td><td>.</td><td>-0.23</td><td>-0.33</td><td>-0.76</td><td>0.32</td><td>0.37</td><td>-0.05</td></tr><tr><td>_4</td><td>0.43</td><td>0.64</td><td>-0.28</td><td>-0.01</td><td>-0.76</td><td>0.45</td><td>-0.46</td><td>-0.05</td><td>0.02</td></tr><tr><td>ALK</td><td>0.61</td><td>-0.39</td><td>0.44</td><td>0.31</td><td>-0.43</td><td>0.52</td><td>0.64</td><td>-0.23</td><td>-0.26</td></tr><tr><td></td><td>-0.17</td><td>-0.58</td><td>0.32</td><td>-0.57</td><td>0.68</td><td>0.17</td><td>0.27</td><td>0.55</td><td>-0.22</td></tr><tr><td>_4</td><td>-0.55</td><td>-0.66</td><td>0.23</td><td>-0.05</td><td>0.62</td><td>0.55</td><td>0.20</td><td>0.27</td><td>0.00</td></tr><tr><td>_3-</td><td>0.51</td><td></td><td>-0.19</td><td>0.26</td><td>-0.55</td><td>-0.57</td><td>-0.03</td><td>0.14</td><td>-0.29</td></tr><tr><td></td><td>0.62</td><td>0.20</td><td>-0.05</td><td></td><td>0.20</td><td>-0.07</td><td>-0.19</td><td>-0.08</td><td></td></tr><tr><td></td><td>-0.67</td><td>-0.18</td><td>0.55</td><td>0.31</td><td>0.67</td><td>0.12</td><td>-0.51</td><td>0.08</td><td>-0.25</td></tr><tr><td></td><td>-0.20</td><td>-0.64</td><td>0.02</td><td>-0.18</td><td>-0.29</td><td></td><td>0.49</td><td>0.22</td><td>0.06</td></tr><tr><td></td><td>-0.77</td><td>0.48</td><td>-0.16</td><td>0.04</td><td>0.67</td><td>0.26</td><td>0.57</td><td>-0.09</td><td>0.23</td></tr><tr><td></td><td>-0.89</td><td>0.31</td><td>-0.13</td><td>0.18</td><td></td><td>-0.38</td><td>-0.02</td><td>0.01</td><td>-0.19</td></tr><tr><td></td><td>-0.48</td><td>0.65</td><td>-0.54</td><td>-0.18</td><td>-0.58</td><td>-0.69</td><td>-0.24</td><td>0.13</td><td>0.25</td></tr><tr><td></td><td>-0.85</td><td>0.38</td><td>-0.11</td><td>-0.02</td><td></td><td>-0.30</td><td>0.23</td><td>-0.35</td><td>-0.26</td></tr><tr><td></td><td>-0.57</td><td>0.18</td><td>0.09</td><td>0.12</td><td></td><td>-0.13</td><td>-0.10</td><td>-0.17</td><td>-0.13</td></tr><tr><td></td><td>-0.88</td><td>0.42</td><td>0.08</td><td>0.02</td><td>0.40</td><td>-0.61</td><td>-0.18</td><td>-0.48</td><td>0.34</td></tr><tr><td></td><td>-0.72</td><td>-0.01</td><td>0.49</td><td>0.46</td><td></td><td>-0.33</td><td>0.29</td><td>0.06</td><td>0.21</td></tr><tr><td></td><td>0.54</td><td>-0.13</td><td>0.33</td><td>0.13</td><td>-0.19</td><td></td><td>0.53</td><td>0.35</td><td>0.00</td></tr><tr><td></td><td>-0.56</td><td>0.00</td><td></td><td>0.32</td><td>-0.34</td><td>-0.69</td><td>-0.15</td><td>0.29</td><td>0.07</td></tr><tr><td></td><td>0.34</td><td>0.30</td><td>0.49</td><td>0.45</td><td>0.57</td><td>-0.17</td><td>0.12</td><td>0.29</td><td>0.40</td></tr><tr><td></td><td>-0.85</td><td>0.45</td><td>0.11</td><td>0.18</td><td></td><td>-0.32</td><td>0.00</td><td>-0.03</td><td>0.13</td></tr><tr><td>Eigenvalues</td><td>8.10</td><td>5.42</td><td>3.45</td><td>2.65</td><td>7.81</td><td>6.36</td><td>3.32</td><td>2.57</td><td>1.75</td></tr><tr><td>Total variance explained (\\%)</td><td>33.76</td><td>22.56</td><td>14.38</td><td>11.05</td><td>31.24</td><td>25.46</td><td>13.30</td><td>10.29</td><td>6.98</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s10653-010-9369-8.pdf_11",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s10653-010-9369-8.pdf_11.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "Table 4 Loadings of environmental variables on significant Varimax rotated principal components for spatial groups. Marked loadings are",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s10653-010-9369-8.pdf_11",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s10653-010-9369-8.pdf_11.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s10653-010-9369-8.pdf_11",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s10653-010-9369-8.pdf_11.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Fig. 4). Varimax rotated factor (VF) loading scores along with eigenvalues, and total percentage variances are reported in Table 4. Spatial FA/PCA highlighted four and five VFs for group 1 and group 2 with eigenvalues >1 and explained",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s10653-010-9369-8.pdf_11",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s10653-010-9369-8.pdf_11.pdf_0.jpg"
+  }
+]

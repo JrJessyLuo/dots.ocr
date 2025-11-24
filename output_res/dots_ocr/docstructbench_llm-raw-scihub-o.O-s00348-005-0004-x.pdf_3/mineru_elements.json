@@ -1,0 +1,20 @@
+[
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s00348-005-0004-x.pdf_3",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s00348-005-0004-x.pdf_3.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s00348-005-0004-x.pdf_3",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s00348-005-0004-x.pdf_3.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "**Fig. 4** Histogram of measured streamwise (U-component) and cross-stream (V-component) velocities in the illuminated plane",
+    "html": ""
+  }
+]

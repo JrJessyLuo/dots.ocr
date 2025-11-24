@@ -1,0 +1,38 @@
+[
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.mseb.2009.12.004.pdf_2",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.mseb.2009.12.004.pdf_2.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.mseb.2009.12.004.pdf_2",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.mseb.2009.12.004.pdf_2.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "**Fig. 1.** Isotherms of different ratios (1/1, 1/5, 1/10, 1/15) are displayed. Arrows indicate surface pressure deposition (12 mN/m for 1/1, 1/5, 1/10 films and 15 mN/m for 1/15 film). (For interpretation of the references to color in this figure legend, the reader is referred to the web version of the article).",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.mseb.2009.12.004.pdf_2",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.mseb.2009.12.004.pdf_2.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.mseb.2009.12.004.pdf_2",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.mseb.2009.12.004.pdf_2.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "**Fig. 2.** AFM height images for 1/5 (a), 1/10 (b), 1/15 (c) respectively.",
+    "html": ""
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "pdf": "docstructbench_llm-raw-scihub-o.O-j.physletb.2004.02.015.pdf_4",
+  "tables": [],
+  "images": [
+    {
+      "page_idx": 0,
+      "bbox": null,
+      "bbox_norm": null,
+      "path": null,
+      "caption": null,
+      "footnote": ""
+    }
+  ]
+}

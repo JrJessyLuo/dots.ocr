@@ -1,0 +1,65 @@
+[
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-chem.200700285.pdf_4",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-chem.200700285.pdf_4.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-chem.200700285.pdf_4",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-chem.200700285.pdf_4.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>No.</th><th>Group</th><th>[Cl]<sup>-</sup></th><th>[Ace]<sup>-</sup></th><th>[NTf<sub>2</sub>]<sup>-</sup></th></tr></thead><tbody><tr><td>a</td><td>N(CH<sub>3</sub>)<sub>2</sub></td><td>3.45 (s)</td><td>3.25 (s)</td><td>3.12 (s)</td></tr><tr><td>b</td><td>CH<sub>2</sub></td><td>5.17 (s)</td><td>4.84 (s)</td><td>4.65 (s)</td></tr><tr><td>c</td><td>CH<sub>2</sub></td><td>4.01 (t, J=4.8)</td><td>3.82 (t, J=4.8)</td><td>3.65 (t, J=4.8)</td></tr><tr><td>d</td><td>CH<sub>2</sub></td><td>4.55 (t, J=4.8)</td><td>4.51 (t, J=4.8)</td><td>4.47 (t, J=4.8)</td></tr><tr><td>e</td><td>CH<sub>2</sub></td><td>3.89 (t, J=6.6)</td><td>3.80 (t, J=6.6)</td><td>3.79 (t, J=6.6)</td></tr></tbody></table>"
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-chem.200700285.pdf_4",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-chem.200700285.pdf_4.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Figure 1. Chemical shifts in proton signals.",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-chem.200700285.pdf_4",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-chem.200700285.pdf_4.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-chem.200700285.pdf_4",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-chem.200700285.pdf_4.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Figure 2. ORTEP illustrations of the asymmetric units observed for 1j (top) and 1m (bottom); ellipsoids are drawn at the 50% probability level.",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-chem.200700285.pdf_4",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-chem.200700285.pdf_4.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-chem.200700285.pdf_4",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-chem.200700285.pdf_4.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Figure 3. Packing diagrams for 1j (left) and 1m (right) viewed down a) the a axis, b) the b axis, and c) the ab diagonal.",
+    "html": ""
+  }
+]

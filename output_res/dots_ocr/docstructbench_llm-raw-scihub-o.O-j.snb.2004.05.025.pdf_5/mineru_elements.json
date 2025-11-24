@@ -1,0 +1,74 @@
+[
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.snb.2004.05.025.pdf_5",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.snb.2004.05.025.pdf_5.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.snb.2004.05.025.pdf_5",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.snb.2004.05.025.pdf_5.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Fig. 5. Adsorption isotherms of Ac-Trp's and adsorption selectivity of the Ac-D-Trp imprinted ODMAAN-533. [(Ac-D-Trp)/(ODMA) = 0.17, K<sub>S,app</sub> = 5.5 × 10<sup>3</sup> mol<sup>-1</sup> dm<sup>3</sup>].",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.snb.2004.05.025.pdf_5",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.snb.2004.05.025.pdf_5.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.snb.2004.05.025.pdf_5",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.snb.2004.05.025.pdf_5.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Fig. 6. Adsorption isotherms of Ac-Trp's and adsorption selectivity of the Ac-L-Trp imprinted ODMAAN-533. [(Ac-L-Trp)/(ODMA) = 0.17, K<sub>S,app</sub> = 5.5 × 10<sup>3</sup> mol<sup>-1</sup> dm<sup>3</sup>].",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.snb.2004.05.025.pdf_5",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.snb.2004.05.025.pdf_5.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.snb.2004.05.025.pdf_5",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.snb.2004.05.025.pdf_5.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Fig. 7. Adsorption isotherms of Ac-Trp's and adsorption selectivity of the Ac-D-Trp imprinted ODMAAN-533. [(Ac-D-Trp)/(ODMA) = 0.21, K<sub>S,app</sub> = 1.20 × 10<sup>4</sup> mol<sup>-1</sup> dm<sup>3</sup>].",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.snb.2004.05.025.pdf_5",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.snb.2004.05.025.pdf_5.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.snb.2004.05.025.pdf_5",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.snb.2004.05.025.pdf_5.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Fig. 8. Adsorption isotherms of Ac-Trp's and adsorption selectivity of the Ac-L-Trp imprinted ODMAAN-533. [(Ac-L-Trp)/(ODMA) = 0.21, K<sub>S,app</sub> = 1.16 × 10<sup>4</sup> mol<sup>-1</sup> dm<sup>3</sup>].",
+    "html": ""
+  }
+]

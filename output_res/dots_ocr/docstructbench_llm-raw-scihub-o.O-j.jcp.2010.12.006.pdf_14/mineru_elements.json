@@ -1,0 +1,20 @@
+[
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.jcp.2010.12.006.pdf_14",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.jcp.2010.12.006.pdf_14.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.jcp.2010.12.006.pdf_14",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.jcp.2010.12.006.pdf_14.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Fig. 4. The dispersion contours with stepsizes $\\Delta t = 0.01$, $\\Delta = 0.1$ for Maxwell's equations (46) from (a) exact dispersion; (b) boxscheme; (c) symplectic method and (d) Yee's method. The constant contour values are $\\omega \\in [2,4,6,\\dots,24]$.",
+    "html": ""
+  }
+]

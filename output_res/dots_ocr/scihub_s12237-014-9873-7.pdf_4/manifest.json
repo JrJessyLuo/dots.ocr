@@ -1,0 +1,15 @@
+{
+  "pdf": "scihub_s12237-014-9873-7.pdf_4",
+  "tables": [
+    {
+      "page_idx": 0,
+      "bbox": null,
+      "bbox_norm": null,
+      "html": "output_res/dots_ocr/scihub_s12237-014-9873-7.pdf_4/tables/p000_t0.html",
+      "csv": null,
+      "caption": "",
+      "footnote": ""
+    }
+  ],
+  "images": []
+}

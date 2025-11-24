@@ -1,0 +1,19 @@
+{
+  "pdf": "scihub_s00381-021-05138-3.pdf_3",
+  "tables": [],
+  "images": [],
+  "metrics": {
+    "per_page_time_sec": [
+      {
+        "page_idx": 0,
+        "time_sec": 0.3793153762817383
+      }
+    ],
+    "per_page_status": [
+      {
+        "page_idx": 0,
+        "status": "ok"
+      }
+    ]
+  }
+}

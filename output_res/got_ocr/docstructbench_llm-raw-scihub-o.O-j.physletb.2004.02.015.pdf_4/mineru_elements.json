@@ -1,0 +1,38 @@
+[
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.physletb.2004.02.015.pdf_4",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.physletb.2004.02.015.pdf_4.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Fig. 2. It was important to test the fidelity of the simulation with respect to reproducing the resolution of those kinematic variables which depend on the neutrino momentum. To do this, we studied fully-reconstructed D K where, as a test, one",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.physletb.2004.02.015.pdf_4",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.physletb.2004.02.015.pdf_4.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.physletb.2004.02.015.pdf_4",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.physletb.2004.02.015.pdf_4.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Fig. 2. The m_K Kmass distribution for events satisfying our signal selection cuts. The solid histogram is our data. The dashed histogram is distribution for the ccbar background Monte Carlo. The ccbar background Monte Carlo is normalized to the same number of events in the sideband region 1.040<m_K K<1.14 / c.",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.physletb.2004.02.015.pdf_4",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.physletb.2004.02.015.pdf_4.pdf_0.jpg"
+  }
+]

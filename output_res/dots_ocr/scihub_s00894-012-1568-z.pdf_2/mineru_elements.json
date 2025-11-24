@@ -1,0 +1,56 @@
+[
+  {
+    "pdf": "scihub_s00894-012-1568-z.pdf_2",
+    "image_path": "scihub_s00894-012-1568-z.pdf_2.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "**Table 1** The atomic fractional coordinates and equilibrium lattice parameters of the ZB, I4̄m2 and Imm2 phases",
+    "html": ""
+  },
+  {
+    "pdf": "scihub_s00894-012-1568-z.pdf_2",
+    "image_path": "scihub_s00894-012-1568-z.pdf_2.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Structure</th><th>a (Å)</th><th>b (Å)</th><th>c (Å)</th><th>x</th><th>y</th><th>z</th></tr></thead><tbody><tr><td>ZB</td><td>6.4266</td><td>6.4266</td><td>6.4266</td><td>Cd:0.000</td><td>0.000</td><td>0.000</td></tr><tr><td></td><td></td><td></td><td></td><td>Te:0.250</td><td>0.250</td><td>0.250</td></tr><tr><td>I4̄m2</td><td>5.2482</td><td>5.2482</td><td>3.1639</td><td>Cd:0.000</td><td>0.000</td><td>0.000</td></tr><tr><td></td><td></td><td></td><td></td><td>Te:0.000</td><td>0.500</td><td>0.750</td></tr><tr><td>Imm2</td><td>5.0492</td><td>5.2145</td><td>2.7446</td><td>Cd:0.000</td><td>0.000</td><td>0.000</td></tr><tr><td></td><td></td><td></td><td></td><td>Te: 0.000</td><td>0.500</td><td>0.8472</td></tr></tbody></table>"
+  },
+  {
+    "pdf": "scihub_s00894-012-1568-z.pdf_2",
+    "image_path": "scihub_s00894-012-1568-z.pdf_2.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": ""
+  },
+  {
+    "pdf": "scihub_s00894-012-1568-z.pdf_2",
+    "image_path": "scihub_s00894-012-1568-z.pdf_2.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "**Fig. 2** The computed energies of ZB, I4̄m2 and Imm2 phase of CdTe phases as a function of volume",
+    "html": ""
+  },
+  {
+    "pdf": "scihub_s00894-012-1568-z.pdf_2",
+    "image_path": "scihub_s00894-012-1568-z.pdf_2.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": ""
+  },
+  {
+    "pdf": "scihub_s00894-012-1568-z.pdf_2",
+    "image_path": "scihub_s00894-012-1568-z.pdf_2.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "**Fig. 3** Enthalpy curves of ZB, I4̄m2 and Imm2 phase of CdTe",
+    "html": ""
+  }
+]

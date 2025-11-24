@@ -1,0 +1,19 @@
+{
+  "pdf": "scihub_j.1528-1167.2008.01552.x.pdf_3",
+  "tables": [],
+  "images": [],
+  "metrics": {
+    "per_page_time_sec": [
+      {
+        "page_idx": 0,
+        "time_sec": 19.523632526397705
+      }
+    ],
+    "per_page_status": [
+      {
+        "page_idx": 0,
+        "status": "ok"
+      }
+    ]
+  }
+}

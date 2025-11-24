@@ -1,0 +1,14 @@
+{
+  "pdf": "docstructbench_llm-raw-scihub-o.O-j.ab.2007.11.016.pdf_5",
+  "tables": [],
+  "images": [
+    {
+      "page_idx": 0,
+      "bbox": null,
+      "bbox_norm": null,
+      "path": null,
+      "caption": null,
+      "footnote": ""
+    }
+  ]
+}

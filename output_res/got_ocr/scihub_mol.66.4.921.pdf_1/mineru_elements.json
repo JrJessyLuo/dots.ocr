@@ -1,0 +1,20 @@
+[
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Candidate Serine residues for Mutation</th><th>Primer Name</th><th>Primer Sequence</th></tr></thead><tbody><tr><td>603</td><td>S603A, pp</td><td>5&#x27;-CTGCTGACGCTCTGCGCGGAGGACGCTGAGGACGAC-3&#x27;</td></tr><tr><td>608</td><td>S608A, f p</td><td>5&#x27;-GCCTACTGTGGGAGATCTGCTGCTGTCTGCGGGAGAGG-3&#x27;</td></tr><tr><td>608A, r p</td><td>5&#x27;-GCCACTGTCTGGGAGATCTGCTGCTTCTGGCGGAGAGG-3&#x27;</td></tr><tr><td>744</td><td>S744A, f p</td><td>5&#x27;-CCACACCCCTGCGGAGCTCGGAGGATCTGCTGCTGCTGACGAG-3&#x27;</td></tr><tr><td>746</td><td>S746A, f p</td><td>5&#x27;-GCGGAGGAGGCTGCTGGGAGGAGGAGGAGG-3&#x27;</td></tr><tr><td>746</td><td>S746A, p</td><td>5&#x27;-GCCTGACGAGCGCTGTCGCGGAGCTGCTGCTGACGAGGGAG-3&#x27;</td></tr><tr><td>750</td><td>S750A, f p</td><td>5&#x27;-GTGCCCGCTGGGAGATCTGCGCGGCGGAGACGCGCTGCTGAGG-3&#x27;</td></tr><tr><td>754</td><td>S754A, f p</td><td>5&#x27;-GCTGCTGGCTGCTGCTGCGCGGAGGACGACGCTGCTGCT-3&#x27;</td></tr><tr><td>754A</td><td>S754A, f p</td><td>5&#x27;-ACAGCTCTGTCTGGGAGGCTGCTGGGAGGATCTGCTGGGAG-3&#x27;</td></tr><tr><td>755A, f p</td><td>S754A, f p</td><td>5&#x27;-GCGAGAGCTGCAAGGCTGCGGAGGATCTGCGGAGG-3&#x27;</td></tr><tr><td>|l| NheI</td><td></td></tr><tr><td>|l| Nch1</td><td>f p</td></tr><tr><td>|l| Xha1</td><td>5&#x27;-ACGGAGGATCTGAGGAGAGAG-3&#x27;</td></tr><tr><td>|l| XhaL</td><td>5&#x27;-CTTCTTCTGGGAGTCTCTCTG-3&#x27;</td></tr><tr><td>|l| Round 1</td><td>5&#x27;-ATGACAA TCA CTG CGG C CCA T3-T</td></tr><tr><td>|l| Round 2</td><td>5&#x27;-ATGACAA</td></tr><tr><td>|l| S603A</td><td>NheL f p, S 603 A r p</td></tr><tr><td>|l| S608A</td><td>NheL f p, S 608 A r p</td></tr><tr><td>|l|754AA</td><td>NheL f p, S 744 A r p</td></tr><tr><td>|l|S 746 A</td><td>NheL f p, S 746 A r p</td></tr><tr><td>|l| 756</td><td>NheL f p, S 756 r p</td></tr><tr><td>|l|570</td><td>NheL f p, S 608 A r p</td></tr><tr><td>2 - 3</td><td></td><td></td></tr></tbody></table>",
+    "pdf": "scihub_mol.66.4.921.pdf_1",
+    "image_path": "scihub_mol.66.4.921.pdf_1.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "TABLE 1",
+    "html": "",
+    "pdf": "scihub_mol.66.4.921.pdf_1",
+    "image_path": "scihub_mol.66.4.921.pdf_1.pdf_0.jpg"
+  }
+]

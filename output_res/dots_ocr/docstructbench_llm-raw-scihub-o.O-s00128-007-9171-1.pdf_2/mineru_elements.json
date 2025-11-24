@@ -1,0 +1,20 @@
+[
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s00128-007-9171-1.pdf_2",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s00128-007-9171-1.pdf_2.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s00128-007-9171-1.pdf_2",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s00128-007-9171-1.pdf_2.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "**Fig. 1** Traffic volume for the monitoring campaign period and mean value for 2005 (vehicles per hour)",
+    "html": ""
+  }
+]

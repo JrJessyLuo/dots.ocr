@@ -1,0 +1,38 @@
+[
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.eswa.2008.01.070.pdf_5",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.eswa.2008.01.070.pdf_5.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th colspan=\"5\">INPUTS</th><th>OUTPUT</th></tr><tr><th>RAW MATERIAL FAMILY</th><th>NUMBER OF TINTS</th><th>RES (DPI)</th><th>FINISHING TYPE</th><th>NUMBER OF TOOLS</th><th>MACHINE</th></tr></thead><tbody><tr><td>FABRIC</td><td>0</td><td>N.E.</td><td>N.E.</td><td>1</td><td>830</td></tr><tr><td>FABRIC</td><td>0</td><td>280</td><td>N.E.</td><td>1</td><td>830</td></tr><tr><td>FABRIC</td><td>1</td><td>280</td><td>N.E.</td><td>1</td><td>830</td></tr><tr><td>FABRIC</td><td>2</td><td>360</td><td>N.E.</td><td>1</td><td>830</td></tr><tr><td>FABRIC</td><td>3</td><td>360</td><td>N.E.</td><td>1</td><td>830</td></tr><tr><td>FABRIC</td><td>3</td><td>400</td><td>LAMINATED</td><td>1</td><td>2200</td></tr><tr><td>FABRIC</td><td>3</td><td>400</td><td>LAMINATED</td><td>2</td><td>NILPETER</td></tr><tr><td>FABRIC</td><td>3</td><td>400</td><td>LAMINATED</td><td>2</td><td>NILPETER</td></tr><tr><td>FABRIC</td><td>4</td><td>700</td><td>N.E.</td><td>2</td><td>2200</td></tr><tr><td>FABRIC</td><td>4</td><td>700</td><td>N.E.</td><td>2</td><td>2200</td></tr><tr><td>FABRIC</td><td>4</td><td>700</td><td>N.E.</td><td>2</td><td>2200</td></tr><tr><td>FABRIC</td><td>7</td><td>800</td><td>LAMINATED</td><td>2</td><td>NILPETER</td></tr><tr><td>FABRIC</td><td>7</td><td>800</td><td>N.E.</td><td>2</td><td>NILPETER</td></tr><tr><td>FABRIC</td><td>7</td><td>800</td><td>N.E.</td><td>1</td><td>NILPETER</td></tr><tr><td>CARDBOARD</td><td>0</td><td>280</td><td>N.E.</td><td>1</td><td>830</td></tr><tr><td>CARDBOARD</td><td>1</td><td>360</td><td>N.E.</td><td>1</td><td>830</td></tr><tr><td>CARDBOARD</td><td>3</td><td>360</td><td>N.E.</td><td>1</td><td>830</td></tr><tr><td>CARDBOARD</td><td>4</td><td>500</td><td>LAMINATED</td><td>1</td><td>2200</td></tr><tr><td>CARDBOARD</td><td>4</td><td>360</td><td>N.E.</td><td>1</td><td>2200</td></tr><tr><td>CARDBOARD</td><td>5</td><td>600</td><td>LAMINATED</td><td>1</td><td>2200</td></tr><tr><td>CARDBOARD</td><td>6</td><td>700</td><td>N.E.</td><td>2</td><td>NILPETER</td></tr><tr><td>CARDBOARD</td><td>5</td><td>800</td><td>N.E.</td><td>3</td><td>NILPETER</td></tr><tr><td>CARDBOARD</td><td>6</td><td>700</td><td>LAMINATED</td><td>2</td><td>NILPETER</td></tr><tr><td>CARDBOARD</td><td>5</td><td>800</td><td>LAMINATED</td><td>2</td><td>NILPETER</td></tr><tr><td>KIMDURA</td><td>0</td><td>360</td><td>N.E.</td><td>1</td><td>2200</td></tr><tr><td>KIMDURA</td><td>1</td><td>400</td><td>LAMINATED</td><td>1</td><td>2200</td></tr><tr><td>KIMDURA</td><td>1</td><td>400</td><td>LAMINATED</td><td>2</td><td>2200</td></tr><tr><td>KIMDURA</td><td>1</td><td>400</td><td>LAMINATED</td><td>1</td><td>2200</td></tr><tr><td>KIMDURA</td><td>5</td><td>360</td><td>N.E.</td><td>1</td><td>NILPETER</td></tr><tr><td>KIMDURA</td><td>6</td><td>360</td><td>N.E.</td><td>1</td><td>NILPETER</td></tr><tr><td>BOPP</td><td>0</td><td>280</td><td>N.E.</td><td>1</td><td>830</td></tr><tr><td>BOPP</td><td>1</td><td>360</td><td>LAMINATED</td><td>1</td><td>830</td></tr><tr><td>BOPP</td><td>3</td><td>400</td><td>N.E.</td><td>1</td><td>2200</td></tr><tr><td>BOPP</td><td>3</td><td>400</td><td>LAMINATED</td><td>1</td><td>2200</td></tr><tr><td>BOPP</td><td>5</td><td>500</td><td>N.E.</td><td>1</td><td>2200</td></tr><tr><td>BOPP</td><td>6</td><td>700</td><td>N.E.</td><td>1</td><td>2200</td></tr><tr><td>BOPP</td><td>7</td><td>800</td><td>N.E.</td><td>2</td><td>NILPETER</td></tr><tr><td>PAPER</td><td>0</td><td>280</td><td>N.E.</td><td>1</td><td>830</td></tr><tr><td>PAPER</td><td>0</td><td>280</td><td>N.E.</td><td>1</td><td>830</td></tr><tr><td>PAPER</td><td>1</td><td>360</td><td>N.E.</td><td>1</td><td>830</td></tr><tr><td>PAPER</td><td>2</td><td>360</td><td>N.E.</td><td>1</td><td>830</td></tr><tr><td>PAPER</td><td>3</td><td>500</td><td>N.E.</td><td>1</td><td>2200</td></tr><tr><td>PAPER</td><td>3</td><td>600</td><td>SULFATED</td><td>1</td><td>2200</td></tr><tr><td>PAPER</td><td>3</td><td>700</td><td>LAMINATED</td><td>2</td><td>2200</td></tr><tr><td>PAPER</td><td>3</td><td>600</td><td>LAMINATED</td><td>2</td><td>2200</td></tr><tr><td>PAPER</td><td>6</td><td>360</td><td>LAMINATED</td><td>1</td><td>NILPETER</td></tr><tr><td>PAPER</td><td>5</td><td>700</td><td>N.E.</td><td>2</td><td>NILPETER</td></tr><tr><td>PAPER</td><td>6</td><td>800</td><td>N.E.</td><td>3</td><td>NILPETER</td></tr><tr><td>OTHER</td><td>0</td><td>N.E.</td><td>N.E.</td><td>1</td><td>2200</td></tr><tr><td>OTHER</td><td>4</td><td>500</td><td>N.E.</td><td>3</td><td>NILPETER</td></tr></tbody></table>"
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.eswa.2008.01.070.pdf_5",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.eswa.2008.01.070.pdf_5.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Fig. 2. The training matrix.",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.eswa.2008.01.070.pdf_5",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.eswa.2008.01.070.pdf_5.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "Table 1\nCodification of the raw material family set",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.eswa.2008.01.070.pdf_5",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.eswa.2008.01.070.pdf_5.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th colspan=\"2\">Input stream</th><th colspan=\"5\">Raw material family</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>Paper</td></tr><tr><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>Fabric</td></tr><tr><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>Kimdura</td></tr><tr><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>Cardboard</td></tr><tr><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>BOPP</td></tr><tr><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>Other</td></tr></tbody></table>"
+  }
+]

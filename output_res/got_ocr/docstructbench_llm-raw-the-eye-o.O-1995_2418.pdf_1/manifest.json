@@ -1,0 +1,19 @@
+{
+  "pdf": "docstructbench_llm-raw-the-eye-o.O-1995_2418.pdf_1",
+  "tables": [],
+  "images": [],
+  "metrics": {
+    "per_page_time_sec": [
+      {
+        "page_idx": 0,
+        "time_sec": 37.04681658744812
+      }
+    ],
+    "per_page_status": [
+      {
+        "page_idx": 0,
+        "status": "ok"
+      }
+    ]
+  }
+}

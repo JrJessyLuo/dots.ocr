@@ -1,0 +1,110 @@
+[
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>l State</th></tr></thead><tbody><tr><td>Trade</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-the-eye-o.O-1995_2418.pdf_1",
+    "image_path": "docstructbench_llm-raw-the-eye-o.O-1995_2418.pdf_1.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Settle-</th></tr></thead><tbody><tr><td>ing</td></tr><tr><td>cycle</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-the-eye-o.O-1995_2418.pdf_1",
+    "image_path": "docstructbench_llm-raw-the-eye-o.O-1995_2418.pdf_1.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Settle</th></tr></thead><tbody><tr><td>Statement date</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-the-eye-o.O-1995_2418.pdf_1",
+    "image_path": "docstructbench_llm-raw-the-eye-o.O-1995_2418.pdf_1.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>June 2 Friday ...</th></tr></thead><tbody><tr><td>June 5 Monday ...</td></tr><tr><td>June 6 Tuesday ...</td></tr><tr><td>June 7 Wednesday</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-the-eye-o.O-1995_2418.pdf_1",
+    "image_path": "docstructbench_llm-raw-the-eye-o.O-1995_2418.pdf_1.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>5 Day</th></tr></thead><tbody><tr><td>4 Day</td></tr><tr><td>4 Day</td></tr><tr><td>3 Day</td></tr><tr><td>3 Day</td></tr><tr><td>3 Day</td></tr><tr><td>3 Day</td></tr><tr><td>3 Day</td></tr><tr><td>3 Day</td></tr><tr><td>3 Day</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-the-eye-o.O-1995_2418.pdf_1",
+    "image_path": "docstructbench_llm-raw-the-eye-o.O-1995_2418.pdf_1.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>June 9 Friday.</th></tr></thead><tbody><tr><td>June 10 Day</td></tr><tr><td>June 12 Mon-</td></tr><tr><td>day.</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-the-eye-o.O-1995_2418.pdf_1",
+    "image_path": "docstructbench_llm-raw-the-eye-o.O-1995_2418.pdf_1.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>If.</th></tr></thead><tbody><tr><td>If.</td></tr><tr><td>If.</td></tr><tr><td>If.</td></tr><tr><td>If.</td></tr><tr><td>If.</td></tr><tr><td>If.</td></tr><tr><td>If.</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-the-eye-o.O-1995_2418.pdf_1",
+    "image_path": "docstructbench_llm-raw-the-eye-o.O-1995_2418.pdf_1.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>If the Commission determines to alter</th></tr></thead><tbody><tr><td>the exemptions currently provided in</td></tr><tr><td>Rule 15c6-1, the PHLX may need to</td></tr><tr><td>submit additional rule amendments. It</td></tr><tr><td>is intended that the proposed rule</td></tr><tr><td>change will become effective the same</td></tr><tr><td>date as Commission Rule 15c6-1.</td></tr><tr><td>If the Commission will be</td></tr><tr><td>consistent with Section 6(b)(5) of the</td></tr><tr><td>Act in that it protects investors and the</td></tr><tr><td>public interest by reducing the risk to</td></tr><tr><td>clearing corporations, their members,</td></tr><tr><td>and the public interest in the form of the</td></tr><tr><td>in settling securities transactions. This</td></tr><tr><td>is accomplished by reducing the time</td></tr><tr><td>period for settlement of most securities</td></tr><tr><td>transactions which will correspondingly</td></tr><tr><td>decrease the number of unsettled trades</td></tr><tr><td>in the amount of settlement system</td></tr><tr><td>at any given time.</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-the-eye-o.O-1995_2418.pdf_1",
+    "image_path": "docstructbench_llm-raw-the-eye-o.O-1995_2418.pdf_1.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>If. If.</th></tr></thead><tbody><tr><td>If.</td></tr><tr><td>If.</td></tr><tr><td>If.</td></tr><tr><td>If.</td></tr><tr><td>If.</td></tr><tr><td>If. .</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-the-eye-o.O-1995_2418.pdf_1",
+    "image_path": "docstructbench_llm-raw-the-eye-o.O-1995_2418.pdf_1.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>If.</th></tr></thead><tbody><tr><td>I.</td></tr><tr><td>I.</td></tr><tr><td>I.</td></tr><tr><td>I.</td></tr><tr><td>I.</td></tr><tr><td>I.</td></tr><tr><td>I. .</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-the-eye-o.O-1995_2418.pdf_1",
+    "image_path": "docstructbench_llm-raw-the-eye-o.O-1995_2418.pdf_1.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>The proposed change also is</th></tr></thead><tbody><tr><td>supernat sound in the 556-6</td></tr><tr><td>1 which will require brokers or dealers</td></tr><tr><td>to settle most securities transactions no</td></tr><tr><td>later than the third business day after</td></tr><tr><td>the date of the contract unless otherwise</td></tr><tr><td>expressly at the parties at the</td></tr><tr><td>time of the transaction.</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-the-eye-o.O-1995_2418.pdf_1",
+    "image_path": "docstructbench_llm-raw-the-eye-o.O-1995_2418.pdf_1.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>If.</th></tr></thead><tbody><tr><td>If.</td></tr><tr><td>If.</td></tr><tr><td>I.</td></tr><tr><td>I.</td></tr><tr><td>I.</td></tr><tr><td>I.</td></tr><tr><td>I.</td></tr><tr><td>I.</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-the-eye-o.O-1995_2418.pdf_1",
+    "image_path": "docstructbench_llm-raw-the-eye-o.O-1995_2418.pdf_1.pdf_0.jpg"
+  }
+]

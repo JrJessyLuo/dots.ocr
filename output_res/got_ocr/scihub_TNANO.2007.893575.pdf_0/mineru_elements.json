@@ -1,0 +1,11 @@
+[
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th></th><th>Program (1 / 0)</th><th>Read</th></tr></thead><tbody><tr><td>(Impact Ionization)</td><td></td></tr><tr><td>Gate Voltage</td><td>1</td><td>1</td></tr><tr><td>Drain Voltage</td><td>1 (-1 )</td><td>0.1</td></tr><tr><td>Source Voltage</td><td>0</td><td>0</td></tr></tbody></table>",
+    "pdf": "scihub_TNANO.2007.893575.pdf_0",
+    "image_path": "scihub_TNANO.2007.893575.pdf_0.pdf_0.jpg"
+  }
+]

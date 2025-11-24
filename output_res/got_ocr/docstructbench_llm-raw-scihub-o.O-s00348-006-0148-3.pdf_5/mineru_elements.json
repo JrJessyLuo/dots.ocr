@@ -1,0 +1,20 @@
+[
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s00348-006-0148-3.pdf_5",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s00348-006-0148-3.pdf_5.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Fig. 5. If one assumes the level of the second peak as an indication of the signal to noise ratio, one should conclude that the values of 26 is not optimal, since the values from 3 up to 13 behaves slightly better, but the results are more or less similar to those obtained with 26 . Further increases of the value deteriorate the / ratio, but also for _=128, the Lorentzian estimator works noticeably better than SSD or cross-correlation. These results indicate that the Lorentzian estimator performs well for a wide range of values of the parameter, even though the optimal seems to be at about 1 / 3 of the",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s00348-006-0148-3.pdf_5",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s00348-006-0148-3.pdf_5.pdf_0.jpg"
+  }
+]

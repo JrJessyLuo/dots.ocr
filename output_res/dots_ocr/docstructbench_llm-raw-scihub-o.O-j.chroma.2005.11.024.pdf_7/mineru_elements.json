@@ -1,0 +1,38 @@
+[
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.chroma.2005.11.024.pdf_7",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.chroma.2005.11.024.pdf_7.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.chroma.2005.11.024.pdf_7",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.chroma.2005.11.024.pdf_7.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Fig. 9. Migration of rhodamine B marker on three separate TLC plates. Distances were measured to the center of the zone.",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.chroma.2005.11.024.pdf_7",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.chroma.2005.11.024.pdf_7.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.chroma.2005.11.024.pdf_7",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.chroma.2005.11.024.pdf_7.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Fig. 10. Picture showing the 8.5 cm migration of Rhodamine B in 30 min. Notice how the spot stays in the center of the TLC plate. The solute zone has been digitally enhanced by intensifying the pink solute color to a deeper red (for visualization purposes) without compromising the zone shape or diffusion characteristics.",
+    "html": ""
+  }
+]

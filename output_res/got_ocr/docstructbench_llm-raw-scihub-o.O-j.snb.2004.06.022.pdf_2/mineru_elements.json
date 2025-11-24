@@ -1,0 +1,56 @@
+[
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.snb.2004.06.022.pdf_2",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.snb.2004.06.022.pdf_2.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Fig. 1. Real structure consisting of three thin layers: silver (for electric contact), metal-free phthalocyanine and palladium fabricated on an allundum substrate.",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.snb.2004.06.022.pdf_2",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.snb.2004.06.022.pdf_2.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.snb.2004.06.022.pdf_2",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.snb.2004.06.022.pdf_2.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Fig. 2. A scheme of resistance measurements in the two-point method. Changes in resistance were monitored by an automatic data acquisition unit Agilent 34970A for various hydrogen concentrations in nitrogen or in air.",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.snb.2004.06.022.pdf_2",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.snb.2004.06.022.pdf_2.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.snb.2004.06.022.pdf_2",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.snb.2004.06.022.pdf_2.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Fig. 3. Changes in the resistance of structures with two different thicknesses of metal-free phthalocyanine ( 55 circle - left axis, and 80 triangle right axis) interaction in nitrogen, (a) at lower hydrogen concentrations 0.5-2.5 \\% and (b) at higher concentrations 2.5-4 \\%.",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.snb.2004.06.022.pdf_2",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.snb.2004.06.022.pdf_2.pdf_0.jpg"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Weapon</th><th>Cost</th><th>Dmg (S)</th><th>Dmg (M)</th><th>Critical</th><th>Range</th><th>Weight</th><th>Type</th><th>Special</th></tr></thead><tbody><tr><td>Slingshot, Halfing</td><td>15</td><td>1 4</td><td>1 6</td><td>19-20 / 2</td><td>75 .</td><td>1 .</td><td>B</td><td>-</td></tr><tr><td>Bullets, Slingshot (10)</td><td>1</td><td>-</td><td>-</td><td>-</td><td>-</td><td>5 .</td><td>-</td><td>-</td></tr><tr><td>Sling-staff, Halfing</td><td>25</td><td>2 3 / 6</td><td>2 4 / 8</td><td>19-20 / 2</td><td>50 .</td><td>2 .</td><td>B/B</td><td>-</td></tr><tr><td>Bullets, Sling-staff (10)</td><td>1</td><td>-</td><td>-</td><td>- -</td><td>-</td><td>5 .</td><td>-</td><td>-</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-the-eye-o.O-Player%27s%20Options%20-%20Halflings.pdf_11",
+    "image_path": "docstructbench_llm-raw-the-eye-o.O-Player%27s%20Options%20-%20Halflings.pdf_11.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "TABLE 5: WEAPONS",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-the-eye-o.O-Player%27s%20Options%20-%20Halflings.pdf_11",
+    "image_path": "docstructbench_llm-raw-the-eye-o.O-Player%27s%20Options%20-%20Halflings.pdf_11.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Item</th><th>Cost</th><th>Weight</th></tr></thead><tbody><tr><td>Halfing Blueberry Ale</td><td>7 / 5 / 2</td><td>-</td></tr><tr><td>(sold by pint bottle, 1-gallon keg, and 5-gallon keg)</td><td></td><td></td></tr><tr><td>Halfing Cloak</td><td>25 (50 )</td><td>2 .(3 ).</td></tr><tr><td>Halfing Pouch Belt</td><td>10 (15 )</td><td>1 .(1 2 ).</td></tr><tr><td>Halfing Tobacco</td><td>7</td><td>1 .</td></tr><tr><td>Halfing Tri-flute</td><td>9</td><td>-</td></tr></tbody></table>",
+    "pdf": "docstructbench_llm-raw-the-eye-o.O-Player%27s%20Options%20-%20Halflings.pdf_11",
+    "image_path": "docstructbench_llm-raw-the-eye-o.O-Player%27s%20Options%20-%20Halflings.pdf_11.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "TABLE 6: MUNDANE GEAR",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-the-eye-o.O-Player%27s%20Options%20-%20Halflings.pdf_11",
+    "image_path": "docstructbench_llm-raw-the-eye-o.O-Player%27s%20Options%20-%20Halflings.pdf_11.pdf_0.jpg"
+  }
+]

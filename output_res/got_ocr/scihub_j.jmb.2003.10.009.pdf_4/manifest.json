@@ -1,0 +1,19 @@
+{
+  "pdf": "scihub_j.jmb.2003.10.009.pdf_4",
+  "tables": [],
+  "images": [],
+  "metrics": {
+    "per_page_time_sec": [
+      {
+        "page_idx": 0,
+        "time_sec": 37.740044593811035
+      }
+    ],
+    "per_page_status": [
+      {
+        "page_idx": 0,
+        "status": "ok"
+      }
+    ]
+  }
+}

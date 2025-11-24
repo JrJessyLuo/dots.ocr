@@ -1,0 +1,19 @@
+{
+  "pdf": "scihub_j.jallcom.2003.09.015.pdf_1",
+  "tables": [],
+  "images": [],
+  "metrics": {
+    "per_page_time_sec": [
+      {
+        "page_idx": 0,
+        "time_sec": 58.60167908668518
+      }
+    ],
+    "per_page_status": [
+      {
+        "page_idx": 0,
+        "status": "ok"
+      }
+    ]
+  }
+}

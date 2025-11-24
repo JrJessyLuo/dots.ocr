@@ -1,0 +1,173 @@
+[
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>[t]2* COG functional category</th><th>[t]2* COG functional class</th><th>|c| Annotation</th></tr></thead><tbody><tr><td></td><td></td><td>Homologue</td><td>Gene product</td></tr><tr><td>l Mutation in pigment operon</td></tr><tr><td>: coenzyme transport and</td></tr><tr><td>: macrophages</td></tr><tr><td>GC: carbohydrate transport and</td></tr><tr><td>metabolism/signal</td></tr><tr><td>transduction mechanisms</td></tr><tr><td>RE: general function</td></tr><tr><td>: macrophages into acid</td></tr><tr><td>transport and metabolism</td></tr><tr><td>O: secondary metabolites</td></tr><tr><td>biosynthesis, transport and</td></tr><tr><td>catabolism</td></tr><tr><td>I: lipid transport and</td></tr><tr><td>molecular</td></tr><tr><td>Mutation outside pigment operon</td></tr><tr><td>C: energy production and</td></tr><tr><td>conversion</td></tr></tbody></table>",
+    "pdf": "scihub_AEM.01420-09.pdf_3",
+    "image_path": "scihub_AEM.01420-09.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "TABLE 3. Mapping of transposon insertions sites that result in white phenotype in C. sakazakii ES5",
+    "html": "",
+    "pdf": "scihub_AEM.01420-09.pdf_3",
+    "image_path": "scihub_AEM.01420-09.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Geranylgeranyl pyrophosphate synthase</th></tr></thead><tbody><tr><td>Glucosyl transferases, related to UDP-</td></tr><tr><td>glucosyltransferase</td></tr><tr><td>Acetyltransferase/choline</td></tr><tr><td>dehydrogenase and related</td></tr><tr><td>flavoproteins</td></tr><tr><td>Phytone dehydrogenase and related</td></tr><tr><td>proteins</td></tr></tbody></table>",
+    "pdf": "scihub_AEM.01420-09.pdf_3",
+    "image_path": "scihub_AEM.01420-09.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>crtE</th></tr></thead><tbody><tr><td>crtX</td></tr><tr><td>crtY</td></tr><tr><td>crtI</td></tr></tbody></table>",
+    "pdf": "scihub_AEM.01420-09.pdf_3",
+    "image_path": "scihub_AEM.01420-09.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>GeranylGERanyl pyrophosphate</th></tr></thead><tbody><tr><td>synthase</td></tr><tr><td>Zeaxanthin glucosyl transferase</td></tr></tbody></table>",
+    "pdf": "scihub_AEM.01420-09.pdf_3",
+    "image_path": "scihub_AEM.01420-09.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>F _1-type ATP synthase, subunit alpha</th></tr></thead><tbody><tr><td>_ _1-type ATP synthase, subunit beta</td></tr><tr><td>_ _1 -type ATP synthase, subunit</td></tr><tr><td>_ _1</td></tr></tbody></table>",
+    "pdf": "scihub_AEM.01420-09.pdf_3",
+    "image_path": "scihub_AEM.01420-09.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>ESA_04012</th></tr></thead><tbody><tr><td>ESA_04006</td></tr><tr><td>_-04007</td></tr></tbody></table>",
+    "pdf": "scihub_AEM.01420-09.pdf_3",
+    "image_path": "scihub_AEM.01420-09.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>F _ _1 ATP synthase subunit alpha</th></tr></thead><tbody><tr><td>_ _1 ATP synthase subunit beta</td></tr><tr><td>_ ATP synthase subunit</td></tr><tr><td>_ _2 ATP synthase subunit</td></tr><tr><td>_ ATP synthase subunit</td></tr><tr><td>_ ATP synthase subunit</td></tr><tr><td>_ _1 ATP synthase subunit</td></tr><tr><td>_</td></tr></tbody></table>",
+    "pdf": "scihub_AEM.01420-09.pdf_3",
+    "image_path": "scihub_AEM.01420-09.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Phytone dehydrogenase</th></tr></thead><tbody><tr><td>Phytone synthase</td></tr></tbody></table>",
+    "pdf": "scihub_AEM.01420-09.pdf_3",
+    "image_path": "scihub_AEM.01420-09.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>_ _1-tyne ATP synthase, subunit alpha</th></tr></thead><tbody><tr><td>_ F _1-type ATP synthase, subunit beta</td></tr><tr><td>_ F _1-type ATP synthase, subunit</td></tr><tr><td>_ F _1 -type ATP synthase, subunit</td></tr><tr><td>(mitochondrial delta subunit)</td></tr><tr><td>_ F _1</td></tr></tbody></table>",
+    "pdf": "scihub_AEM.01420-09.pdf_3",
+    "image_path": "scihub_AEM.01420-09.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>ESA_04005</th></tr></thead><tbody><tr><td>ESA_02622</td></tr></tbody></table>",
+    "pdf": "scihub_AEM.01420-09.pdf_3",
+    "image_path": "scihub_AEM.01420-09.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>F _F F _1 ATP synthase subunit</th></tr></thead><tbody><tr><td>epsilon</td></tr><tr><td>_- 2-toxoglutamate</td></tr><tr><td>E1 component</td></tr><tr><td>_- 2-toxoglutate</td></tr><tr><td>_- 02621</td></tr></tbody></table>",
+    "pdf": "scihub_AEM.01420-09.pdf_3",
+    "image_path": "scihub_AEM.01420-09.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>F _ F _1 ATP synthase subunit</th></tr></thead><tbody><tr><td>_ _1 ATP synthases subunit beta</td></tr><tr><td>_ ATP synthase subunit</td></tr><tr><td>_- 02622</td></tr></tbody></table>",
+    "pdf": "scihub_AEM.01420-09.pdf_3",
+    "image_path": "scihub_AEM.01420-09.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>P: inorganic ion transport and</th></tr></thead><tbody><tr><td>metabolism</td></tr><tr><td>T: signal transduction</td></tr><tr><td>mechanisms</td></tr></tbody></table>",
+    "pdf": "scihub_AEM.01420-09.pdf_3",
+    "image_path": "scihub_AEM.01420-09.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>cAMP-binding proteins, catabolite gene</th></tr></thead><tbody><tr><td>activator, and regulatory subunit of</td></tr><tr><td>cAMP-dependent protein kinases</td></tr><tr><td>DnaK suppressor protein</td></tr></tbody></table>",
+    "pdf": "scihub_AEM.01420-09.pdf_3",
+    "image_path": "scihub_AEM.01420-09.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>ESA_ 03222</th></tr></thead><tbody><tr><td>ESA_03622</td></tr><tr><td>ESA_02624</td></tr><tr><td>_- 03316</td></tr></tbody></table>",
+    "pdf": "scihub_AEM.01420-09.pdf_3",
+    "image_path": "scihub_AEM.01420-09.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>acefF _1 hydrolipoolamide</th></tr></thead><tbody><tr><td>acetyltransferase</td></tr></tbody></table>",
+    "pdf": "scihub_AEM.01420-09.pdf_3",
+    "image_path": "scihub_AEM.01420-09.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>ESA_03194</th></tr></thead><tbody><tr><td>ESA_04343 (Ent638_3811)</td></tr><tr><td>ESA_03563 (ETA_03450)</td></tr><tr><td>ESA_00549 (AAG53883)</td></tr></tbody></table>",
+    "pdf": "scihub_AEM.01420-09.pdf_3",
+    "image_path": "scihub_AEM.01420-09.pdf_3.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>DnaK transcriptional regulator</th></tr></thead><tbody><tr><td>DksA</td></tr><tr><td>DraG</td></tr><tr><td>growth attenuator A_</td></tr><tr><td>Enterobacter sp. 638)</td></tr><tr><td>Hypothetical protein (YhbC-like</td></tr><tr><td>protein, Enrinia stamaneins</td></tr><tr><td>Hypothetical protein)</td></tr><tr><td>Hypothetical protein (sigma factor</td></tr><tr><td>RpoS, Escherichia coli)</td></tr></tbody></table>",
+    "pdf": "scihub_AEM.01420-09.pdf_3",
+    "image_path": "scihub_AEM.01420-09.pdf_3.pdf_0.jpg"
+  }
+]

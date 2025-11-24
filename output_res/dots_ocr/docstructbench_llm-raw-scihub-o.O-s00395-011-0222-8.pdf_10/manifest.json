@@ -1,0 +1,22 @@
+{
+  "pdf": "docstructbench_llm-raw-scihub-o.O-s00395-011-0222-8.pdf_10",
+  "tables": [],
+  "images": [
+    {
+      "page_idx": 0,
+      "bbox": null,
+      "bbox_norm": null,
+      "path": null,
+      "caption": null,
+      "footnote": ""
+    },
+    {
+      "page_idx": 0,
+      "bbox": null,
+      "bbox_norm": null,
+      "path": null,
+      "caption": null,
+      "footnote": ""
+    }
+  ]
+}

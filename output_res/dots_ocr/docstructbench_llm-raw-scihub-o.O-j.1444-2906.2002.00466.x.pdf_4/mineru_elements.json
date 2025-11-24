@@ -1,0 +1,38 @@
+[
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.1444-2906.2002.00466.x.pdf_4",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.1444-2906.2002.00466.x.pdf_4.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.1444-2906.2002.00466.x.pdf_4",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.1444-2906.2002.00466.x.pdf_4.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "**Fig. 1** Growth of carp and changes of water temperature during the feeding trial.",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.1444-2906.2002.00466.x.pdf_4",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.1444-2906.2002.00466.x.pdf_4.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "**Table 2** Growth performance of carp fed the experimental diets for 12 weeks",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.1444-2906.2002.00466.x.pdf_4",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.1444-2906.2002.00466.x.pdf_4.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th></th><th>Control</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th></tr></thead><tbody><tr><td>Initial bodyweight (g)<br>(Mean ± SD, n=30)</td><td>3.9±0.39</td><td>3.9±0.38</td><td>3.9±0.35</td><td>3.9±0.36</td><td>3.9±0.37</td><td>3.9±0.37</td></tr><tr><td>Final body weight (g)<br>(Mean ± SD, n=30)</td><td>90.2±26.9<sup>c</sup></td><td>102.4±29.9<sup>d</sup></td><td>88.7±20.0<sup>c</sup></td><td>84.2±24.5<sup>b</sup></td><td>84.6±26.6<sup>b</sup></td><td>80.2±26.6<sup>a</sup></td></tr><tr><td>Percent bodyweight gain</td><td>2219<sup>c</sup></td><td>2539<sup>d</sup></td><td>2187<sup>c</sup></td><td>2065<sup>b</sup></td><td>2074<sup>b</sup></td><td>1961<sup>a</sup></td></tr><tr><td>Daily feed consumption (%)</td><td>2.70<sup>a</sup></td><td>2.49<sup>a</sup></td><td>2.57<sup>a</sup></td><td>2.68<sup>a</sup></td><td>2.67<sup>a</sup></td><td>2.71<sup>a</sup></td></tr><tr><td>Feed/gain ratio</td><td>1.08<sup>a</sup></td><td>1.00<sup>a</sup></td><td>1.01<sup>a</sup></td><td>1.06<sup>a</sup></td><td>1.05<sup>a</sup></td><td>1.09<sup>a</sup></td></tr><tr><td>Protein efficiency ratio</td><td>2.78<sup>ab</sup></td><td>3.00<sup>b</sup></td><td>2.88<sup>ab</sup></td><td>2.75<sup>a</sup></td><td>2.76<sup>ab</sup></td><td>2.69<sup>a</sup></td></tr><tr><td>Net protein utilization rate</td><td>53.0<sup>ab</sup></td><td>56.2<sup>b</sup></td><td>51.0<sup>ab</sup></td><td>49.0<sup>ab</sup></td><td>49.4<sup>ab</sup></td><td>47.6<sup>a</sup></td></tr></tbody></table>"
+  }
+]

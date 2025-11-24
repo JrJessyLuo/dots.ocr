@@ -1,0 +1,38 @@
+[
+  {
+    "pdf": "scihub_carcin%2Fbgh032.pdf_2",
+    "image_path": "scihub_carcin%2Fbgh032.pdf_2.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "**Table I.** Other DCA induced gene expression alterations",
+    "html": ""
+  },
+  {
+    "pdf": "scihub_carcin%2Fbgh032.pdf_2",
+    "image_path": "scihub_carcin%2Fbgh032.pdf_2.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Gene</th><th>↑↓</th><th>Time point</th></tr></thead><tbody><tr><td><strong>NFκB related genes</strong></td><td></td><td></td></tr><tr><td>Tumour necrosis factor alpha induced protein (TNFaip)</td><td>↑↑</td><td>4-24 h</td></tr><tr><td>Flice inhibitory protein (FLIP, Cflar, Casper)</td><td>↑</td><td>24 h</td></tr><tr><td><strong>Cellular proteases/invasion genes</strong></td><td></td><td></td></tr><tr><td>Plasminogen activator, Urokinase (Plau)</td><td>↑↑↑</td><td>1-24 h</td></tr><tr><td>Plasminogen activator receptor (PlauR)</td><td>↑↑</td><td>24 h</td></tr><tr><td>Plasminogen activator inhibitor 1 (Serpine 1)</td><td>↓↓</td><td>24 h</td></tr><tr><td>Serine protease inhibitor B5 (maspin, Serpine B5)</td><td>↑↑</td><td>24 h</td></tr><tr><td>Plasminogen activator inhibitor B2 (Serpine B2, PAI-2)</td><td>↑↑</td><td>24 h</td></tr><tr><td><strong>Growth factors/receptors</strong></td><td></td><td></td></tr><tr><td>Melanoma growth stimulating activity (MGSA, Gro 1)</td><td>↑</td><td>24 h</td></tr><tr><td>Vascular endothelial growth factor (VEGF)</td><td>↑</td><td>4-24 h</td></tr><tr><td>Epidermal growth factor receptor (EGFR)</td><td>↑</td><td>1-24 h</td></tr><tr><td><strong>Adhesion molecules</strong></td><td></td><td></td></tr><tr><td>β-Catenin</td><td>↑</td><td>1-24 h</td></tr><tr><td>Integrin B1, integrin A6</td><td>↑</td><td>4-24 h</td></tr><tr><td>E-Cadherin</td><td>↑</td><td>1 h</td></tr><tr><td>Intercellular adhesion molecule (Icam)</td><td>↑</td><td>4-24 h</td></tr><tr><td>Neural cell adhesion molecule (Ncam)</td><td>↑↑</td><td>1-4 h</td></tr></tbody></table>"
+  },
+  {
+    "pdf": "scihub_carcin%2Fbgh032.pdf_2",
+    "image_path": "scihub_carcin%2Fbgh032.pdf_2.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": ""
+  },
+  {
+    "pdf": "scihub_carcin%2Fbgh032.pdf_2",
+    "image_path": "scihub_carcin%2Fbgh032.pdf_2.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "**Fig. 2.** Membrane array analysis of DCA treated OE33 cells, 24 h post-exposure. (a) Cancer pathway arrays were used to study gene expression abnormalities induced by 300 µM DCA relative to untreated OE33 cells. These example arrays show the up-regulation of the IκB and IL-8 genes by DCA. (b) Two example signal transduction arrays are shown; those hybridized with cDNA from untreated OE33 cells and cDNA from OE33 cells 24 h after DCA exposure. A number of other genes are up-regulated by DCA, particularly evident in the cancer pathway array in (a). These genes (and others) are identified in Table I.",
+    "html": ""
+  }
+]

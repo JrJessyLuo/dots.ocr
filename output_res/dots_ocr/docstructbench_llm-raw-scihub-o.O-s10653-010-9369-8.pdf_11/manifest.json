@@ -1,0 +1,15 @@
+{
+  "pdf": "docstructbench_llm-raw-scihub-o.O-s10653-010-9369-8.pdf_11",
+  "tables": [
+    {
+      "page_idx": 0,
+      "bbox": null,
+      "bbox_norm": null,
+      "html": "output_res/dots_ocr/docstructbench_llm-raw-scihub-o.O-s10653-010-9369-8.pdf_11/tables/p000_t0.html",
+      "csv": null,
+      "caption": "",
+      "footnote": ""
+    }
+  ],
+  "images": []
+}

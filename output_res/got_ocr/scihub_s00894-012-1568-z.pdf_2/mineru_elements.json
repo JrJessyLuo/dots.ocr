@@ -1,0 +1,38 @@
+[
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": "",
+    "pdf": "scihub_s00894-012-1568-z.pdf_2",
+    "image_path": "scihub_s00894-012-1568-z.pdf_2.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Fig. 3. As can be seen from the figure, the enthalpy curves of the I4m2 phase and Imm2 phase have the same enthalpy and intersect with that of ZB phase at 4.8 , indicating a first order phase transition between these phases. On the other hand, from the energyvolume data, we also calculate the bulk modulus of these phases. For the zinc-blende state, our bulk modulus is",
+    "html": "",
+    "pdf": "scihub_s00894-012-1568-z.pdf_2",
+    "image_path": "scihub_s00894-012-1568-z.pdf_2.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": "",
+    "pdf": "scihub_s00894-012-1568-z.pdf_2",
+    "image_path": "scihub_s00894-012-1568-z.pdf_2.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Fig. 4. As can be seen from the figure, the volume monotonically decreases with increasing pressure to 15 . When the pressure is increased from 15 to 20 the structural phase transition begins and volume shows a noticeable decrease, which is typical for a first order phase transition. The structural analysis brings out that zinc-blende CdTe converts into a I4m2 (binary -tin) structure. This tendency is indeed anticipated when some conditions in simulations are considered, namely, the use of ideal structure, the size of the simulated structure etc. Consequently, simulated systems have to cross a significant energy barrier to transform from one phase to another.",
+    "html": "",
+    "pdf": "scihub_s00894-012-1568-z.pdf_2",
+    "image_path": "scihub_s00894-012-1568-z.pdf_2.pdf_0.jpg"
+  }
+]

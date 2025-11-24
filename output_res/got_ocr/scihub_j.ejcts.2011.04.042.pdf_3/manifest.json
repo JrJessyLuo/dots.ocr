@@ -1,0 +1,19 @@
+{
+  "pdf": "scihub_j.ejcts.2011.04.042.pdf_3",
+  "tables": [],
+  "images": [],
+  "metrics": {
+    "per_page_time_sec": [
+      {
+        "page_idx": 0,
+        "time_sec": 22.82488775253296
+      }
+    ],
+    "per_page_status": [
+      {
+        "page_idx": 0,
+        "status": "ok"
+      }
+    ]
+  }
+}

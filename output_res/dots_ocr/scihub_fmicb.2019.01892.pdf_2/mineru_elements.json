@@ -1,0 +1,20 @@
+[
+  {
+    "pdf": "scihub_fmicb.2019.01892.pdf_2",
+    "image_path": "scihub_fmicb.2019.01892.pdf_2.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": ""
+  },
+  {
+    "pdf": "scihub_fmicb.2019.01892.pdf_2",
+    "image_path": "scihub_fmicb.2019.01892.pdf_2.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "**FIGURE 1** | Schematic overview of the sampling site and sampling locations. Soil samples (surface soil, -1, -1.5, and -2 m) and samples of root and rhizosphere of grass were taken in an area of one meter around OW149-4 and OW175-4 (n = 4). Root and rhizosphere samples of poplar were taken of the trees growing closest to the two observation wells, with four repetitions for each tree.",
+    "html": ""
+  }
+]

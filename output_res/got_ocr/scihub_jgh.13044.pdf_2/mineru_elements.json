@@ -1,0 +1,47 @@
+[
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th></th><th>All subjects (n=10935)</th><th>Male (n=6293)</th><th>Female ( n=4642)</th><th>Statistical values</th><th>P</th></tr></thead><tbody><tr><td>Age (years)</td><td>49.93 2.07</td><td>19.68 2.08</td><td>43.98 2.95</td><td>1.49</td><td>0.1351</td></tr><tr><td>*l Height(ym)</td></tr><tr><td>Weight( ()</td></tr></tbody></table>",
+    "pdf": "scihub_jgh.13044.pdf_2",
+    "image_path": "scihub_jgh.13044.pdf_2.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "Table 1 Basic characteristics of study population according the Chinese famine",
+    "html": "",
+    "pdf": "scihub_jgh.13044.pdf_2",
+    "image_path": "scihub_jgh.13044.pdf_2.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>glutamylty transferase (UL)</th></tr></thead><tbody><tr><td>Alanine aminotransferase (UL)</td></tr><tr><td>Aspartate aminotransferase (UL)</td></tr><tr><td>Body mass index (BMI, / )</td></tr></tbody></table>",
+    "pdf": "scihub_jgh.13044.pdf_2",
+    "image_path": "scihub_jgh.13044.pdf_2.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Cerebral cancer disease (\\%)</th></tr></thead><tbody><tr><td>* P values were calculated by the means of Student Test, Wilcoxon rank sum test, or chi-square test</td></tr></tbody></table>",
+    "pdf": "scihub_jgh.13044.pdf_2",
+    "image_path": "scihub_jgh.13044.pdf_2.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Fasting plasma glucose (FPG, mmol/L)</th></tr></thead><tbody><tr><td>Hyperglycemia was detected in 1567(14.33)</td></tr><tr><td>* P values were calculated by the means of Student Test, Wilcoxon rank test, or chi-square test</td></tr></tbody></table>",
+    "pdf": "scihub_jgh.13044.pdf_2",
+    "image_path": "scihub_jgh.13044.pdf_2.pdf_0.jpg"
+  }
+]

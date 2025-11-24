@@ -1,0 +1,74 @@
+[
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.msec.2005.01.019.pdf_4",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.msec.2005.01.019.pdf_4.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Fig. 1). The grain structure near to the mold is very fine (approximately 10-20 ), with a very sharp transition to much larger grains (>100 ) at approximately 50 below the surface (Fig. 1b). This change in grain size is very abrupt, even considering the chill zone influence of the mold. Going to even higher magnification (Fig. 1c), intergranular precipitates can be seen in the fine-grained region, as well as surface irregularity and gas porosity. These micrographs illustrate both the fine scale of the microstructures that must be simulated and the possible presence of a layer where the microstructure might be affected by contamination from the mold.",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.msec.2005.01.019.pdf_4",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.msec.2005.01.019.pdf_4.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.msec.2005.01.019.pdf_4",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.msec.2005.01.019.pdf_4.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Fig. 1. Microstructure of an investment cast titanium test wedge. (a) Macroscale over of the structure across the wedge and (b), (c) the microstructure at the mold -metal interface at increasing magnification.",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.msec.2005.01.019.pdf_4",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.msec.2005.01.019.pdf_4.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.msec.2005.01.019.pdf_4",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.msec.2005.01.019.pdf_4.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Fig. 2. Ti crown casting illustrating macroporosity observed (a) experimentally using X-ray micro-tomographic imaging and (b) model prediction. Investment cast Ti test wedge showing macroporosity (c) experimentally and (d) model prediction.",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.msec.2005.01.019.pdf_4",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.msec.2005.01.019.pdf_4.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.msec.2005.01.019.pdf_4",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.msec.2005.01.019.pdf_4.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Fig. 3. Here, the strength of the solute source at the mold boundary in Fig. 3b is four times that in Fig. 3a. Silicon contamination is also present. Silicon depresses the freezing point of titanium (see Fig. 4), delaying the freezing of the metal near the surface of the casting, despite the enhanced nucleation distribution applied there. The consequence of this large uptake of silicon upon the solidification structure is shown in Fig. 5. Grain nucleation occurs first in the bulk, approximately 100 from the surface, rather than at the surface. This is a surprising result, since the accepted sequence of nucleation of a casting is the formation of an equated shell zone (Fig. 4). The second stage of the gold bulk (e.g., ). Most cast alloys have sufficient alloying to provide a large liquidus to solidus range, as in the Ti6Al4V studied by Boettinger et al. , where the solidification range was 30 , which might mask the additional liquidus depression caused by pickup. The prediction of grain growth at the surface occurring after that in the bulk has several important implications: (i) the heat transfer coefficient between the mold and metal will stay higher for longer; (ii) a region of fine equiaxed grains will form near the surface with a strong possibility of intergranular intermetallic precipitates; and perhaps most importantly, (iii) much greater impurity pickup from the mold since the casting is liquid at the interface for a much longer time.",
+    "html": "",
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.msec.2005.01.019.pdf_4",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.msec.2005.01.019.pdf_4.pdf_0.jpg"
+  }
+]

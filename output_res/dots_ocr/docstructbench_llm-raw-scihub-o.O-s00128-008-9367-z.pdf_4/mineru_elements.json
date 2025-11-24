@@ -1,0 +1,38 @@
+[
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s00128-008-9367-z.pdf_4",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s00128-008-9367-z.pdf_4.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "**Table 3** Assessment of health risk to intake arsenic and heavy metals from tea infusion consumption (mg/kg-day) using Hazardous Index method",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s00128-008-9367-z.pdf_4",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s00128-008-9367-z.pdf_4.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th rowspan=\"2\">Elements</th><th rowspan=\"2\">RfD (mg/kg-day)</th><th colspan=\"3\">Hazard quotient (HQ)</th></tr><tr><th>Green tea</th><th>Oolong tea</th><th>Black tea</th></tr></thead><tbody><tr><td>As</td><td>3 × 10<sup>-4</sup></td><td>None</td><td>2.1 × 10<sup>-3</sup></td><td>3.0 × 10<sup>-3</sup></td></tr><tr><td>Cr</td><td>3 × 10<sup>-3</sup></td><td>8.5 × 10<sup>-4</sup></td><td>2.1 × 10<sup>-1</sup></td><td>4.5 × 10<sup>-1</sup></td></tr><tr><td>Cd</td><td>1 × 10<sup>-3</sup></td><td>None</td><td>6.3 × 10<sup>-4</sup></td><td>7.7 × 10<sup>-3</sup></td></tr><tr><td>Pb</td><td>1.43 × 10<sup>-3</sup></td><td>4.2 × 10<sup>-4</sup></td><td>3.5 × 10<sup>-2</sup></td><td>2.1 × 10<sup>-1</sup></td></tr><tr><td>Hazard Index<br>(HI = ΣHQ)</td><td></td><td>1.3 × 10<sup>-3</sup></td><td>2.4 × 10<sup>-1</sup></td><td>6.7 × 10<sup>-1</sup></td></tr></tbody></table>"
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s00128-008-9367-z.pdf_4",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s00128-008-9367-z.pdf_4.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "**Table 4** Comparison on arsenic and heavy metals in tea products from other regions (µg/g)",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-s00128-008-9367-z.pdf_4",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s00128-008-9367-z.pdf_4.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>Tea type</th><th>Country</th><th>As</th><th>Cr</th><th>Cd</th><th>Pb</th><th>Reference</th></tr></thead><tbody><tr><td rowspan=\"4\">Green tea</td><td>Taiwan</td><td>ND</td><td>0.1</td><td>ND</td><td>0.01</td><td>This study</td></tr><tr><td>China</td><td>0.14</td><td>0.40</td><td>0.24</td><td>–</td><td>Han et al. 2005</td></tr><tr><td>Japan</td><td>–</td><td>0.49</td><td>0.04</td><td>–</td><td>Tsushida and Takeo 1977</td></tr><tr><td>Thailand</td><td>0.09</td><td>1.48</td><td>0.04</td><td>3.93</td><td>Nookabkaew et al. 2006</td></tr><tr><td rowspan=\"2\">Oolong tea</td><td>Taiwan</td><td>0.005</td><td>5.2</td><td>0.0050</td><td>0.4</td><td>This study</td></tr><tr><td>China</td><td>0.20</td><td>0.28</td><td>0.03</td><td>–</td><td>Han et al. 2005</td></tr><tr><td rowspan=\"5\">Black tea</td><td>Taiwan</td><td>0.01</td><td>7.92</td><td>0.07</td><td>2.01</td><td>This study</td></tr><tr><td>China</td><td>0.69</td><td>0.35</td><td>0.01</td><td>–</td><td>Han et al. 2005</td></tr><tr><td>India</td><td>–</td><td>–</td><td>0.66</td><td>3.7</td><td>Natesan and Ranganathan 1990</td></tr><tr><td>Turkey</td><td>–</td><td>–</td><td>2.3</td><td>17.9</td><td>Narin et al. 2004</td></tr><tr><td>Nigeria</td><td>–</td><td>1.1</td><td>0.13</td><td>0.50</td><td>Onianwa et al. 1999</td></tr></tbody></table>"
+  }
+]

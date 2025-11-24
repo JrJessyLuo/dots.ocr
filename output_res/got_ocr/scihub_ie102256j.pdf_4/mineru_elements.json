@@ -1,0 +1,56 @@
+[
+  {
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th>_390</th><th>loop</th><th>_</th><th>_</th><th>action</th></tr></thead><tbody><tr><td>2.00</td><td>T_+_0</td><td>8.29</td><td>16.76</td><td>direct</td></tr><tr><td>T_ 8-_00</td><td>19.54</td><td>22.57</td><td>reverse</td></tr><tr><td>T_ 6-_00</td><td>5.70</td><td>39.6</td><td>direct</td></tr><tr><td>T_ 3-_00</td><td>11.26</td><td>11.22</td><td>reverse</td></tr><tr><td>T_ 9-_00</td><td>8.87</td><td>40.13</td><td>direct</td></tr><tr><td>T_ 9-_00</td><td>51.01</td><td>20.20</td><td>reverse</td></tr></tbody></table>",
+    "pdf": "scihub_ie102256j.pdf_4",
+    "image_path": "scihub_ie102256j.pdf_4.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "Table 4. Controller Pairing and Parameters for Ternary System",
+    "html": "",
+    "pdf": "scihub_ie102256j.pdf_4",
+    "image_path": "scihub_ie102256j.pdf_4.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": "",
+    "pdf": "scihub_ie102256j.pdf_4",
+    "image_path": "scihub_ie102256j.pdf_4.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Figure 5. Sensitivity analysis and SVD results for ternary system.",
+    "html": "",
+    "pdf": "scihub_ie102256j.pdf_4",
+    "image_path": "scihub_ie102256j.pdf_4.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": "",
+    "pdf": "scihub_ie102256j.pdf_4",
+    "image_path": "scihub_ie102256j.pdf_4.pdf_0.jpg"
+  },
+  {
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Figure 9. This system involves four components. However, one of them is an inert system. The system is a function of the inert system assumed the same as that of the light reactant A, it is fed from the fresh feed stream F_A 0 as a mixture with A. The other fresh feed stream F_B 0 contains pure reactant B. While the heavy product C leaves the column from the bottom, the low-boling inert I is removed from the distillate without taking part in the reaction. Thus, the column has three zones: a stripping section, a reactive zone, and a rectifying section. It is assumed that the light and heavy fresh feed streams are fed from the bottom and top trays of the reactive zone.",
+    "html": "",
+    "pdf": "scihub_ie102256j.pdf_4",
+    "image_path": "scihub_ie102256j.pdf_4.pdf_0.jpg"
+  }
+]

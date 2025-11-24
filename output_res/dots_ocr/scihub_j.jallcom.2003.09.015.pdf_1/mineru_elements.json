@@ -1,0 +1,38 @@
+[
+  {
+    "pdf": "scihub_j.jallcom.2003.09.015.pdf_1",
+    "image_path": "scihub_j.jallcom.2003.09.015.pdf_1.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "table_caption",
+    "bbox_norm": null,
+    "text": "Table 1\nCrystallographic data of the ternary compounds in the ternary system Er–Ni–B",
+    "html": ""
+  },
+  {
+    "pdf": "scihub_j.jallcom.2003.09.015.pdf_1",
+    "image_path": "scihub_j.jallcom.2003.09.015.pdf_1.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "table",
+    "bbox_norm": null,
+    "text": "",
+    "html": "<table><thead><tr><th rowspan=\"2\">No.</th><th rowspan=\"2\">Compound</th><th rowspan=\"2\">Space group</th><th rowspan=\"2\">Structure type</th><th colspan=\"4\">Lattice parameters</th><th rowspan=\"2\">Reference</th></tr><tr><th>a (nm)</th><th>b (nm)</th><th>c (nm)</th><th>β (°)</th></tr></thead><tbody><tr><td rowspan=\"2\">1</td><td>Er<sub>3</sub>Ni<sub>13</sub>B<sub>2</sub></td><td>P6/mmm</td><td>Nd<sub>3</sub>Ni<sub>13</sub>B<sub>2</sub></td><td>0.4938</td><td>—</td><td>1.090</td><td></td><td>[1]</td></tr><tr><td>Er<sub>0.917</sub>Ni<sub>4.09</sub>B</td><td>P6/mmm</td><td>Er<sub>0.917</sub>Ni<sub>4.09</sub>B</td><td>1.48399</td><td>—</td><td>0.6919</td><td></td><td>[13]</td></tr><tr><td>2</td><td>ErNi<sub>4</sub>B</td><td>P6/mmm</td><td>CeCo<sub>4</sub>B</td><td>0.4949</td><td>—</td><td>0.6931</td><td></td><td>[1]</td></tr><tr><td>3</td><td>Er<sub>3</sub>Ni<sub>7</sub>B<sub>2</sub></td><td>P6<sub>3</sub>/mmc</td><td>Dy<sub>3</sub>Ni<sub>7</sub>B<sub>2</sub></td><td>0.5060</td><td>—</td><td>1.4276</td><td></td><td>[1]</td></tr><tr><td>a</td><td>~ErNi<sub>8</sub>B<sub>2</sub></td><td>—</td><td>Unknown</td><td>—</td><td>—</td><td>—</td><td></td><td><sup>b</sup></td></tr><tr><td>4</td><td>Er<sub>2</sub>Ni<sub>21</sub>B<sub>6</sub></td><td>Fm3m</td><td>W<sub>2</sub>Cr<sub>21</sub>C<sub>6</sub></td><td>1.0640</td><td>—</td><td>—</td><td></td><td>[1]</td></tr><tr><td>5</td><td>ErNi<sub>7</sub>B<sub>3</sub></td><td>I4<sub>1</sub>/amd</td><td>ErNi<sub>7</sub>B<sub>3</sub></td><td>0.7665</td><td>—</td><td>1.5584</td><td></td><td>[13]</td></tr><tr><td>6</td><td>~ErNi<sub>6.5</sub>B<sub>3</sub></td><td>cubic</td><td>Unknown</td><td>0.7735 (3)</td><td>—</td><td>—</td><td></td><td><sup>b</sup></td></tr><tr><td>7</td><td>Er<sub>2</sub>Ni<sub>10</sub>B<sub>5</sub></td><td>Pbca</td><td>Ho<sub>2</sub>Ni<sub>10</sub>B<sub>5</sub></td><td>1.7545</td><td>0.8977</td><td>0.9441</td><td></td><td>[6]</td></tr><tr><td>8</td><td>Er<sub>3</sub>Ni<sub>19</sub>B<sub>10</sub></td><td>C2/m</td><td>Ho<sub>3</sub>Ni<sub>19</sub>B<sub>10</sub></td><td>1.3101</td><td>0.8674</td><td>0.5761</td><td>91.05</td><td>[7]</td></tr><tr><td>9</td><td>Er<sub>2</sub>Ni<sub>15</sub>B<sub>9</sub></td><td>Cmca</td><td>Ho<sub>2</sub>Ni<sub>15</sub>B<sub>9</sub></td><td>1.5874</td><td>1.1561</td><td>1.1235</td><td></td><td>[4]</td></tr><tr><td>10</td><td>ErNi<sub>2</sub>B<sub>2</sub></td><td>C2/c</td><td>HoNi<sub>2</sub>B<sub>2</sub></td><td>0.8345</td><td>0.5188</td><td>0.6887</td><td>126.60</td><td>[5]</td></tr><tr><td>11</td><td>Er<sub>2</sub>Ni<sub>3</sub>B<sub>6</sub></td><td>Cmmm</td><td>Lu<sub>2</sub>Ni<sub>3</sub>B<sub>6</sub></td><td>0.7701</td><td>0.8632</td><td>0.3462</td><td></td><td>[3]</td></tr><tr><td>12</td><td>ErNiB<sub>4</sub>; LTM</td><td>Pbam</td><td>YCrB<sub>4</sub></td><td>0.5792</td><td>1.1544</td><td>0.3435</td><td></td><td>[14]</td></tr><tr><td></td><td>ErNiB<sub>4</sub>; HTM</td><td>I4/mmm</td><td>ErNiB<sub>4</sub></td><td>0.7505</td><td>—</td><td>0.8496</td><td></td><td>[13]</td></tr><tr><td>13</td><td>Er<sub>4</sub>NiB<sub>13</sub></td><td>P4/mnc</td><td>Er<sub>4</sub>NiB<sub>13</sub></td><td>0.7186</td><td>—</td><td>0.7446</td><td></td><td>[1]</td></tr></tbody></table>"
+  },
+  {
+    "pdf": "scihub_j.jallcom.2003.09.015.pdf_1",
+    "image_path": "scihub_j.jallcom.2003.09.015.pdf_1.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": ""
+  },
+  {
+    "pdf": "scihub_j.jallcom.2003.09.015.pdf_1",
+    "image_path": "scihub_j.jallcom.2003.09.015.pdf_1.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "Fig. 1. The phase diagram of the ternary system Er–Ni–B at 1070 K.",
+    "html": ""
+  }
+]

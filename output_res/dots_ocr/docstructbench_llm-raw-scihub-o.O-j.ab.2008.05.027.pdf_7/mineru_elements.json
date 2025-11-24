@@ -1,0 +1,38 @@
+[
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.ab.2008.05.027.pdf_7",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.ab.2008.05.027.pdf_7.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.ab.2008.05.027.pdf_7",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.ab.2008.05.027.pdf_7.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "**Fig. 4.** Estimation of CTB bound per well. (A) Western blots of known amounts of CTB (ng) were scanned and analyzed for blot density (pixels). Blot density versus CTB amounts were plotted to obtain a logarithmic correlation (inset). (B) The amounts of CTB bound to cells were then calculated from Western blots (using the equation from the panel A inset) and compared with fluorescence data from gangliosome analysis of epithelia exposed to the same amounts of CTB. This equation was thereafter used to estimate the amount of CTB bound to epithelia based on gangliosome fluorescence (Fig. 5). Data points represent averages of at least triplicate experiments. Error bars in panel A represent 1 standard deviation of triplicate experiments. RFU, relative fluorescence units.",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.ab.2008.05.027.pdf_7",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.ab.2008.05.027.pdf_7.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure",
+    "bbox_norm": null,
+    "text": "",
+    "html": ""
+  },
+  {
+    "pdf": "docstructbench_llm-raw-scihub-o.O-j.ab.2008.05.027.pdf_7",
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.ab.2008.05.027.pdf_7.pdf_0.jpg",
+    "page_idx": 0,
+    "category_type": "figure_caption",
+    "bbox_norm": null,
+    "text": "**Fig. 5.** Detection of CTB in cocultures of *V. cholerae* and epithelial cells. (A) Fluorescence images of Caco-2 monolayers postincubation (5 h) either with a 1:100 dilution of *V. cholerae* (from an initial OD$_{600}$ = 1.0, a 0.01 dilution) or with medium only (no *V. cholerae*). Cells were washed and probed with BEGs before imaging (40× magnification). (B) Bound CTB was quantified following lysis of bound BEGs in experiments using either 1:100 and 1:1000 dilutions of *V. cholerae* or medium only as a control (no VC). Cocultures ran for the time indicated, and the amount of CTB bound was calculated from a standard curve on Caco-2 cells. Error bars were calculated as a percentage for each sample from the fluorescence measurements of triplicate experiments.",
+    "html": ""
+  }
+]
