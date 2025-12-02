@@ -567,7 +567,7 @@ if __name__ == "__main__":
     parser.add_argument("--synthetic_path", default="synthetic_data_stratified.json") # Use the smart scaled data
     parser.add_argument("--train_path", default="train_gold_stratified.json")
     parser.add_argument("--eval_path", default="eval_gold_stratified.json")
-    parser.add_argument("--batch_size", type=int, default=32)
+    parser.add_argument("--batch_size", type=int, default=8)
     parser.add_argument("--seed", type=int, default=42)
     args = parser.parse_args()
 
