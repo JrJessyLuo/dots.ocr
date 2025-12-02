@@ -265,7 +265,7 @@ def run_baseline(tokenizer, dl_train, dl_eval, epochs=20):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--synthetic_path", default="xx.json")
+    parser.add_argument("--synthetic_path", default="synthetic_data.json")
     parser.add_argument("--train_path", default="train_gold.json")
     parser.add_argument("--eval_path", default="eval_gold.json")
     parser.add_argument("--batch_size", type=int, default=8)
