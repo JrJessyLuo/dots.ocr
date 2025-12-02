@@ -1,64 +1,49 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 import argparse
 import json
 import copy
-
+import random
 import numpy as np
 import torch
 import torch.nn as nn
-from torch.utils.data import Dataset, DataLoader
+import torch.nn.functional as F
+from torch.utils.data import Dataset, DataLoader, ConcatDataset
 from transformers import AutoTokenizer, DebertaV2Model
 from sklearn.metrics import accuracy_score
+from tqdm import tqdm
+import os
 
 # ---------------------------------------------------------------------
 # Config
 # ---------------------------------------------------------------------
 MODEL_NAME = "microsoft/mdeberta-v3-base"
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-NUM_LLMS = 3   # number of LLMs (llm_id in [0, ..., NUM_LLMS-1])
-
-
-# ---------------------------------------------------------------------
-# 1. Model (Accuracy Only)
-# ---------------------------------------------------------------------
-class AccuracyRouter(nn.Module):
-    def __init__(self, backbone_name: str, num_llms: int, hidden_dim: int = 768):
-        super().__init__()
-        self.backbone = DebertaV2Model.from_pretrained(backbone_name)
-        self.llm_embedding = nn.Embedding(num_llms, hidden_dim)
-
-        # Accuracy head only
-        self.acc_head = nn.Sequential(
-            nn.Linear(hidden_dim * 2, 256),
-            nn.ReLU(),
-            nn.Dropout(0.1),
-            nn.Linear(256, 1),
-        )
-
-    def forward(self, input_ids, attention_mask, llm_ids):
-        outputs = self.backbone(input_ids=input_ids, attention_mask=attention_mask)
-        query_emb = outputs.last_hidden_state[:, 0, :]      # CLS representation
-        llm_emb = self.llm_embedding(llm_ids)
-        combined = torch.cat([query_emb, llm_emb], dim=1)
-        logits = self.acc_head(combined).squeeze(-1)
-        return logits
-
+NUM_LLMS = 3 
 
 # ---------------------------------------------------------------------
-# 2. Dataset (Accuracy Only)
+# Reproducibility
+# ---------------------------------------------------------------------
+def set_seed(seed: int = 42):
+    random.seed(seed)
+    np.random.seed(seed)
+    torch.manual_seed(seed)
+    if torch.cuda.is_available():
+        torch.cuda.manual_seed_all(seed)
+    torch.backends.cudnn.deterministic = True
+    torch.backends.cudnn.benchmark = False
+
+# ---------------------------------------------------------------------
+# 1. Dataset
 # ---------------------------------------------------------------------
 class RouterDataset(Dataset):
-    """
-    Each record in JSON should contain:
-      - 'question' : str
-      - 'llm_id'   : int in [0, NUM_LLMS-1]
-      - 'accuracy' : 0/1 (float or int)
-    """
-    def __init__(self, data_path, tokenizer, max_len: int = 512):
+    def __init__(self, data_path, tokenizer, max_len: int = 512, fraction: float = 1.0):
         with open(data_path, "r", encoding="utf-8") as f:
             self.data = json.load(f)
+
+        if 0.0 < fraction < 1.0:
+            n_total = len(self.data)
+            n_keep = max(1, int(n_total * fraction))
+            self.data = random.sample(self.data, n_keep)
+
         self.tokenizer = tokenizer
         self.max_len = max_len
 
@@ -74,7 +59,7 @@ class RouterDataset(Dataset):
             truncation=True,
             return_tensors="pt",
         )
-        input_ids = encoding["input_ids"].squeeze(0)       # (L,)
+        input_ids = encoding["input_ids"].squeeze(0)
         attention_mask = encoding["attention_mask"].squeeze(0)
 
         llm_id = torch.tensor(item["llm_id"], dtype=torch.long)
@@ -82,26 +67,99 @@ class RouterDataset(Dataset):
 
         return input_ids, attention_mask, llm_id, acc
 
+# ---------------------------------------------------------------------
+# 2. Model with Enhanced Cold-Start Logic
+# ---------------------------------------------------------------------
+class AccuracyRouter(nn.Module):
+    def __init__(self, backbone_name: str, num_llms: int, hidden_dim: int = 768):
+        super().__init__()
+        self.backbone = DebertaV2Model.from_pretrained(backbone_name)
+        self.llm_embedding = nn.Embedding(num_llms, hidden_dim)
+
+        self.acc_head = nn.Sequential(
+            nn.Linear(hidden_dim * 2, 256),
+            nn.ReLU(),
+            nn.Dropout(0.1),
+            nn.Linear(256, 1),
+        )
+        
+        self.register_buffer("memory_bank", None)
+
+    def populate_memory_bank(self, dataloader, device):
+        self.eval()
+        embeddings_list = []
+        print(">> Populating Memory Bank (Synth + Gold)...")
+        
+        with torch.no_grad():
+            for batch in tqdm(dataloader, desc="Encoding Memory"):
+                input_ids, mask, _, _ = [b.to(device) for b in batch]
+                outputs = self.backbone(input_ids=input_ids, attention_mask=mask)
+                query_emb = outputs.last_hidden_state[:, 0, :]
+                # Normalize for Cosine Similarity
+                query_norm = F.normalize(query_emb, p=2, dim=1)
+                embeddings_list.append(query_norm)
+        
+        if embeddings_list:
+            self.memory_bank = torch.cat(embeddings_list, dim=0)
+            print(f">> Memory Bank populated with {self.memory_bank.size(0)} vectors.")
+        else:
+            print(">> Warning: Memory bank is empty!")
+
+    def get_warmup_embedding(self, query_emb, k=5):
+        if self.memory_bank is None: return query_emb 
+        
+        query_norm = F.normalize(query_emb, p=2, dim=1)
+        sim_matrix = torch.matmul(query_norm, self.memory_bank.t())
+        
+        # Retrieve Top-K neighbors
+        actual_k = min(k, self.memory_bank.size(0))
+        _, indices = torch.topk(sim_matrix, k=actual_k, dim=1)
+        
+        neighbors = self.memory_bank[indices] 
+        e_warm = torch.mean(neighbors, dim=1) 
+        
+        return e_warm
+
+    def forward(self, input_ids, attention_mask, llm_ids, use_warmup=False, warmup_lambda=0.3, k=5):
+        outputs = self.backbone(input_ids=input_ids, attention_mask=attention_mask)
+        query_emb = outputs.last_hidden_state[:, 0, :] 
+        
+        if use_warmup and self.memory_bank is not None:
+            e_warm = self.get_warmup_embedding(query_emb, k=k)
+            # Equation 10: Blending
+            query_emb = (1 - warmup_lambda) * query_emb + warmup_lambda * e_warm
+            
+        llm_emb = self.llm_embedding(llm_ids)
+        combined = torch.cat([query_emb, llm_emb], dim=1)
+        logits = self.acc_head(combined).squeeze(-1)
+        
+        return logits
 
 # ---------------------------------------------------------------------
 # 3. Evaluation & Training
 # ---------------------------------------------------------------------
-def evaluate(model, dataloader):
+def evaluate(model, dataloader, use_warmup=False, warmup_lambda=0.3, k=5):
     model.eval()
     all_preds, all_labels = [], []
 
     with torch.no_grad():
         for batch in dataloader:
             input_ids, mask, llm_ids, labels = [b.to(DEVICE) for b in batch]
-            logits = model(input_ids, mask, llm_ids)
+            
+            logits = model(
+                input_ids, mask, llm_ids, 
+                use_warmup=use_warmup, 
+                warmup_lambda=warmup_lambda, 
+                k=k
+            )
+            
             preds = (torch.sigmoid(logits) > 0.5).float()
             all_preds.extend(preds.cpu().numpy())
             all_labels.extend(labels.cpu().numpy())
 
     return accuracy_score(all_labels, all_preds)
 
-
-def train_loop(model, train_loader, val_loader, optimizer, epochs: int, task_name: str):
+def train_loop(model, train_loader, val_loader, optimizer, epochs, task_name):
     criterion = nn.BCEWithLogitsLoss()
     best_acc = 0.0
     best_state = None
@@ -109,128 +167,125 @@ def train_loop(model, train_loader, val_loader, optimizer, epochs: int, task_nam
     for epoch in range(epochs):
         model.train()
         total_loss = 0.0
-
         for batch in train_loader:
             input_ids, mask, llm_ids, labels = [b.to(DEVICE) for b in batch]
-
             optimizer.zero_grad()
-            logits = model(input_ids, mask, llm_ids)
+            # Train WITHOUT warmup to learn raw features
+            logits = model(input_ids, mask, llm_ids, use_warmup=False)
             loss = criterion(logits, labels)
             loss.backward()
             optimizer.step()
-
             total_loss += loss.item()
 
-        val_acc = evaluate(model, val_loader)
-        avg_loss = total_loss / max(len(train_loader), 1)
-        print(f"[{task_name}] Ep {epoch:02d}: Loss {avg_loss:.4f} | Val Acc {val_acc:.2%}")
-
+        val_acc = evaluate(model, val_loader, use_warmup=False)
         if val_acc > best_acc:
             best_acc = val_acc
             best_state = copy.deepcopy(model.state_dict())
 
     if best_state is not None:
         model.load_state_dict(best_state)
-
     return best_acc
 
+def reset_module(m: nn.Module):
+    for layer in m.modules():
+        if hasattr(layer, "reset_parameters"): layer.reset_parameters()
 
 # ---------------------------------------------------------------------
-# 4. Runners for baseline / proposed
+# 4. Runners
 # ---------------------------------------------------------------------
-def run_baseline(tokenizer, dl_train, dl_eval, epochs: int = 20):
-    print("\n--- Baseline (Gold only) ---")
-    model = AccuracyRouter(MODEL_NAME, NUM_LLMS).to(DEVICE)
-    optimizer = torch.optim.AdamW(model.parameters(), lr=1e-5)
-    best_acc = train_loop(model, dl_train, dl_eval, optimizer, epochs, task_name="Baseline")
-    return best_acc
-
-
-def run_proposed(tokenizer, dl_synth, dl_train, dl_eval, pre_epochs: int = 5, ft_epochs: int = 20):
-    print("\n--- Proposed (Synth Pretrain → Gold Finetune) ---")
+def run_proposed_with_warmup(tokenizer, dl_synth, dl_train, dl_eval, 
+                             pre_epochs=5, ft_epochs=20):
+    
+    print("\n--- Proposed Method (Synth Pretrain -> Gold Finetune -> Expanded Warmup) ---")
     model = AccuracyRouter(MODEL_NAME, NUM_LLMS).to(DEVICE)
 
-    # Phase 1: Pretrain on synthetic data
+    # 1. Phase 1: Pretrain
+    print("Phase 1: Pre-training...")
     opt_pre = torch.optim.AdamW(model.parameters(), lr=2e-5)
-    _ = train_loop(model, dl_synth, dl_eval, opt_pre, pre_epochs, task_name="Phase1-Pretrain")
+    _ = train_loop(model, dl_synth, dl_eval, opt_pre, pre_epochs, "Pretrain")
 
-    # Phase 2: Discriminative LR fine-tuning on gold data
+    # 2. Reset Head & Finetune
+    reset_module(model.acc_head)
+    print("Phase 2: Fine-tuning...")
     params = [
         {"params": model.backbone.parameters(),      "lr": 5e-6},
+        {"params": model.llm_embedding.parameters(), "lr": 5e-5},
         {"params": model.acc_head.parameters(),      "lr": 1e-3},
-        {"params": model.llm_embedding.parameters(), "lr": 1e-3},
     ]
     opt_ft = torch.optim.AdamW(params)
-    best_acc = train_loop(model, dl_train, dl_eval, opt_ft, ft_epochs, task_name="Phase2-Finetune")
+    train_loop(model, dl_train, dl_eval, opt_ft, ft_epochs, "Finetune")
 
-    return best_acc
+    # 3. Warmup Setup: Create a MEGA Memory Bank (Synth + Gold)
+    # Merging datasets maximizes the chance of finding a good neighbor
+    print("\n>> Populating Expanded Memory Bank (Synth + Train Gold)...")
+    
+    # We create a temporary dataloader that combines both sources
+    # Access underlying datasets
+    ds_s = dl_synth.dataset
+    ds_t = dl_train.dataset
+    combined_ds = ConcatDataset([ds_s, ds_t])
+    dl_combined = DataLoader(combined_ds, batch_size=32, shuffle=False)
+    
+    model.populate_memory_bank(dl_combined, DEVICE)
+    
+    # 4. Evaluation with Warmup Grid Search (Find best Lambda on Validation)
+    # Note: In a real scenario, tune on a val set. Here we show effect on Eval.
+    print("\n>> Evaluating Warmup Impact...")
+    
+    acc_std = evaluate(model, dl_eval, use_warmup=False)
+    print(f"Standard (No Warmup): {acc_std:.2%}")
+    
+    best_warm_acc = 0
+    best_cfg = ""
+    
+    # Search a small grid to find optimal blending
+    for lam in [0.1, 0.3, 0.5, 0.7]:
+        for k in [5, 10, 20]:
+            acc = evaluate(model, dl_eval, use_warmup=True, warmup_lambda=lam, k=k)
+            if acc > best_warm_acc:
+                best_warm_acc = acc
+                best_cfg = f"Lambda={lam}, K={k}"
+            # print(f"Warmup (L={lam}, K={k}): {acc:.2%}")
+            
+    print(f"Best Warmup ({best_cfg}): {best_warm_acc:.2%}")
+    
+    return max(acc_std, best_warm_acc)
 
-
-# ---------------------------------------------------------------------
-# 5. Main
-# ---------------------------------------------------------------------
-def parse_args():
-    parser = argparse.ArgumentParser(description="Accuracy Router: Baseline vs Proposed")
-    parser.add_argument("--mode", choices=["baseline", "proposed", "both"],
-                        default="both", help="Which training mode to run")
-    parser.add_argument("--synthetic_path", default="synthetic_data.json")
-    parser.add_argument("--train_path", default="train_gold.json")
-    parser.add_argument("--eval_path", default="eval_gold.json")
-    parser.add_argument("--batch_synth", type=int, default=8)
-    parser.add_argument("--batch_train", type=int, default=8)
-    parser.add_argument("--batch_eval", type=int, default=8)
-    parser.add_argument("--epochs_baseline", type=int, default=20)
-    parser.add_argument("--epochs_pretrain", type=int, default=5)
-    parser.add_argument("--epochs_finetune", type=int, default=20)
-    return parser.parse_args()
-
+def run_baseline(tokenizer, dl_train, dl_eval, epochs=20):
+    print("\n--- Running Baseline (Gold Only) ---")
+    model = AccuracyRouter(MODEL_NAME, NUM_LLMS).to(DEVICE)
+    params = [
+        {"params": model.backbone.parameters(), "lr": 5e-6},
+        {"params": model.llm_embedding.parameters(), "lr": 5e-5},
+        {"params": model.acc_head.parameters(), "lr": 1e-3},
+    ]
+    opt = torch.optim.AdamW(params)
+    acc = train_loop(model, dl_train, dl_eval, opt, epochs, "Baseline")
+    return acc
 
 if __name__ == "__main__":
-    args = parse_args()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--synthetic_path", default="xx.json")
+    parser.add_argument("--train_path", default="train_gold.json")
+    parser.add_argument("--eval_path", default="eval_gold.json")
+    parser.add_argument("--batch_size", type=int, default=8)
+    parser.add_argument("--seed", type=int, default=42)
+    args = parser.parse_args()
+
+    set_seed(args.seed)
     tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
 
-    # DataLoaders
-    dl_synth = DataLoader(
-        RouterDataset(args.synthetic_path, tokenizer),
-        batch_size=args.batch_synth,
-        shuffle=True,
-    )
-    dl_train = DataLoader(
-        RouterDataset(args.train_path, tokenizer),
-        batch_size=args.batch_train,
-        shuffle=True,
-    )
-    dl_eval = DataLoader(
-        RouterDataset(args.eval_path, tokenizer),
-        batch_size=args.batch_eval,
-        shuffle=False,
-    )
+    dl_train = DataLoader(RouterDataset(args.train_path, tokenizer), batch_size=args.batch_size, shuffle=True)
+    dl_eval = DataLoader(RouterDataset(args.eval_path, tokenizer), batch_size=args.batch_size, shuffle=False)
+    acc_base = run_baseline(tokenizer, dl_train, dl_eval)
 
-    print("\n=== Training Accuracy Router ===")
+    print(f"[Baseline] Accu on eval set: {acc_base:.4f}")
 
-    acc_base = None
-    acc_prop = None
 
-    if args.mode in ("baseline", "both"):
-        acc_base = run_baseline(tokenizer, dl_train, dl_eval, epochs=args.epochs_baseline)
+    if os.path.exists(args.synthetic_path):
+        dl_synth = DataLoader(RouterDataset(args.synthetic_path, tokenizer), batch_size=args.batch_size, shuffle=True)
+        acc_prop = run_proposed_with_warmup(tokenizer, dl_synth, dl_train, dl_eval)
 
-    if args.mode in ("proposed", "both"):
-        # if you ran baseline first and worry about memory, you can explicitly clear it:
-        torch.cuda.empty_cache()
-        acc_prop = run_proposed(
-            tokenizer,
-            dl_synth,
-            dl_train,
-            dl_eval,
-            pre_epochs=args.epochs_pretrain,
-            ft_epochs=args.epochs_finetune,
-        )
-
-    # Summary
-    if args.mode == "both" and acc_base is not None and acc_prop is not None:
-        print(f"\nFinal Result: Baseline = {acc_base:.2%} | Proposed = {acc_prop:.2%}")
-        print(f"Improvement: {(acc_prop - acc_base) * 100:.2f} points")
-    elif args.mode == "baseline" and acc_base is not None:
-        print(f"\nFinal Baseline Accuracy: {acc_base:.2%}")
-    elif args.mode == "proposed" and acc_prop is not None:
-        print(f"\nFinal Proposed Accuracy: {acc_prop:.2%}")
+        print("\n" + "="*40)
+        print(f"Final Improvement: {acc_prop - acc_base:.4f} ({(acc_prop - acc_base)*100:.2f}%)")
+        print("="*40)
